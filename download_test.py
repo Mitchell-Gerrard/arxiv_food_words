@@ -8,6 +8,7 @@ from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor
 import fitz
 from collections import Counter
 import matplotlib.pyplot as plt
+import json
 # Global variable to hold food words in each subprocess
 food_words_set = set()
 
@@ -28,12 +29,19 @@ def init_worker(csv_path):
     Runs once in each subprocess to load the food words into a global variable.
     """
     global food_words_set
+    global arxiv_metadata
+    #print("🔄 Initializing subprocess...")
     food_words_set = load_food_words(csv_path)
-    print(f"✅ Subprocess initialized with {len(food_words_set)} food words")
+    file_path = 'arxiv-metadata-oai-snapshot.json'
+    #with open(file_path) as f:
+    #    records = [json.loads(line) for line in f]
+    #arxiv_metadata = {record["id"]: record for record in records}
+    #print(f"✅ Subprocess initialized with {len(food_words_set)} food words")
 
 def download_and_process(paper_id, version, blob_name):
     # Recreate GCS client inside subprocess
-    credentials_path = r'C:\Users\mg6u19\Downloads\future-env-326822-d1f4c594ed5b.json'
+    #credentials_path = r'C:\Users\mg6u19\Downloads\future-env-326822-d1f4c594ed5b.json'
+    credentials_path = r'D:\download store\future-env-326822-6ae492a4c60a.json'
     credentials = service_account.Credentials.from_service_account_file(credentials_path)
     client = storage.Client(credentials=credentials)
     bucket = client.bucket("arxiv-dataset")
@@ -41,8 +49,8 @@ def download_and_process(paper_id, version, blob_name):
 
     filename = f"{paper_id}v{version}.pdf"
     filepath = os.path.join("downloaded_papers", filename)
-
-    print(f"⬇️ Downloading {blob_name} -> {filename}")
+    subjects = arxiv_metadata[paper_id]["categories"].split()
+    #print(f"⬇️ Downloading {blob_name} -> {filename}")
     blob.download_to_filename(filepath)
 
     text = ""
@@ -56,15 +64,16 @@ def download_and_process(paper_id, version, blob_name):
 
     txt_output_path = filepath.replace(".pdf", ".txt")
 
-    print(f"✅ {filename}: found {len(matched_words)} unique food words with counts.")
-    print(matched_words)
+    #print(f"✅ {filename}: found {len(matched_words)} unique food words with counts.")
+    #print(matched_words)
     os.remove(filepath)
-    return filename, matched_words
+    return filename, matched_words,subjects
 
 
 def main():
     # === Setup ===
-    credentials_path = r'C:\Users\mg6u19\Downloads\future-env-326822-d1f4c594ed5b.json'
+    #credentials_path = r'C:\Users\mg6u19\Downloads\future-env-326822-d1f4c594ed5b.json'
+    credentials_path = r'D:\download store\future-env-326822-6ae492a4c60a.json'
     csv_path = "FoodData_Central_csv_2025-04-24/food.csv"
 
     credentials = service_account.Credentials.from_service_account_file(credentials_path)
@@ -96,15 +105,28 @@ def main():
         if paper_id not in latest_versions or version > latest_versions[paper_id][0]:
             latest_versions[paper_id] = (version, blob.name)
 
-        if i == 1000:
+        if i == 10000:
             break
         i += 1
 
-    print(f"\n📦 Found {len(latest_versions)} latest-version PDFs in {time.time() - start:.2f}s.")
+    #print(f"\n📦 Found {len(latest_versions)} latest-version PDFs in {time.time() - start:.2f}s.")
 
     # === Download & process PDFs in parallel ===
     os.makedirs("downloaded_papers", exist_ok=True)
+    file_path = 'arxiv-metadata-oai-snapshot.json'
+    with open(file_path) as f:
+        #print("🔄 Loading arxiv metadata...")
+        records = [json.loads(line) for line in f]
+    #print(f"✅ Loaded {len(records)} records from arxiv metadata.")
+    global arxiv_metadata
+    all_subjects = set()
 
+    for record in records:
+        subjects = record.get("categories", "").split()
+        all_subjects.update(subjects)
+    arxiv_metadata = {record["id"]: record for record in records}
+    #print("Unique subjects:", all_subjects)
+    all_subjects = list(all_subjects)
     input_args = [(paper_id, version, blob_name) for paper_id, (version, blob_name) in latest_versions.items()]
 
     with ThreadPoolExecutor(initializer=init_worker, initargs=(csv_path,),max_workers=50) as executor:
@@ -113,12 +135,20 @@ def main():
 
     print(f"\n✅ Downloaded and processed {len(results)} PDFs.\n")
 
-    # Optional: print summary of matches
+    # Optional: #print summary of match es
+    counters = {subject:Counter() for subject in all_subjects}
     total_counter=Counter()
-    for filename, matches in results:
-        print(f"{filename}: {matches}")
+    for filename, matches,subjects in results:
+        #print(f"{filename}: {matches}")
         total_counter.update(matches)
+        for subject in subjects:
+            counters[subject].update(matches)
     print(total_counter)
+    for subject, counter in counters.items():
+        pdf_counter = pd.DataFrame(counter.items(), columns=['word', 'count'])
+        pdf_counter.to_csv(f"data/{subject}_food_words.csv", index=False)
+    pdf_total_counter = pd.DataFrame(total_counter.items(), columns=['word', 'count'])
+    pdf_total_counter.to_csv("data/total_food_words.csv", index=False)
     top_words = total_counter.most_common(10)
     words, counts = zip(*top_words)
     plt.figure(figsize=(10, 5))
