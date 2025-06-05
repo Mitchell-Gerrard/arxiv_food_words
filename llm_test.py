@@ -3,7 +3,7 @@ from langchain_community.document_loaders import PyPDFLoader
 from langchain_community.llms import Ollama
 from nltk.tokenize import sent_tokenize
 import nltk
-
+import fitz
 nltk.download("punkt")
 
 # === Load all PDFs ===
