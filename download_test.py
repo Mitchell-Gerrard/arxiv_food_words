@@ -43,8 +43,8 @@ def download_and_process(paper_id, version, blob_name):
     result_path = f"results/{paper_id}v{version}.json"
     if os.path.exists(result_path):
         return None  # Skip already processed
-
-    credentials_path = r'C:\Users\mg6u19\Downloads\future-env-326822-d1f4c594ed5b.json'
+    credentials_path = r'D:\download store\future-env-326822-6ae492a4c60a.json'
+    #credentials_path = r'C:\Users\mg6u19\Downloads\future-env-326822-d1f4c594ed5b.json'
     credentials = service_account.Credentials.from_service_account_file(credentials_path)
     client = storage.Client(credentials=credentials)
     bucket = client.bucket("arxiv-dataset")
@@ -89,7 +89,8 @@ def download_and_process(paper_id, version, blob_name):
 
 def main():
     # === Setup ===
-    credentials_path = r'C:\Users\mg6u19\Downloads\future-env-326822-d1f4c594ed5b.json'
+    credentials_path = r'D:\download store\future-env-326822-6ae492a4c60a.json'
+    #credentials_path = r'C:\Users\mg6u19\Downloads\future-env-326822-d1f4c594ed5b.json'
     csv_path = "FoodData_Central_csv_2025-04-24/food.csv"
     metadata_path = 'arxiv-metadata-oai-snapshot.json'
     os.makedirs("downloaded_papers", exist_ok=True)
