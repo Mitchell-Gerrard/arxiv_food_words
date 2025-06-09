@@ -80,11 +80,11 @@ def download_and_process(paper_id, version, blob_name):
         with open(result_path, 'w') as f:
             json.dump(result_data, f)
 
-        logger.info(f"✅ Processed {filename} with {len(matched_words)} matches")
+        #logger.info(f"Processed {filename} with {len(matched_words)} matches")
         return filename, matched_words, subjects
 
     except Exception as e:
-        logger.error(f"⚠️ Failed to process {paper_id}: {e}")
+        logger.error(f"Failed to process {paper_id}: {e}")
         return None
     finally:
         if os.path.exists(filepath):
@@ -92,7 +92,7 @@ def download_and_process(paper_id, version, blob_name):
 
 # === Main Workflow ===
 def main(chunk_prefix=None):
-    logger.info("🚀 Starting PDF processing")
+    logger.info("Starting PDF processing")
 
     credentials_path = r'C:\Users\mg6u19\Downloads\future-env-326822-d1f4c594ed5b.json'
     csv_path = "FoodData_Central_csv_2025-04-24/food.csv"
@@ -106,18 +106,19 @@ def main(chunk_prefix=None):
     bucket = client.bucket("arxiv-dataset")
     blobs = bucket.list_blobs(prefix='arxiv/arxiv/pdf/')
 
-    logger.info("📖 Loading metadata...")
+    logger.info("Loading metadata...")
     with open(metadata_path) as f:
         records = [json.loads(line) for line in f]
     global arxiv_metadata
     arxiv_metadata = {r["id"]: r for r in records}
-    logger.info(f"✅ Loaded {len(arxiv_metadata)} metadata records")
+    logger.info(f"Loaded {len(arxiv_metadata)} metadata records")
 
     # Track latest version of each paper
     latest_versions = {}
     pattern = re.compile(r'(\d{4}\.\d{4,5})v(\d+)')
-    logger.info("🔍 Parsing blob list...")
+    logger.info("Parsing blob list...")
     for blob in blobs:
+        
         if not blob.name.endswith('.pdf'):
             continue
         match = pattern.search(blob.name)
@@ -131,7 +132,7 @@ def main(chunk_prefix=None):
         if paper_id not in latest_versions or version > latest_versions[paper_id][0]:
             latest_versions[paper_id] = (version, blob.name)
 
-    logger.info(f"📦 {len(latest_versions)} PDFs to consider in chunk '{chunk_prefix}'")
+    logger.info(f" {len(latest_versions)} PDFs to consider in chunk '{chunk_prefix}'")
 
     # Build work list
     input_args = []
@@ -140,18 +141,18 @@ def main(chunk_prefix=None):
         if not os.path.exists(result_path):
             input_args.append((paper_id, version, blob_name))
 
-    logger.info(f"🧩 {len(input_args)} PDFs to process after skipping completed.")
+    logger.info(f" {len(input_args)} PDFs to process after skipping completed.")
 
     # Process in parallel
-    with ThreadPoolExecutor(initializer=init_worker, initargs=(csv_path,), max_workers=40) as executor:
+    with ThreadPoolExecutor(initializer=init_worker, initargs=(csv_path,), max_workers=28) as executor:
         futures = [executor.submit(download_and_process, *args) for args in input_args]
         for f in tqdm(futures, desc="Processing PDFs", unit='pdf', unit_scale=True):
             try:
                 f.result()
             except Exception as e:
-                logger.error(f"⚠️ Error in thread: {e}")
+                logger.error(f"Error in thread: {e}")
 
-    logger.info("✅ PDF processing complete. Aggregating results...")
+    logger.info("PDF processing complete. Aggregating results...")
 
     # === Aggregation ===
     results = []
@@ -191,12 +192,12 @@ def main(chunk_prefix=None):
         plt.tight_layout()
         plt.savefig("data/top_food_words.png")
 
-    logger.info("📊 Aggregation complete.")
+    logger.info("Aggregation complete.")
 
 
 if __name__ == "__main__":
     import argparse
-    parser = argparse.ArgumentParser(description="Process ArXiv PDFs for food-related words.")
-    parser.add_argument("--chunk", type=str, default=None, help="Optional chunk prefix (e.g., '23' or '2401')")
-    args = parser.parse_args()
-    main(chunk_prefix=args.chunk)
+    #parser = argparse.ArgumentParser(description="Process ArXiv PDFs for food-related words.")
+    #parser.add_argument("--chunk", type=str, default=None, help="Optional chunk prefix (e.g., '23' or '2401')")
+    args = '07'#parser.parse_args()
+    main(chunk_prefix=args)
