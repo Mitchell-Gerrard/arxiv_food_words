@@ -50,8 +50,8 @@ def download_and_process(paper_id, version, blob_name):
         return None
 
     try:
-        credentials_path = r'D:\download store\future-env-326822-6ae492a4c60a.json'
-        #credentials_path = r'C:\Users\mg6u19\Downloads\future-env-326822-d1f4c594ed5b.json'
+        #credentials_path = r'D:\download store\future-env-326822-6ae492a4c60a.json'
+        credentials_path = r'C:\Users\mg6u19\Downloads\future-env-326822-d1f4c594ed5b.json'
         credentials = service_account.Credentials.from_service_account_file(credentials_path)
         client = storage.Client(credentials=credentials)
         bucket = client.bucket("arxiv-dataset")
@@ -94,8 +94,8 @@ def download_and_process(paper_id, version, blob_name):
 # === Main Workflow ===
 def main(chunk_prefix=None):
     logger.info("Starting PDF processing")
-    credentials_path = r'D:\download store\future-env-326822-6ae492a4c60a.json'
-    #credentials_path = r'C:\Users\mg6u19\Downloads\future-env-326822-d1f4c594ed5b.json'
+    #credentials_path = r'D:\download store\future-env-326822-6ae492a4c60a.json'
+    credentials_path = r'C:\Users\mg6u19\Downloads\future-env-326822-d1f4c594ed5b.json'
     csv_path = "FoodData_Central_csv_2025-04-24/food.csv"
     metadata_path = 'arxiv-metadata-oai-snapshot.json'
 
@@ -105,7 +105,8 @@ def main(chunk_prefix=None):
     credentials = service_account.Credentials.from_service_account_file(credentials_path)
     client = storage.Client(credentials=credentials)
     bucket = client.bucket("arxiv-dataset")
-    blobs = bucket.list_blobs(prefix='arxiv/arxiv/pdf/')
+    blob_prefix = f'arxiv/arxiv/pdf/{chunk_prefix}' if chunk_prefix else 'arxiv/arxiv/pdf/'
+    blobs = bucket.list_blobs(prefix=blob_prefix)
 
     logger.info("Loading metadata...")
     with open(metadata_path) as f:
@@ -200,5 +201,5 @@ if __name__ == "__main__":
     import argparse
     #parser = argparse.ArgumentParser(description="Process ArXiv PDFs for food-related words.")
     #parser.add_argument("--chunk", type=str, default=None, help="Optional chunk prefix (e.g., '23' or '2401')")
-    args = '0805'#parser.parse_args()
+    args = '09'#parser.parse_args()
     main(chunk_prefix=args)
