@@ -50,8 +50,8 @@ def download_and_process(paper_id, version, blob_name):
         return None
 
     try:
-        #credentials_path = r'D:\download store\future-env-326822-6ae492a4c60a.json'
-        credentials_path = r'C:\Users\mg6u19\Downloads\future-env-326822-d1f4c594ed5b.json'
+        credentials_path = r'D:\download store\future-env-326822-6ae492a4c60a.json'
+        #credentials_path = r'C:\Users\mg6u19\Downloads\future-env-326822-d1f4c594ed5b.json'
         credentials = service_account.Credentials.from_service_account_file(credentials_path)
         client = storage.Client(credentials=credentials)
         bucket = client.bucket("arxiv-dataset")
@@ -92,10 +92,10 @@ def download_and_process(paper_id, version, blob_name):
             os.remove(filepath)
 
 # === Main Workflow ===
-def main(chunk_prefix=None):
+def main(chunk_prefix=None,agro=True):
     logger.info("Starting PDF processing")
-    #credentials_path = r'D:\download store\future-env-326822-6ae492a4c60a.json'
-    credentials_path = r'C:\Users\mg6u19\Downloads\future-env-326822-d1f4c594ed5b.json'
+    credentials_path = r'D:\download store\future-env-326822-6ae492a4c60a.json'
+    #credentials_path = r'C:\Users\mg6u19\Downloads\future-env-326822-d1f4c594ed5b.json'
     csv_path = "FoodData_Central_csv_2025-04-24/food.csv"
     metadata_path = 'arxiv-metadata-oai-snapshot.json'
 
@@ -146,7 +146,7 @@ def main(chunk_prefix=None):
     logger.info(f" {len(input_args)} PDFs to process after skipping completed.")
 
     # Process in parallel
-    with ThreadPoolExecutor(initializer=init_worker, initargs=(csv_path,), max_workers=28) as executor:
+    with ThreadPoolExecutor(initializer=init_worker, initargs=(csv_path,), max_workers=16) as executor:
         futures = [executor.submit(download_and_process, *args) for args in input_args]
         for f in tqdm(futures, desc="Processing PDFs", unit='pdf', unit_scale=True):
             try:
@@ -155,51 +155,53 @@ def main(chunk_prefix=None):
                 logger.error(f"Error in thread: {e}")
 
     logger.info("PDF processing complete. Aggregating results...")
+    if agro==True:
+        # === Aggregation ===
+        results = []
+        all_subjects = set()
+        for filepath in glob.glob("results/*.json"):
+            with open(filepath) as f:
+                data = json.load(f)
+                results.append((data['filename'], data['matched_words'], data['subjects']))
+                all_subjects.update(data['subjects'])
 
-    # === Aggregation ===
-    results = []
-    all_subjects = set()
-    for filepath in glob.glob("results/*.json"):
-        with open(filepath) as f:
-            data = json.load(f)
-            results.append((data['filename'], data['matched_words'], data['subjects']))
-            all_subjects.update(data['subjects'])
+        counters = {subject: Counter() for subject in all_subjects}
+        total_counter = Counter()
 
-    counters = {subject: Counter() for subject in all_subjects}
-    total_counter = Counter()
+        for filename, matches, subjects in results:
+            total_counter.update(matches)
+            for subject in subjects:
+                counters[subject].update(matches)
 
-    for filename, matches, subjects in results:
-        total_counter.update(matches)
-        for subject in subjects:
-            counters[subject].update(matches)
+        # Save counters
+        for subject, counter in counters.items():
+            df = pd.DataFrame(counter.items(), columns=['word', 'count'])
+            df.to_csv(f"data/{subject}_food_words.csv", index=False)
 
-    # Save counters
-    for subject, counter in counters.items():
-        df = pd.DataFrame(counter.items(), columns=['word', 'count'])
-        df.to_csv(f"data/{subject}_food_words.csv", index=False)
+        df_total = pd.DataFrame(total_counter.items(), columns=['word', 'count'])
+        df_total.to_csv("data/total_food_words.csv", index=False)
 
-    df_total = pd.DataFrame(total_counter.items(), columns=['word', 'count'])
-    df_total.to_csv("data/total_food_words.csv", index=False)
+        # Plot
+        top_words = total_counter.most_common(10)
+        if top_words:
+            words, counts = zip(*top_words)
+            plt.figure()
+            plt.bar(words, counts, color='skyblue')
+            plt.xlabel("Food Words")
+            plt.ylabel("Count")
+            plt.title("Top Food Word Frequencies")
+            plt.xticks(rotation=45)
+            plt.tight_layout()
+            plt.savefig("data/top_food_words.png")
 
-    # Plot
-    top_words = total_counter.most_common(10)
-    if top_words:
-        words, counts = zip(*top_words)
-        plt.figure()
-        plt.bar(words, counts, color='skyblue')
-        plt.xlabel("Food Words")
-        plt.ylabel("Count")
-        plt.title("Top Food Word Frequencies")
-        plt.xticks(rotation=45)
-        plt.tight_layout()
-        plt.savefig("data/top_food_words.png")
-
-    logger.info("Aggregation complete.")
+        logger.info("Aggregation complete.")
+    else:
+        logger.info("Skipping aggregation as agro is set to False.")
 
 
 if __name__ == "__main__":
     import argparse
     #parser = argparse.ArgumentParser(description="Process ArXiv PDFs for food-related words.")
     #parser.add_argument("--chunk", type=str, default=None, help="Optional chunk prefix (e.g., '23' or '2401')")
-    args = '09'#parser.parse_args()
-    main(chunk_prefix=args)
+    args = '1106'#parser.parse_args()
+    main(chunk_prefix=args,agro=False)
