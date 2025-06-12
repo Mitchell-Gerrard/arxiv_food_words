@@ -80,10 +80,10 @@ def download_and_process(paper_id, version, blob_name):
         os.makedirs("results", exist_ok=True)
         with open(result_path, 'w') as f:
             json.dump(result_data, f)
-
+        client.close()
         #logger.info(f"Processed {filename} with {len(matched_words)} matches")
         return filename, matched_words, subjects
-
+        
     except Exception as e:
         logger.error(f"Failed to process {paper_id}: {e}")
         return None
@@ -203,5 +203,5 @@ if __name__ == "__main__":
     import argparse
     #parser = argparse.ArgumentParser(description="Process ArXiv PDFs for food-related words.")
     #parser.add_argument("--chunk", type=str, default=None, help="Optional chunk prefix (e.g., '23' or '2401')")
-    args = '1106'#parser.parse_args()
+    args = '12'#parser.parse_args()
     main(chunk_prefix=args,agro=False)
