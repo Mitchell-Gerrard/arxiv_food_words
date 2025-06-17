@@ -3,14 +3,15 @@ import re
 import json
 import glob
 import logging
+import subprocess
 from tqdm import tqdm
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
-
-import fitz
+import pdfplumber
+import fitz  # PyMuPDF
 import pandas as pd
 import matplotlib.pyplot as plt
-
+import time
 from google.cloud import storage
 from google.oauth2 import service_account
 
@@ -44,14 +45,37 @@ def init_worker(csv_path):
     global food_words_set
     food_words_set = load_food_words(csv_path)
 
+def extract_text(filepath):
+    # First try PyMuPDF
+    try:
+        with fitz.open(filepath) as doc:
+            return "".join(page.get_text() for page in doc)
+    except Exception as e:
+        logging.warning(f"fitz failed on {filepath}: {e}, trying pdfplumber fallback")
+    
+    # Try pdfplumber fallback
+    try:
+        with pdfplumber.open(filepath) as pdf:
+            return "".join(page.extract_text() or "" for page in pdf.pages)
+    except Exception as e:
+        logging.warning(f"pdfplumber failed on {filepath}: {e}, trying pdfminer fallback")
+    
+    # Try pdfminer fallback
+    try:
+        from pdfminer.high_level import extract_text as pdfminer_extract_text
+        return pdfminer_extract_text(filepath)
+    except Exception as e:
+        logging.error(f"All PDF text extraction methods failed on {filepath}: {e}")
+        return None  # Or raise, or return None depending on your handling
+
 def download_and_process(paper_id, version, blob_name):
     result_path = f"results/{paper_id}v{version}.json"
     if os.path.exists(result_path):
         return None
 
+    filepath = None
     try:
         credentials_path = r'D:\download store\future-env-326822-6ae492a4c60a.json'
-        #credentials_path = r'C:\Users\mg6u19\Downloads\future-env-326822-d1f4c594ed5b.json'
         credentials = service_account.Credentials.from_service_account_file(credentials_path)
         client = storage.Client(credentials=credentials)
         bucket = client.bucket("arxiv-dataset")
@@ -59,13 +83,11 @@ def download_and_process(paper_id, version, blob_name):
 
         filename = f"{paper_id}v{version}.pdf"
         filepath = os.path.join("downloaded_papers", filename)
-
         blob.download_to_filename(filepath)
 
-        text = ""
-        with fitz.open(filepath) as doc:
-            for page in doc:
-                text += page.get_text()
+        text = extract_text(filepath)
+        if not text:
+            return None
 
         text_words = set(re.findall(r'\b\w+\b', text.lower()))
         matched_words = {word: food_words_set[word] for word in text_words if word in food_words_set}
@@ -78,24 +100,37 @@ def download_and_process(paper_id, version, blob_name):
         }
 
         os.makedirs("results", exist_ok=True)
-        with open(result_path, 'w') as f:
-            json.dump(result_data, f)
-        client.close()
-        #logger.info(f"Processed {filename} with {len(matched_words)} matches")
+        with open(result_path, 'w', encoding='utf-8') as f:
+            json.dump(result_data, f, ensure_ascii=False)
+
         return filename, matched_words, subjects
-        
+
     except Exception as e:
         logger.error(f"Failed to process {paper_id}: {e}")
         return None
     finally:
-        if os.path.exists(filepath):
-            os.remove(filepath)
+        if filepath and os.path.exists(filepath):
+            try:
+                os.remove(filepath)
+            except:
+                pass
+def load_metadata_chunk(metadata_path, chunk_prefix):
+    filtered = {}
+    with open(metadata_path, 'r', encoding='utf-8') as f:
+        for line in f:
+            record = json.loads(line)
+            paper_id = record['id']
+            if paper_id.startswith(chunk_prefix):
+                filtered[paper_id] = record
+    return filtered
 
 # === Main Workflow ===
-def main(chunk_prefix=None,agro=True):
+def main(chunk_prefixes=None, agro=True):
+    if chunk_prefixes is None:
+        chunk_prefixes = [None]  # Process all if None
+
     logger.info("Starting PDF processing")
     credentials_path = r'D:\download store\future-env-326822-6ae492a4c60a.json'
-    #credentials_path = r'C:\Users\mg6u19\Downloads\future-env-326822-d1f4c594ed5b.json'
     csv_path = "FoodData_Central_csv_2025-04-24/food.csv"
     metadata_path = 'arxiv-metadata-oai-snapshot.json'
 
@@ -105,103 +140,101 @@ def main(chunk_prefix=None,agro=True):
     credentials = service_account.Credentials.from_service_account_file(credentials_path)
     client = storage.Client(credentials=credentials)
     bucket = client.bucket("arxiv-dataset")
-    blob_prefix = f'arxiv/arxiv/pdf/{chunk_prefix}' if chunk_prefix else 'arxiv/arxiv/pdf/'
-    blobs = bucket.list_blobs(prefix=blob_prefix)
 
     logger.info("Loading metadata...")
-    with open(metadata_path) as f:
-        records = [json.loads(line) for line in f]
-    global arxiv_metadata
-    arxiv_metadata = {r["id"]: r for r in records}
-    logger.info(f"Loaded {len(arxiv_metadata)} metadata records")
+    
 
-    # Track latest version of each paper
-    latest_versions = {}
-    pattern = re.compile(r'(\d{4}\.\d{4,5})v(\d+)')
-    logger.info("Parsing blob list...")
-    for blob in blobs:
-        
-        if not blob.name.endswith('.pdf'):
-            continue
-        match = pattern.search(blob.name)
-        if not match:
-            continue
-        paper_id, version_str = match.groups()
-        if chunk_prefix and not paper_id.startswith(chunk_prefix):
-            continue  # Skip if not in this chunk
+    for chunk_prefix in chunk_prefixes:
+        chunk_meta = load_metadata_chunk(metadata_path, chunk_prefix)
+        arxiv_metadata.update(chunk_meta)
+        logger.info(f"Processing chunk '{chunk_prefix}'")
+        blob_prefix = f'arxiv/arxiv/pdf/{chunk_prefix}' if chunk_prefix else 'arxiv/arxiv/pdf/'
+        blobs = bucket.list_blobs(prefix=blob_prefix)
 
-        version = int(version_str)
-        if paper_id not in latest_versions or version > latest_versions[paper_id][0]:
-            latest_versions[paper_id] = (version, blob.name)
+        latest_versions = {}
+        pattern = re.compile(r'(\d{4}\.\d{4,5})v(\d+)')
+        logger.info("Parsing blob list...")
+        for blob in blobs:
+            if not blob.name.endswith('.pdf'):
+                continue
+            match = pattern.search(blob.name)
+            if not match:
+                continue
+            paper_id, version_str = match.groups()
+            if chunk_prefix and not paper_id.startswith(chunk_prefix):
+                continue
+            version = int(version_str)
+            if paper_id not in latest_versions or version > latest_versions[paper_id][0]:
+                latest_versions[paper_id] = (version, blob.name)
 
-    logger.info(f" {len(latest_versions)} PDFs to consider in chunk '{chunk_prefix}'")
+        logger.info(f" {len(latest_versions)} PDFs to consider in chunk '{chunk_prefix}'")
 
-    # Build work list
-    input_args = []
-    for paper_id, (version, blob_name) in latest_versions.items():
-        result_path = f"results/{paper_id}v{version}.json"
-        if not os.path.exists(result_path):
-            input_args.append((paper_id, version, blob_name))
+        input_args = []
 
-    logger.info(f" {len(input_args)} PDFs to process after skipping completed.")
+        for paper_id, (version, blob_name) in latest_versions.items():
+            result_path = f"results/{paper_id}v{version}.json"
+            if not os.path.exists(result_path):
+                input_args.append((paper_id, version, blob_name))
 
-    # Process in parallel
-    with ThreadPoolExecutor(initializer=init_worker, initargs=(csv_path,), max_workers=16) as executor:
-        futures = [executor.submit(download_and_process, *args) for args in input_args]
-        for f in tqdm(futures, desc="Processing PDFs", unit='pdf', unit_scale=True):
-            try:
-                f.result()
-            except Exception as e:
-                logger.error(f"Error in thread: {e}")
+        logger.info(f" {len(input_args)} PDFs to process after skipping completed.")
 
-    logger.info("PDF processing complete. Aggregating results...")
-    if agro==True:
-        # === Aggregation ===
-        results = []
-        all_subjects = set()
-        for filepath in glob.glob("results/*.json"):
-            with open(filepath) as f:
-                data = json.load(f)
-                results.append((data['filename'], data['matched_words'], data['subjects']))
-                all_subjects.update(data['subjects'])
+        with ThreadPoolExecutor(initializer=init_worker, initargs=(csv_path,), max_workers=16) as executor:
+            futures = [executor.submit(download_and_process, *args) for args in input_args]
+            for f in tqdm(futures, desc=f"Processing PDFs chunk {chunk_prefix}", unit='pdf', unit_scale=True):
+                try:
+                    f.result()
+                except Exception as e:
+                    logger.error(f"Error in thread: {e}")
+        arxiv_metadata.clear()
+        futures.clear()
+    logger.info("PDF processing complete.")
 
-        counters = {subject: Counter() for subject in all_subjects}
-        total_counter = Counter()
+    if not agro:
+        logger.info("Skipping aggregation.")
+        return
 
-        for filename, matches, subjects in results:
-            total_counter.update(matches)
-            for subject in subjects:
-                counters[subject].update(matches)
+    # Aggregation stays the same
+    logger.info("Aggregating results...")
+    results = []
+    all_subjects = set()
+    for filepath in glob.glob("results/*.json"):
+        with open(filepath, encoding='utf-8') as f:
+            data = json.load(f)
+            results.append((data['filename'], data['matched_words'], data['subjects']))
+            all_subjects.update(data['subjects'])
 
-        # Save counters
-        for subject, counter in counters.items():
-            df = pd.DataFrame(counter.items(), columns=['word', 'count'])
-            df.to_csv(f"data/{subject}_food_words.csv", index=False)
+    counters = {subject: Counter() for subject in all_subjects}
+    total_counter = Counter()
 
-        df_total = pd.DataFrame(total_counter.items(), columns=['word', 'count'])
-        df_total.to_csv("data/total_food_words.csv", index=False)
+    for filename, matches, subjects in results:
+        total_counter.update(matches)
+        for subject in subjects:
+            counters[subject].update(matches)
 
-        # Plot
-        top_words = total_counter.most_common(10)
-        if top_words:
-            words, counts = zip(*top_words)
-            plt.figure()
-            plt.bar(words, counts, color='skyblue')
-            plt.xlabel("Food Words")
-            plt.ylabel("Count")
-            plt.title("Top Food Word Frequencies")
-            plt.xticks(rotation=45)
-            plt.tight_layout()
-            plt.savefig("data/top_food_words.png")
+    for subject, counter in counters.items():
+        df = pd.DataFrame(counter.items(), columns=['word', 'count'])
+        df.to_csv(f"data/{subject}_food_words.csv", index=False)
 
-        logger.info("Aggregation complete.")
-    else:
-        logger.info("Skipping aggregation as agro is set to False.")
+    df_total = pd.DataFrame(total_counter.items(), columns=['word', 'count'])
+    df_total.to_csv("data/total_food_words.csv", index=False)
+
+    top_words = total_counter.most_common(10)
+    if top_words:
+        words, counts = zip(*top_words)
+        plt.figure()
+        plt.bar(words, counts, color='skyblue')
+        plt.xlabel("Food Words")
+        plt.ylabel("Count")
+        plt.title("Top Food Word Frequencies")
+        plt.xticks(rotation=45)
+        plt.tight_layout()
+        plt.savefig("data/top_food_words.png")
+
+    logger.info("Aggregation complete.")
 
 
 if __name__ == "__main__":
-    import argparse
-    #parser = argparse.ArgumentParser(description="Process ArXiv PDFs for food-related words.")
-    #parser.add_argument("--chunk", type=str, default=None, help="Optional chunk prefix (e.g., '23' or '2401')")
-    args = '19'#parser.parse_args()
-    main(chunk_prefix=args,agro=False)
+    #args = ['2101']  # Chunk prefix
+    args = [f"{year:02d}{month:02d}" for year in range(21, 26) for month in range(1, 13)]
+    args = [arg for arg in args if int(arg) <= 2506]
+    main(chunk_prefixes=args, agro=True)
