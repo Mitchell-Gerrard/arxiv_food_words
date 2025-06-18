@@ -46,30 +46,35 @@ def init_worker(csv_path):
     food_words_set = load_food_words(csv_path)
 
 def extract_text(filepath):
-    # First try PyMuPDF
     try:
         with fitz.open(filepath) as doc:
             return "".join(page.get_text() for page in doc)
     except Exception as e:
         logging.warning(f"fitz failed on {filepath}: {e}, trying pdfplumber fallback")
-    
-    # Try pdfplumber fallback
     try:
         with pdfplumber.open(filepath) as pdf:
             return "".join(page.extract_text() or "" for page in pdf.pages)
     except Exception as e:
         logging.warning(f"pdfplumber failed on {filepath}: {e}, trying pdfminer fallback")
-    
-    # Try pdfminer fallback
     try:
         from pdfminer.high_level import extract_text as pdfminer_extract_text
         return pdfminer_extract_text(filepath)
     except Exception as e:
         logging.error(f"All PDF text extraction methods failed on {filepath}: {e}")
-        return None  # Or raise, or return None depending on your handling
+        return None
+
+def get_result_path(paper_id, version):
+    match = re.match(r"(\d{2})(\d{2})\.\d+", paper_id)
+    if match:
+        year, month = match.groups()
+        result_dir = os.path.join("results", year, f"{year}{month}")
+    else:
+        result_dir = os.path.join("results", "misc")
+    os.makedirs(result_dir, exist_ok=True)
+    return os.path.join(result_dir, f"{paper_id}v{version}.json")
 
 def download_and_process(paper_id, version, blob_name):
-    result_path = f"results/{paper_id}v{version}.json"
+    result_path = get_result_path(paper_id, version)
     if os.path.exists(result_path):
         return None
 
@@ -99,7 +104,6 @@ def download_and_process(paper_id, version, blob_name):
             'subjects': subjects
         }
 
-        os.makedirs("results", exist_ok=True)
         with open(result_path, 'w', encoding='utf-8') as f:
             json.dump(result_data, f, ensure_ascii=False)
 
@@ -114,6 +118,7 @@ def download_and_process(paper_id, version, blob_name):
                 os.remove(filepath)
             except:
                 pass
+
 def load_metadata_chunk(metadata_path, chunk_prefix):
     filtered = {}
     with open(metadata_path, 'r', encoding='utf-8') as f:
@@ -127,7 +132,7 @@ def load_metadata_chunk(metadata_path, chunk_prefix):
 # === Main Workflow ===
 def main(chunk_prefixes=None, agro=True):
     if chunk_prefixes is None:
-        chunk_prefixes = [None]  # Process all if None
+        chunk_prefixes = [None]
 
     logger.info("Starting PDF processing")
     credentials_path = r'D:\download store\future-env-326822-6ae492a4c60a.json'
@@ -142,7 +147,6 @@ def main(chunk_prefixes=None, agro=True):
     bucket = client.bucket("arxiv-dataset")
 
     logger.info("Loading metadata...")
-    
 
     for chunk_prefix in chunk_prefixes:
         chunk_meta = load_metadata_chunk(metadata_path, chunk_prefix)
@@ -170,9 +174,8 @@ def main(chunk_prefixes=None, agro=True):
         logger.info(f" {len(latest_versions)} PDFs to consider in chunk '{chunk_prefix}'")
 
         input_args = []
-
         for paper_id, (version, blob_name) in latest_versions.items():
-            result_path = f"results/{paper_id}v{version}.json"
+            result_path = get_result_path(paper_id, version)
             if not os.path.exists(result_path):
                 input_args.append((paper_id, version, blob_name))
 
@@ -193,11 +196,11 @@ def main(chunk_prefixes=None, agro=True):
         logger.info("Skipping aggregation.")
         return
 
-    # Aggregation stays the same
+    # === Aggregation ===
     logger.info("Aggregating results...")
     results = []
     all_subjects = set()
-    for filepath in glob.glob("results/*.json"):
+    for filepath in glob.glob("results/**/*.json", recursive=True):
         with open(filepath, encoding='utf-8') as f:
             data = json.load(f)
             results.append((data['filename'], data['matched_words'], data['subjects']))
@@ -232,9 +235,7 @@ def main(chunk_prefixes=None, agro=True):
 
     logger.info("Aggregation complete.")
 
-
 if __name__ == "__main__":
-    #args = ['2101']  # Chunk prefix
     args = [f"{year:02d}{month:02d}" for year in range(21, 26) for month in range(1, 13)]
-    args = [arg for arg in args if int(arg) <= 2506]
+    args = [arg for arg in args if  2202 <=int(arg) <= 2506]
     main(chunk_prefixes=args, agro=True)
