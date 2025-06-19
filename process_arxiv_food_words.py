@@ -6,7 +6,8 @@ import logging
 import subprocess
 from tqdm import tqdm
 from collections import Counter
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ThreadPoolExecutor, TimeoutError
+from multiprocessing import Pool
 import pdfplumber
 import fitz  # PyMuPDF
 import pandas as pd
@@ -14,7 +15,7 @@ import matplotlib.pyplot as plt
 import time
 from google.cloud import storage
 from google.oauth2 import service_account
-
+import gc
 # === Setup Logging ===
 os.makedirs("logs", exist_ok=True)
 logging.basicConfig(
@@ -44,11 +45,26 @@ def load_food_words(csv_path):
 def init_worker(csv_path):
     global food_words_set
     food_words_set = load_food_words(csv_path)
-
-def extract_text(filepath):
+def fitz_extract_text(filepath):
     try:
         with fitz.open(filepath) as doc:
             return "".join(page.get_text() for page in doc)
+    except Exception:
+        return None  # Return None if it fails or crashes
+def extract_text_with_subprocess(filepath, timeout=30):
+    with Pool(processes=1) as pool:
+        result = pool.apply_async(fitz_extract_text, (filepath,))
+        try:
+            text = result.get(timeout=timeout)
+            return text
+        except TimeoutError:
+            # The subprocess hung or crashed
+            return None
+def extract_text(filepath):
+    try:
+        text = extract_text_with_subprocess(filepath)
+        if text:
+            return text
     except Exception as e:
         logging.warning(f"fitz failed on {filepath}: {e}, trying pdfplumber fallback")
     try:
@@ -80,7 +96,8 @@ def download_and_process(paper_id, version, blob_name):
 
     filepath = None
     try:
-        credentials_path = r'D:\download store\future-env-326822-6ae492a4c60a.json'
+        #credentials_path = r'D:\download store\future-env-326822-6ae492a4c60a.json'
+        credentials_path = r'C:\Users\mg6u19\Downloads\future-env-326822-d1f4c594ed5b.json'
         credentials = service_account.Credentials.from_service_account_file(credentials_path)
         client = storage.Client(credentials=credentials)
         bucket = client.bucket("arxiv-dataset")
@@ -106,6 +123,11 @@ def download_and_process(paper_id, version, blob_name):
 
         with open(result_path, 'w', encoding='utf-8') as f:
             json.dump(result_data, f, ensure_ascii=False)
+        del text
+        del text_words
+    
+        gc.collect()
+  
 
         return filename, matched_words, subjects
 
@@ -135,7 +157,8 @@ def main(chunk_prefixes=None, agro=True):
         chunk_prefixes = [None]
 
     logger.info("Starting PDF processing")
-    credentials_path = r'D:\download store\future-env-326822-6ae492a4c60a.json'
+    #credentials_path = r'D:\download store\future-env-326822-6ae492a4c60a.json'
+    credentials_path = r'C:\Users\mg6u19\Downloads\future-env-326822-d1f4c594ed5b.json'
     csv_path = "FoodData_Central_csv_2025-04-24/food.csv"
     metadata_path = 'arxiv-metadata-oai-snapshot.json'
 
@@ -181,7 +204,7 @@ def main(chunk_prefixes=None, agro=True):
 
         logger.info(f" {len(input_args)} PDFs to process after skipping completed.")
 
-        with ThreadPoolExecutor(initializer=init_worker, initargs=(csv_path,), max_workers=16) as executor:
+        with ThreadPoolExecutor(initializer=init_worker, initargs=(csv_path,), max_workers=28) as executor:
             futures = [executor.submit(download_and_process, *args) for args in input_args]
             for f in tqdm(futures, desc=f"Processing PDFs chunk {chunk_prefix}", unit='pdf', unit_scale=True):
                 try:
@@ -237,5 +260,5 @@ def main(chunk_prefixes=None, agro=True):
 
 if __name__ == "__main__":
     args = [f"{year:02d}{month:02d}" for year in range(21, 26) for month in range(1, 13)]
-    args = [arg for arg in args if  2202 <=int(arg) <= 2506]
+    args = [arg for arg in args if  2212 <=int(arg) <= 2506]
     main(chunk_prefixes=args, agro=True)
