@@ -48,7 +48,7 @@ def init_worker(csv_path):
 def fitz_extract_text(filepath):
     try:
         with fitz.open(filepath) as doc:
-            return "".join(page.get_text() for page in doc)
+            return "".join(page.get_text("text") for page in doc)
     except Exception:
         return None  # Return None if it fails or crashes
 def extract_text_with_subprocess(filepath, timeout=30):
@@ -66,7 +66,7 @@ def extract_text(filepath):
         if text:
             return text
     except Exception as e:
-        logging.warning(f"fitz failed on {filepath}: {e}, trying pdfplumber fallback")
+        logging.warning(f"Fitz failed on {filepath}: {e}, trying Plumber fallback")
     try:
         with pdfplumber.open(filepath) as pdf:
             return "".join(page.extract_text() or "" for page in pdf.pages)
@@ -260,5 +260,5 @@ def main(chunk_prefixes=None, agro=True):
 
 if __name__ == "__main__":
     args = [f"{year:02d}{month:02d}" for year in range(21, 26) for month in range(1, 13)]
-    args = [arg for arg in args if  2212 <=int(arg) <= 2506]
+    args = [arg for arg in args if  2309 <=int(arg) <= 2506]
     main(chunk_prefixes=args, agro=True)
