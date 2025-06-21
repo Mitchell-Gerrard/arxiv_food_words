@@ -9,15 +9,23 @@ from collections import Counter
 from concurrent.futures import ThreadPoolExecutor, TimeoutError
 from multiprocessing import Pool
 import pdfplumber
-import fitz  # PyMuPDF
+import pymupdf  # PyMuPDF
 import pandas as pd
 import matplotlib.pyplot as plt
 import time
 from google.cloud import storage
 from google.oauth2 import service_account
 import gc
-# === Setup Logging ===
+from concurrent.futures import as_completed
+import warnings
+import sys
+import os
+import contextlib
+import msvcrt
+
 os.makedirs("logs", exist_ok=True)
+warnings.filterwarnings("ignore")
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
@@ -27,6 +35,22 @@ logging.basicConfig(
     ]
 )
 logger = logging.getLogger(__name__)
+
+# Now add the filter immediately after logging setup
+class PymupdfWarningFilter(logging.Filter):
+    def filter(self, record):
+        msg = record.getMessage()
+        if "Cannot set gray non-stroke color" in msg:
+            print(f"Filtered pymupdf warning: {msg}", file=sys.stderr)
+            return False
+        print(f"Logging pymupdf warning: {msg}", file=sys.stderr)
+        return True
+
+logging.getLogger().addFilter(PymupdfWarningFilter())
+logging.getLogger("pymupdf").addFilter(PymupdfWarningFilter())
+
+warnings.filterwarnings("ignore", message=r".*Cannot set gray non-stroke color.*", module="pymupdf")
+
 
 # === Globals ===
 food_words_set = set()
@@ -45,36 +69,76 @@ def load_food_words(csv_path):
 def init_worker(csv_path):
     global food_words_set
     food_words_set = load_food_words(csv_path)
-def fitz_extract_text(filepath):
+@contextlib.contextmanager
+def suppress_stderr():
+    # Get stderr handle
+    devnull = os.open(os.devnull, os.O_WRONLY)
+    stderr_fileno = sys.stderr.fileno()
+    saved = os.dup(stderr_fileno)
     try:
-        with fitz.open(filepath) as doc:
-            return "".join(page.get_text("text") for page in doc)
+        os.dup2(devnull, stderr_fileno)
+        yield
+    finally:
+        os.dup2(saved, stderr_fileno)
+        os.close(saved)
+        os.close(devnull)
+def get_cleaned_pdf_path(original_path, suffix="_cleaned"):
+    base_dir = os.path.dirname(original_path)
+    filename = os.path.basename(original_path)
+    name, ext = os.path.splitext(filename)
+    cleaned_filename = f"{name}{suffix}{ext}"
+    return os.path.join(base_dir, cleaned_filename)
+
+def sanitize_pdf(input_path):
+
+    output_path = get_cleaned_pdf_path(input_path)
+
+    gs_path = r"C:\Program Files\gs\gs10.05.1\bin\gswin64c.exe"  # Adjust version/path
+    command = [
+        gs_path, "-dNOPAUSE", "-dBATCH", "-sDEVICE=pdfwrite",
+        "-dCompatibilityLevel=1.4",
+        f"-sOutputFile={output_path}", input_path
+    ]
+
+    try:
+        subprocess.run(command, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+
+        return output_path
+    except subprocess.CalledProcessError:
+
+        return None
+def pymupdf_extract_text(filepath):
+    try:
+        with suppress_stderr():
+            with pymupdf.open(filepath) as doc:
+                return "".join(page.get_text("text") for page in doc)
     except Exception:
-        return None  # Return None if it fails or crashes
+        return None
 def extract_text_with_subprocess(filepath, timeout=30):
     with Pool(processes=1) as pool:
-        result = pool.apply_async(fitz_extract_text, (filepath,))
+        result = pool.apply_async(pymupdf_extract_text, (filepath,))
         try:
+            
             text = result.get(timeout=timeout)
             return text
         except TimeoutError:
             # The subprocess hung or crashed
             return None
 def extract_text(filepath):
+    cleaned_path = sanitize_pdf(filepath)
+    target_path = cleaned_path if cleaned_path else filepath
     try:
-        text = extract_text_with_subprocess(filepath)
+        
+
+        text = extract_text_with_subprocess(target_path)
         if text:
             return text
     except Exception as e:
-        logging.warning(f"Fitz failed on {filepath}: {e}, trying Plumber fallback")
-    try:
-        with pdfplumber.open(filepath) as pdf:
-            return "".join(page.extract_text() or "" for page in pdf.pages)
-    except Exception as e:
-        logging.warning(f"pdfplumber failed on {filepath}: {e}, trying pdfminer fallback")
+        logging.warning(f"pymupdf failed on {target_path}: {e}, trying Plumber fallback")
+
     try:
         from pdfminer.high_level import extract_text as pdfminer_extract_text
-        return pdfminer_extract_text(filepath)
+        return pdfminer_extract_text(target_path)
     except Exception as e:
         logging.error(f"All PDF text extraction methods failed on {filepath}: {e}")
         return None
@@ -96,8 +160,8 @@ def download_and_process(paper_id, version, blob_name):
 
     filepath = None
     try:
-        #credentials_path = r'D:\download store\future-env-326822-6ae492a4c60a.json'
-        credentials_path = r'C:\Users\mg6u19\Downloads\future-env-326822-d1f4c594ed5b.json'
+        credentials_path = r'D:\download store\future-env-326822-6ae492a4c60a.json'
+        #credentials_path = r'C:\Users\mg6u19\Downloads\future-env-326822-d1f4c594ed5b.json'
         credentials = service_account.Credentials.from_service_account_file(credentials_path)
         client = storage.Client(credentials=credentials)
         bucket = client.bucket("arxiv-dataset")
@@ -138,6 +202,8 @@ def download_and_process(paper_id, version, blob_name):
         if filepath and os.path.exists(filepath):
             try:
                 os.remove(filepath)
+                if os.path.exists(get_cleaned_pdf_path(filepath)):
+                    os.remove(get_cleaned_pdf_path(filepath))
             except:
                 pass
 
@@ -157,8 +223,8 @@ def main(chunk_prefixes=None, agro=True):
         chunk_prefixes = [None]
 
     logger.info("Starting PDF processing")
-    #credentials_path = r'D:\download store\future-env-326822-6ae492a4c60a.json'
-    credentials_path = r'C:\Users\mg6u19\Downloads\future-env-326822-d1f4c594ed5b.json'
+    credentials_path = r'D:\download store\future-env-326822-6ae492a4c60a.json'
+    #credentials_path = r'C:\Users\mg6u19\Downloads\future-env-326822-d1f4c594ed5b.json'
     csv_path = "FoodData_Central_csv_2025-04-24/food.csv"
     metadata_path = 'arxiv-metadata-oai-snapshot.json'
 
@@ -204,9 +270,9 @@ def main(chunk_prefixes=None, agro=True):
 
         logger.info(f" {len(input_args)} PDFs to process after skipping completed.")
 
-        with ThreadPoolExecutor(initializer=init_worker, initargs=(csv_path,), max_workers=28) as executor:
+        with ThreadPoolExecutor(initializer=init_worker, initargs=(csv_path,), max_workers=16) as executor:
             futures = [executor.submit(download_and_process, *args) for args in input_args]
-            for f in tqdm(futures, desc=f"Processing PDFs chunk {chunk_prefix}", unit='pdf', unit_scale=True):
+            for f in tqdm(as_completed(futures), desc=f"Processing PDFs chunk {chunk_prefix}", unit='pdf', unit_scale=True):
                 try:
                     f.result()
                 except Exception as e:
@@ -259,6 +325,7 @@ def main(chunk_prefixes=None, agro=True):
     logger.info("Aggregation complete.")
 
 if __name__ == "__main__":
+    logging.getLogger("pymupdf").setLevel(logging.ERROR)
     args = [f"{year:02d}{month:02d}" for year in range(21, 26) for month in range(1, 13)]
-    args = [arg for arg in args if  2309 <=int(arg) <= 2506]
+    args = [arg for arg in args if  2407 <=int(arg) <= 2506]
     main(chunk_prefixes=args, agro=True)
