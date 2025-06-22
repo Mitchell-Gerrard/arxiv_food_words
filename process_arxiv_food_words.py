@@ -326,6 +326,6 @@ def main(chunk_prefixes=None, agro=True):
 
 if __name__ == "__main__":
     logging.getLogger("pymupdf").setLevel(logging.ERROR)
-    args = [f"{year:02d}{month:02d}" for year in range(21, 26) for month in range(1, 13)]
-    args = [arg for arg in args if  2407 <=int(arg) <= 2506]
+    args = [f"{year:02d}{month:02d}" for year in range(6, 26) for month in range(1, 13)]
+    args = [arg for arg in args if  704 <=int(arg) <= 2506]
     main(chunk_prefixes=args, agro=True)
