@@ -1626,3 +1626,37 @@
 2025-06-22 03:39:37,555 [INFO] Parsing blob list...
 2025-06-22 03:40:01,686 [INFO]  24221 PDFs to consider in chunk '2410'
 2025-06-22 03:40:05,006 [INFO]  24221 PDFs to process after skipping completed.
+2025-06-22 07:03:55,603 [INFO] Processing chunk '2411'
+2025-06-22 07:03:55,605 [INFO] Parsing blob list...
+2025-06-22 07:04:15,828 [INFO]  19948 PDFs to consider in chunk '2411'
+2025-06-22 07:04:18,776 [INFO]  19948 PDFs to process after skipping completed.
+2025-06-22 09:50:22,311 [INFO] Processing chunk '2412'
+2025-06-22 09:50:22,312 [INFO] Parsing blob list...
+2025-06-22 09:50:39,950 [INFO]  21167 PDFs to consider in chunk '2412'
+2025-06-22 09:50:42,882 [INFO]  21167 PDFs to process after skipping completed.
+2025-06-22 12:49:58,322 [INFO] Processing chunk '2501'
+2025-06-22 12:49:58,324 [INFO] Parsing blob list...
+2025-06-22 12:50:16,072 [INFO]  19359 PDFs to consider in chunk '2501'
+2025-06-22 12:50:18,675 [INFO]  19359 PDFs to process after skipping completed.
+2025-06-22 15:24:56,329 [INFO] Processing chunk '2502'
+2025-06-22 15:24:56,331 [INFO] Parsing blob list...
+2025-06-22 15:25:14,972 [INFO]  21269 PDFs to consider in chunk '2502'
+2025-06-22 15:25:17,852 [INFO]  21269 PDFs to process after skipping completed.
+2025-06-23 06:03:48,438 [INFO] Processing chunk '2503'
+2025-06-23 06:03:48,440 [INFO] Parsing blob list...
+2025-06-23 06:04:09,425 [INFO]  24343 PDFs to consider in chunk '2503'
+2025-06-23 06:04:12,706 [INFO]  24343 PDFs to process after skipping completed.
+2025-06-23 09:42:58,144 [INFO] Processing chunk '2504'
+2025-06-23 09:42:58,146 [INFO] Parsing blob list...
+2025-06-23 09:43:15,790 [INFO]  21835 PDFs to consider in chunk '2504'
+2025-06-23 09:43:18,711 [INFO]  21835 PDFs to process after skipping completed.
+2025-06-23 12:49:45,046 [INFO] Processing chunk '2505'
+2025-06-23 12:49:45,048 [INFO] Parsing blob list...
+2025-06-23 12:50:00,970 [INFO]  24862 PDFs to consider in chunk '2505'
+2025-06-23 12:50:04,341 [INFO]  24862 PDFs to process after skipping completed.
+2025-06-23 16:32:24,707 [INFO] Processing chunk '2506'
+2025-06-23 16:32:24,709 [INFO] Parsing blob list...
+2025-06-23 16:32:32,743 [INFO]  15673 PDFs to consider in chunk '2506'
+2025-06-23 16:32:34,887 [INFO]  15673 PDFs to process after skipping completed.
+2025-06-23 18:29:32,853 [INFO] PDF processing complete.
+2025-06-23 18:29:32,853 [INFO] Aggregating results...
