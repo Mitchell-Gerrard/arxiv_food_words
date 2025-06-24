@@ -1660,3 +1660,296 @@
 2025-06-23 16:32:34,887 [INFO]  15673 PDFs to process after skipping completed.
 2025-06-23 18:29:32,853 [INFO] PDF processing complete.
 2025-06-23 18:29:32,853 [INFO] Aggregating results...
+2025-06-24 07:04:47,685 [INFO] Starting PDF processing
+2025-06-24 07:04:47,738 [INFO] Loading metadata...
+2025-06-24 07:05:45,761 [INFO] Processing chunk '0704'
+2025-06-24 07:05:45,762 [INFO] Parsing blob list...
+2025-06-24 07:05:50,661 [INFO]  4001 PDFs to consider in chunk '0704'
+2025-06-24 07:05:50,750 [INFO]  0 PDFs to process after skipping completed.
+2025-06-24 07:05:50,769 [INFO] PDF processing complete.
+2025-06-24 07:05:50,769 [INFO] Aggregating results...
+2025-06-24 07:08:12,923 [INFO] Starting PDF processing
+2025-06-24 07:08:13,072 [INFO] Loading metadata...
+2025-06-24 07:09:11,338 [INFO] Processing chunk '0704'
+2025-06-24 07:09:11,339 [INFO] Parsing blob list...
+2025-06-24 07:09:16,743 [INFO]  4001 PDFs to consider in chunk '0704'
+2025-06-24 07:09:16,885 [INFO]  0 PDFs to process after skipping completed.
+2025-06-24 07:09:16,896 [INFO] PDF processing complete.
+2025-06-24 07:09:16,896 [INFO] Aggregating results...
+2025-06-24 07:16:21,977 [INFO] Starting PDF processing
+2025-06-24 07:16:22,058 [INFO] Loading metadata...
+2025-06-24 07:17:26,268 [INFO] Processing chunk '1708'
+2025-06-24 07:17:26,269 [INFO] Parsing blob list...
+2025-06-24 07:17:38,377 [INFO]  9835 PDFs to consider in chunk '1708'
+2025-06-24 07:17:38,652 [INFO]  1 PDFs to process after skipping completed.
+2025-06-24 07:17:48,246 [ERROR] Failed to process 1708.00052: [Errno 2] No such file or directory: 'C:\\Program Files\\gs\\gs10.05.1\\bin\\gswin64c.exe'
+2025-06-24 07:17:48,249 [INFO] PDF processing complete.
+2025-06-24 07:17:48,249 [INFO] Aggregating results...
+2025-06-24 08:20:38,081 [INFO] Starting PDF processing
+2025-06-24 08:20:38,132 [INFO] Loading metadata...
+2025-06-24 08:21:31,812 [INFO] Processing chunk '1708'
+2025-06-24 08:21:31,812 [INFO] Parsing blob list...
+2025-06-24 08:22:05,197 [INFO]  9835 PDFs to consider in chunk '1708'
+2025-06-24 08:22:05,394 [INFO]  1 PDFs to process after skipping completed.
+2025-06-24 08:22:25,200 [ERROR] Failed to process 1708.00052: [Errno 2] No such file or directory: 'C:\\Program Files\\gs\\gs10.05.1\\bin\\gswin64c.exe'
+2025-06-24 08:22:25,203 [INFO] PDF processing complete.
+2025-06-24 08:22:25,203 [INFO] Aggregating results...
+2025-06-24 08:25:55,717 [INFO] Starting PDF processing
+2025-06-24 08:25:55,774 [INFO] Loading metadata...
+2025-06-24 08:26:30,768 [INFO] Starting PDF processing
+2025-06-24 08:26:30,860 [INFO] Loading metadata...
+2025-06-24 08:27:54,137 [INFO] Processing chunk '1708'
+2025-06-24 08:27:54,138 [INFO] Parsing blob list...
+2025-06-24 08:28:31,865 [INFO]  9835 PDFs to consider in chunk '1708'
+2025-06-24 08:28:32,096 [INFO]  1 PDFs to process after skipping completed.
+2025-06-24 08:28:49,222 [INFO] PDF processing complete.
+2025-06-24 08:28:49,222 [INFO] Aggregating results...
+2025-06-24 08:29:51,873 [ERROR] Failed to load results/19/1907/1907.11839v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,079 [ERROR] Failed to load results/21/2101/2101.10449v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,087 [ERROR] Failed to load results/21/2101/2101.10546v3.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,088 [ERROR] Failed to load results/21/2101/2101.10554v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,089 [ERROR] Failed to load results/21/2101/2101.10555v3.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,090 [ERROR] Failed to load results/21/2101/2101.10558v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,090 [ERROR] Failed to load results/21/2101/2101.10561v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,092 [ERROR] Failed to load results/21/2101/2101.10571v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,094 [ERROR] Failed to load results/21/2101/2101.10586v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,096 [ERROR] Failed to load results/21/2101/2101.10595v2.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,097 [ERROR] Failed to load results/21/2101/2101.10602v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,099 [ERROR] Failed to load results/21/2101/2101.10611v3.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,101 [ERROR] Failed to load results/21/2101/2101.10613v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,102 [ERROR] Failed to load results/21/2101/2101.10614v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,102 [ERROR] Failed to load results/21/2101/2101.10615v3.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,103 [ERROR] Failed to load results/21/2101/2101.10616v4.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,104 [ERROR] Failed to load results/21/2101/2101.10617v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,105 [ERROR] Failed to load results/21/2101/2101.10618v3.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,106 [ERROR] Failed to load results/21/2101/2101.10619v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,107 [ERROR] Failed to load results/21/2101/2101.10620v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,108 [ERROR] Failed to load results/21/2101/2101.10621v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,108 [ERROR] Failed to load results/21/2101/2101.10622v3.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,109 [ERROR] Failed to load results/21/2101/2101.10623v2.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,110 [ERROR] Failed to load results/21/2101/2101.10624v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,110 [ERROR] Failed to load results/21/2101/2101.10625v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,111 [ERROR] Failed to load results/21/2101/2101.10626v2.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,111 [ERROR] Failed to load results/21/2101/2101.10627v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,112 [ERROR] Failed to load results/21/2101/2101.10628v2.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,113 [ERROR] Failed to load results/21/2101/2101.10629v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,113 [ERROR] Failed to load results/21/2101/2101.10630v2.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,114 [ERROR] Failed to load results/21/2101/2101.10631v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,114 [ERROR] Failed to load results/21/2101/2101.10632v3.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,114 [ERROR] Failed to load results/21/2101/2101.10633v3.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,115 [ERROR] Failed to load results/21/2101/2101.10634v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,115 [ERROR] Failed to load results/21/2101/2101.10635v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,116 [ERROR] Failed to load results/21/2101/2101.10636v2.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,116 [ERROR] Failed to load results/21/2101/2101.10637v2.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,116 [ERROR] Failed to load results/21/2101/2101.10638v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,117 [ERROR] Failed to load results/21/2101/2101.10639v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,118 [ERROR] Failed to load results/21/2101/2101.10640v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,119 [ERROR] Failed to load results/21/2101/2101.10641v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,119 [ERROR] Failed to load results/21/2101/2101.10642v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,120 [ERROR] Failed to load results/21/2101/2101.10643v12.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,120 [ERROR] Failed to load results/21/2101/2101.10644v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,121 [ERROR] Failed to load results/21/2101/2101.10645v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,121 [ERROR] Failed to load results/21/2101/2101.10646v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,122 [ERROR] Failed to load results/21/2101/2101.10647v4.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,122 [ERROR] Failed to load results/21/2101/2101.10648v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,123 [ERROR] Failed to load results/21/2101/2101.10649v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,125 [ERROR] Failed to load results/21/2101/2101.10650v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,126 [ERROR] Failed to load results/21/2101/2101.10651v3.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,127 [ERROR] Failed to load results/21/2101/2101.10652v3.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,127 [ERROR] Failed to load results/21/2101/2101.10653v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,128 [ERROR] Failed to load results/21/2101/2101.10654v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,129 [ERROR] Failed to load results/21/2101/2101.10655v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,130 [ERROR] Failed to load results/21/2101/2101.10656v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,131 [ERROR] Failed to load results/21/2101/2101.10657v3.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,131 [ERROR] Failed to load results/21/2101/2101.10658v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,132 [ERROR] Failed to load results/21/2101/2101.10659v2.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,132 [ERROR] Failed to load results/21/2101/2101.10660v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,133 [ERROR] Failed to load results/21/2101/2101.10661v4.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,133 [ERROR] Failed to load results/21/2101/2101.10662v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,134 [ERROR] Failed to load results/21/2101/2101.10663v2.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,134 [ERROR] Failed to load results/21/2101/2101.10664v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,135 [ERROR] Failed to load results/21/2101/2101.10665v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,135 [ERROR] Failed to load results/21/2101/2101.10666v2.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,136 [ERROR] Failed to load results/21/2101/2101.10667v2.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,136 [ERROR] Failed to load results/21/2101/2101.10668v4.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,136 [ERROR] Failed to load results/21/2101/2101.10669v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,137 [ERROR] Failed to load results/21/2101/2101.10670v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,138 [ERROR] Failed to load results/21/2101/2101.10671v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,138 [ERROR] Failed to load results/21/2101/2101.10672v5.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,139 [ERROR] Failed to load results/21/2101/2101.10673v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,139 [ERROR] Failed to load results/21/2101/2101.10674v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,140 [ERROR] Failed to load results/21/2101/2101.10675v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,141 [ERROR] Failed to load results/21/2101/2101.10676v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,141 [ERROR] Failed to load results/21/2101/2101.10677v2.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,142 [ERROR] Failed to load results/21/2101/2101.10678v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,142 [ERROR] Failed to load results/21/2101/2101.10679v2.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,143 [ERROR] Failed to load results/21/2101/2101.10680v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,143 [ERROR] Failed to load results/21/2101/2101.10681v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,144 [ERROR] Failed to load results/21/2101/2101.10682v4.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,145 [ERROR] Failed to load results/21/2101/2101.10683v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,146 [ERROR] Failed to load results/21/2101/2101.10684v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,146 [ERROR] Failed to load results/21/2101/2101.10685v3.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,147 [ERROR] Failed to load results/21/2101/2101.10686v8.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,147 [ERROR] Failed to load results/21/2101/2101.10688v2.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,148 [ERROR] Failed to load results/21/2101/2101.10689v4.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,149 [ERROR] Failed to load results/21/2101/2101.10690v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,149 [ERROR] Failed to load results/21/2101/2101.10692v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,150 [ERROR] Failed to load results/21/2101/2101.10693v2.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,150 [ERROR] Failed to load results/21/2101/2101.10694v3.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,151 [ERROR] Failed to load results/21/2101/2101.10695v3.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,151 [ERROR] Failed to load results/21/2101/2101.10696v4.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,151 [ERROR] Failed to load results/21/2101/2101.10697v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,152 [ERROR] Failed to load results/21/2101/2101.10698v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,152 [ERROR] Failed to load results/21/2101/2101.10699v2.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,153 [ERROR] Failed to load results/21/2101/2101.10700v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,154 [ERROR] Failed to load results/21/2101/2101.10701v2.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,155 [ERROR] Failed to load results/21/2101/2101.10702v2.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,155 [ERROR] Failed to load results/21/2101/2101.10703v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,155 [ERROR] Failed to load results/21/2101/2101.10704v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,156 [ERROR] Failed to load results/21/2101/2101.10705v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,156 [ERROR] Failed to load results/21/2101/2101.10706v3.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,156 [ERROR] Failed to load results/21/2101/2101.10707v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,157 [ERROR] Failed to load results/21/2101/2101.10708v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,157 [ERROR] Failed to load results/21/2101/2101.10709v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,158 [ERROR] Failed to load results/21/2101/2101.10710v2.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,158 [ERROR] Failed to load results/21/2101/2101.10711v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,158 [ERROR] Failed to load results/21/2101/2101.10712v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,158 [ERROR] Failed to load results/21/2101/2101.10713v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,159 [ERROR] Failed to load results/21/2101/2101.10714v2.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,159 [ERROR] Failed to load results/21/2101/2101.10715v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,159 [ERROR] Failed to load results/21/2101/2101.10716v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,160 [ERROR] Failed to load results/21/2101/2101.10717v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,160 [ERROR] Failed to load results/21/2101/2101.10718v2.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,161 [ERROR] Failed to load results/21/2101/2101.10719v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,162 [ERROR] Failed to load results/21/2101/2101.10720v2.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,162 [ERROR] Failed to load results/21/2101/2101.10721v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,163 [ERROR] Failed to load results/21/2101/2101.10722v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,163 [ERROR] Failed to load results/21/2101/2101.10723v4.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,163 [ERROR] Failed to load results/21/2101/2101.10724v2.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,164 [ERROR] Failed to load results/21/2101/2101.10725v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,164 [ERROR] Failed to load results/21/2101/2101.10726v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,165 [ERROR] Failed to load results/21/2101/2101.10727v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,166 [ERROR] Failed to load results/21/2101/2101.10728v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,167 [ERROR] Failed to load results/21/2101/2101.10730v2.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,168 [ERROR] Failed to load results/21/2101/2101.10731v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,168 [ERROR] Failed to load results/21/2101/2101.10732v2.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,169 [ERROR] Failed to load results/21/2101/2101.10733v2.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,169 [ERROR] Failed to load results/21/2101/2101.10734v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,170 [ERROR] Failed to load results/21/2101/2101.10735v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,170 [ERROR] Failed to load results/21/2101/2101.10736v2.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,170 [ERROR] Failed to load results/21/2101/2101.10737v2.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,171 [ERROR] Failed to load results/21/2101/2101.10738v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,171 [ERROR] Failed to load results/21/2101/2101.10739v2.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,171 [ERROR] Failed to load results/21/2101/2101.10740v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,172 [ERROR] Failed to load results/21/2101/2101.10741v3.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,172 [ERROR] Failed to load results/21/2101/2101.10742v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,172 [ERROR] Failed to load results/21/2101/2101.10743v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,172 [ERROR] Failed to load results/21/2101/2101.10744v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,173 [ERROR] Failed to load results/21/2101/2101.10745v2.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,173 [ERROR] Failed to load results/21/2101/2101.10746v2.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,173 [ERROR] Failed to load results/21/2101/2101.10747v2.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,174 [ERROR] Failed to load results/21/2101/2101.10748v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,174 [ERROR] Failed to load results/21/2101/2101.10749v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,175 [ERROR] Failed to load results/21/2101/2101.10750v2.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,175 [ERROR] Failed to load results/21/2101/2101.10751v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,176 [ERROR] Failed to load results/21/2101/2101.10752v3.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,176 [ERROR] Failed to load results/21/2101/2101.10753v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,177 [ERROR] Failed to load results/21/2101/2101.10754v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,177 [ERROR] Failed to load results/21/2101/2101.10755v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,178 [ERROR] Failed to load results/21/2101/2101.10756v2.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,178 [ERROR] Failed to load results/21/2101/2101.10757v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,179 [ERROR] Failed to load results/21/2101/2101.10758v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,179 [ERROR] Failed to load results/21/2101/2101.10759v2.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,180 [ERROR] Failed to load results/21/2101/2101.10762v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,180 [ERROR] Failed to load results/21/2101/2101.10766v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,181 [ERROR] Failed to load results/21/2101/2101.10767v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,181 [ERROR] Failed to load results/21/2101/2101.10769v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:13,182 [ERROR] Failed to load results/21/2101/2101.10770v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:48,293 [ERROR] Failed to load results/23/2309/2309.09614v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:30:48,294 [ERROR] Failed to load results/23/2309/2309.09617v2.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:31:02,163 [ERROR] Failed to load results/24/2403/2403.06056v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:31:02,164 [ERROR] Failed to load results/24/2403/2403.06058v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:31:02,165 [ERROR] Failed to load results/24/2403/2403.06062v1.json: Expecting value: line 1 column 1 (char 0)
+2025-06-24 08:31:56,585 [INFO] Aggregation complete.
+2025-06-24 08:54:41,576 [INFO] Starting PDF processing
+2025-06-24 08:54:41,718 [INFO] Loading metadata...
+2025-06-24 08:56:56,528 [INFO] Processing chunk '0704'
+2025-06-24 08:56:56,539 [INFO] Parsing blob list...
+2025-06-24 08:57:07,727 [INFO]  4001 PDFs to consider in chunk '0704'
+2025-06-24 08:57:07,838 [INFO]  0 PDFs to process after skipping completed.
+2025-06-24 08:59:31,547 [INFO] Processing chunk '0705'
+2025-06-24 08:59:31,548 [INFO] Parsing blob list...
+2025-06-24 08:59:40,346 [INFO]  4681 PDFs to consider in chunk '0705'
+2025-06-24 08:59:40,483 [INFO]  0 PDFs to process after skipping completed.
+2025-06-24 09:02:11,790 [INFO] Processing chunk '0706'
+2025-06-24 09:02:11,791 [INFO] Parsing blob list...
+2025-06-24 09:02:27,613 [INFO]  4480 PDFs to consider in chunk '0706'
+2025-06-24 09:02:27,722 [INFO]  1 PDFs to process after skipping completed.
+2025-06-24 09:05:37,029 [INFO] Processing chunk '0707'
+2025-06-24 09:05:37,031 [INFO] Parsing blob list...
+2025-06-24 09:06:00,633 [INFO]  4679 PDFs to consider in chunk '0707'
+2025-06-24 09:06:00,787 [INFO]  0 PDFs to process after skipping completed.
+2025-06-24 09:08:34,506 [INFO] Processing chunk '0708'
+2025-06-24 09:08:34,508 [INFO] Parsing blob list...
+2025-06-24 09:08:43,098 [INFO]  4413 PDFs to consider in chunk '0708'
+2025-06-24 09:08:43,172 [INFO]  0 PDFs to process after skipping completed.
+2025-06-24 09:11:14,996 [INFO] Processing chunk '0709'
+2025-06-24 09:11:14,998 [INFO] Parsing blob list...
+2025-06-24 09:11:23,060 [INFO]  4676 PDFs to consider in chunk '0709'
+2025-06-24 09:11:23,215 [INFO]  0 PDFs to process after skipping completed.
+2025-06-24 09:14:22,231 [INFO] Processing chunk '0710'
+2025-06-24 09:14:22,234 [INFO] Parsing blob list...
+2025-06-24 09:14:42,202 [INFO]  5941 PDFs to consider in chunk '0710'
+2025-06-24 09:14:42,498 [INFO]  0 PDFs to process after skipping completed.
+2025-06-24 09:18:38,501 [INFO] Processing chunk '0711'
+2025-06-24 09:18:38,503 [INFO] Parsing blob list...
+2025-06-24 09:18:46,432 [INFO]  5027 PDFs to consider in chunk '0711'
+2025-06-24 09:18:46,533 [INFO]  0 PDFs to process after skipping completed.
+2025-06-24 09:22:13,988 [INFO] Processing chunk '0712'
+2025-06-24 09:22:13,995 [INFO] Parsing blob list...
+2025-06-24 09:22:20,229 [INFO]  4405 PDFs to consider in chunk '0712'
+2025-06-24 09:22:20,684 [INFO]  0 PDFs to process after skipping completed.
+2025-06-24 09:25:55,273 [INFO] Processing chunk '0801'
+2025-06-24 09:25:55,275 [INFO] Parsing blob list...
+2025-06-24 09:26:01,555 [INFO]  4969 PDFs to consider in chunk '0801'
+2025-06-24 09:26:01,723 [INFO]  0 PDFs to process after skipping completed.
+2025-06-24 09:29:35,234 [INFO] Processing chunk '0802'
+2025-06-24 09:29:35,235 [INFO] Parsing blob list...
+2025-06-24 09:29:40,106 [INFO]  4461 PDFs to consider in chunk '0802'
+2025-06-24 09:29:40,202 [INFO]  0 PDFs to process after skipping completed.
+2025-06-24 09:30:39,963 [INFO] Processing chunk '0803'
+2025-06-24 09:30:39,964 [INFO] Parsing blob list...
+2025-06-24 09:30:45,158 [INFO]  4515 PDFs to consider in chunk '0803'
+2025-06-24 09:30:45,255 [INFO]  0 PDFs to process after skipping completed.
+2025-06-24 09:31:35,450 [INFO] Processing chunk '0804'
+2025-06-24 09:31:35,451 [INFO] Parsing blob list...
+2025-06-24 09:31:40,977 [INFO]  4896 PDFs to consider in chunk '0804'
+2025-06-24 09:31:41,122 [INFO]  0 PDFs to process after skipping completed.
+2025-06-24 09:32:45,120 [INFO] Processing chunk '0805'
+2025-06-24 09:32:45,123 [INFO] Parsing blob list...
+2025-06-24 09:32:50,448 [INFO]  4836 PDFs to consider in chunk '0805'
+2025-06-24 09:32:50,617 [INFO]  0 PDFs to process after skipping completed.
+2025-06-24 09:34:05,445 [INFO] Processing chunk '0806'
+2025-06-24 09:34:05,446 [INFO] Parsing blob list...
+2025-06-24 09:34:11,004 [INFO]  4974 PDFs to consider in chunk '0806'
+2025-06-24 09:34:11,115 [INFO]  0 PDFs to process after skipping completed.
+2025-06-24 09:35:34,505 [INFO] Starting PDF processing
+2025-06-24 09:35:34,584 [INFO] Loading metadata...
+2025-06-24 09:36:05,054 [INFO] Starting PDF processing
+2025-06-24 09:36:05,127 [INFO] Loading metadata...
+2025-06-24 09:37:12,618 [INFO] Processing chunk '0704'
+2025-06-24 09:37:12,619 [INFO] Parsing blob list...
+2025-06-24 09:37:17,496 [INFO]  4001 PDFs to consider in chunk '0704'
+2025-06-24 09:37:17,573 [INFO]  0 PDFs to process after skipping completed.
+2025-06-24 09:38:23,903 [INFO] Processing chunk '0705'
+2025-06-24 09:38:23,905 [INFO] Parsing blob list...
+2025-06-24 09:38:29,397 [INFO]  4681 PDFs to consider in chunk '0705'
+2025-06-24 09:38:29,480 [INFO]  0 PDFs to process after skipping completed.
+2025-06-24 09:39:38,507 [INFO] Processing chunk '0706'
+2025-06-24 09:39:38,508 [INFO] Parsing blob list...
+2025-06-24 09:39:43,964 [INFO]  4480 PDFs to consider in chunk '0706'
+2025-06-24 09:39:44,523 [INFO]  0 PDFs to process after skipping completed.
+2025-06-24 09:40:41,878 [INFO] Processing chunk '0707'
+2025-06-24 09:40:41,879 [INFO] Parsing blob list...
+2025-06-24 09:40:47,168 [INFO]  4679 PDFs to consider in chunk '0707'
+2025-06-24 09:40:47,258 [INFO]  0 PDFs to process after skipping completed.
