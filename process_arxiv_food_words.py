@@ -114,7 +114,9 @@ def pymupdf_extract_text(filepath):
             with pymupdf.open(filepath) as doc:
                 return "".join(page.get_text("text") for page in doc)
     except Exception:
+        doc.close()
         return None
+
 def extract_text_with_subprocess(filepath, timeout=30):
     with Pool(processes=1) as pool:
         result = pool.apply_async(pymupdf_extract_text, (filepath,))
@@ -335,4 +337,6 @@ if __name__ == "__main__":
     logging.getLogger("pymupdf").setLevel(logging.ERROR)
     args = [f"{year:02d}{month:02d}" for year in range(6, 26) for month in range(1, 13)]
     args = [arg for arg in args if  704 <=int(arg) <= 2506]
-    main(chunk_prefixes=args, agro=True)
+    for i in range(0, len(args), 10):
+        batch = args[i:i+10]
+        main(chunk_prefixes=batch)
