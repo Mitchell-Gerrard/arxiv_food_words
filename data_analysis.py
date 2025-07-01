@@ -45,13 +45,14 @@ def main():
     results = []
     all_subjects = set()
     Dates=set()
-    for filepath in glob.glob("results/**/*.json", recursive=True):
+    for i,filepath in enumerate(glob.glob("results\\**\\*.json", recursive=True)):
 
         with open(filepath, encoding='utf-8') as f:
             try:
                 data = json.load(f)
-                date= filepath.split('/')[2]
-
+                date= filepath.split('\\')[2]
+                if i % 10000 == 0:
+                    logger.info(f"Processing file {i}: {filepath}")
                 results.append((data['filename'], data['matched_words'], data['subjects'],date))
                 all_subjects.update(data['subjects'])
                 Dates.update([date])
@@ -59,6 +60,7 @@ def main():
             except Exception as e:
                 logger.error(f"Failed to load {filepath}: {e}")
                 if isinstance(e, json.JSONDecodeError):
+                    logger.error(f"Removing {filepath}: {e}")
                     os.remove(filepath)  # Remove corrupted file
     def mmyy_key(mmyy):
         month = int(mmyy[:2])
@@ -161,6 +163,6 @@ def main():
         plt.tight_layout()
         plt.savefig("data/top_food_words.png")
 if __name__ == "__main__":
-
+    logger.info("Starting data analysis...")
     main()
     logger.info("Data analysis completed successfully.")

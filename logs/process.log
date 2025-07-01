@@ -7896,3 +7896,1893 @@
 2025-06-26 09:12:44,360 [INFO] Parsing blob list...
 2025-06-26 09:12:50,591 [INFO]  4974 PDFs to consider in chunk '0806'
 2025-06-26 09:12:50,680 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 12:00:13,999 [INFO] Starting PDF processing
+2025-07-01 12:00:58,091 [INFO] Starting PDF processing
+2025-07-01 12:00:58,160 [INFO] Loading metadata...
+2025-07-01 12:01:28,091 [INFO] Processing chunk '0704'
+2025-07-01 12:01:28,091 [INFO] Parsing blob list...
+2025-07-01 12:01:32,583 [INFO]  4001 PDFs to consider in chunk '0704'
+2025-07-01 12:01:33,381 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 12:01:59,258 [INFO] Processing chunk '0705'
+2025-07-01 12:01:59,258 [INFO] Parsing blob list...
+2025-07-01 12:02:04,083 [INFO]  4681 PDFs to consider in chunk '0705'
+2025-07-01 12:02:05,082 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 12:02:31,188 [INFO] Processing chunk '0706'
+2025-07-01 12:02:31,188 [INFO] Parsing blob list...
+2025-07-01 12:02:35,889 [INFO]  4480 PDFs to consider in chunk '0706'
+2025-07-01 12:02:36,838 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 12:03:02,975 [INFO] Processing chunk '0707'
+2025-07-01 12:03:02,976 [INFO] Parsing blob list...
+2025-07-01 12:03:08,260 [INFO]  4679 PDFs to consider in chunk '0707'
+2025-07-01 12:03:09,466 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 12:03:35,322 [INFO] Processing chunk '0708'
+2025-07-01 12:03:35,323 [INFO] Parsing blob list...
+2025-07-01 12:03:39,892 [INFO]  4413 PDFs to consider in chunk '0708'
+2025-07-01 12:03:40,806 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 12:04:06,965 [INFO] Processing chunk '0709'
+2025-07-01 12:04:06,966 [INFO] Parsing blob list...
+2025-07-01 12:04:11,177 [INFO]  4676 PDFs to consider in chunk '0709'
+2025-07-01 12:04:12,164 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 12:04:38,332 [INFO] Processing chunk '0710'
+2025-07-01 12:04:38,332 [INFO] Parsing blob list...
+2025-07-01 12:04:43,962 [INFO]  5941 PDFs to consider in chunk '0710'
+2025-07-01 12:04:45,205 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 12:05:11,350 [INFO] Processing chunk '0711'
+2025-07-01 12:05:11,351 [INFO] Parsing blob list...
+2025-07-01 12:05:15,593 [INFO]  5027 PDFs to consider in chunk '0711'
+2025-07-01 12:05:16,669 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 12:05:43,478 [INFO] Processing chunk '0712'
+2025-07-01 12:05:43,479 [INFO] Parsing blob list...
+2025-07-01 12:05:47,264 [INFO]  4405 PDFs to consider in chunk '0712'
+2025-07-01 12:05:48,204 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 12:06:15,888 [INFO] Processing chunk '0801'
+2025-07-01 12:06:15,889 [INFO] Parsing blob list...
+2025-07-01 12:06:20,238 [INFO]  4969 PDFs to consider in chunk '0801'
+2025-07-01 12:06:21,396 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 12:06:21,396 [INFO] PDF processing complete.
+2025-07-01 12:06:21,397 [INFO] Aggregating results...
+2025-07-01 13:03:22,801 [INFO] Starting PDF processing
+2025-07-01 13:03:22,843 [INFO] Loading metadata...
+2025-07-01 13:03:59,694 [INFO] Processing chunk '0704'
+2025-07-01 13:03:59,695 [INFO] Parsing blob list...
+2025-07-01 13:04:03,229 [INFO]  4001 PDFs to consider in chunk '0704'
+2025-07-01 13:04:04,030 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:04:29,055 [INFO] Processing chunk '0705'
+2025-07-01 13:04:29,056 [INFO] Parsing blob list...
+2025-07-01 13:04:33,267 [INFO]  4681 PDFs to consider in chunk '0705'
+2025-07-01 13:04:34,200 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:05:00,021 [INFO] Processing chunk '0706'
+2025-07-01 13:05:00,022 [INFO] Parsing blob list...
+2025-07-01 13:05:04,682 [INFO]  4480 PDFs to consider in chunk '0706'
+2025-07-01 13:05:05,569 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:05:30,742 [INFO] Processing chunk '0707'
+2025-07-01 13:05:30,742 [INFO] Parsing blob list...
+2025-07-01 13:05:35,914 [INFO]  4679 PDFs to consider in chunk '0707'
+2025-07-01 13:05:36,861 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:06:01,893 [INFO] Processing chunk '0708'
+2025-07-01 13:06:01,893 [INFO] Parsing blob list...
+2025-07-01 13:06:06,014 [INFO]  4413 PDFs to consider in chunk '0708'
+2025-07-01 13:06:06,914 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:06:32,276 [INFO] Processing chunk '0709'
+2025-07-01 13:06:32,277 [INFO] Parsing blob list...
+2025-07-01 13:06:35,986 [INFO]  4676 PDFs to consider in chunk '0709'
+2025-07-01 13:06:36,935 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:07:01,959 [INFO] Processing chunk '0710'
+2025-07-01 13:07:01,960 [INFO] Parsing blob list...
+2025-07-01 13:07:06,136 [INFO]  5941 PDFs to consider in chunk '0710'
+2025-07-01 13:07:07,343 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:07:33,063 [INFO] Processing chunk '0711'
+2025-07-01 13:07:33,064 [INFO] Parsing blob list...
+2025-07-01 13:07:37,401 [INFO]  5027 PDFs to consider in chunk '0711'
+2025-07-01 13:07:38,462 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:08:06,089 [INFO] Processing chunk '0712'
+2025-07-01 13:08:06,090 [INFO] Parsing blob list...
+2025-07-01 13:08:09,626 [INFO]  4405 PDFs to consider in chunk '0712'
+2025-07-01 13:08:10,545 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:08:36,755 [INFO] Processing chunk '0801'
+2025-07-01 13:08:36,756 [INFO] Parsing blob list...
+2025-07-01 13:08:41,038 [INFO]  4969 PDFs to consider in chunk '0801'
+2025-07-01 13:08:42,178 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:08:42,178 [INFO] PDF processing complete.
+2025-07-01 13:08:42,179 [INFO] Skipping aggregation.
+2025-07-01 13:08:42,185 [INFO] Starting PDF processing
+2025-07-01 13:08:42,219 [INFO] Loading metadata...
+2025-07-01 13:09:08,685 [INFO] Processing chunk '0802'
+2025-07-01 13:09:08,685 [INFO] Parsing blob list...
+2025-07-01 13:09:12,915 [INFO]  4461 PDFs to consider in chunk '0802'
+2025-07-01 13:09:13,923 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:09:43,387 [INFO] Processing chunk '0803'
+2025-07-01 13:09:43,388 [INFO] Parsing blob list...
+2025-07-01 13:09:48,003 [INFO]  4515 PDFs to consider in chunk '0803'
+2025-07-01 13:09:49,082 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:10:15,520 [INFO] Processing chunk '0804'
+2025-07-01 13:10:15,521 [INFO] Parsing blob list...
+2025-07-01 13:10:20,601 [INFO]  4896 PDFs to consider in chunk '0804'
+2025-07-01 13:10:21,721 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:10:48,092 [INFO] Processing chunk '0805'
+2025-07-01 13:10:48,093 [INFO] Parsing blob list...
+2025-07-01 13:10:52,062 [INFO]  4836 PDFs to consider in chunk '0805'
+2025-07-01 13:10:53,285 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:11:19,950 [INFO] Processing chunk '0806'
+2025-07-01 13:11:19,951 [INFO] Parsing blob list...
+2025-07-01 13:11:23,735 [INFO]  4974 PDFs to consider in chunk '0806'
+2025-07-01 13:11:24,891 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:11:51,244 [INFO] Processing chunk '0807'
+2025-07-01 13:11:51,245 [INFO] Parsing blob list...
+2025-07-01 13:11:55,071 [INFO]  5135 PDFs to consider in chunk '0807'
+2025-07-01 13:11:56,286 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:12:23,169 [INFO] Processing chunk '0808'
+2025-07-01 13:12:23,169 [INFO] Parsing blob list...
+2025-07-01 13:12:26,824 [INFO]  4159 PDFs to consider in chunk '0808'
+2025-07-01 13:12:27,799 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:12:54,667 [INFO] Processing chunk '0809'
+2025-07-01 13:12:54,667 [INFO] Parsing blob list...
+2025-07-01 13:12:59,219 [INFO]  5286 PDFs to consider in chunk '0809'
+2025-07-01 13:13:00,437 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:13:26,727 [INFO] Processing chunk '0810'
+2025-07-01 13:13:26,728 [INFO] Parsing blob list...
+2025-07-01 13:13:30,498 [INFO]  5771 PDFs to consider in chunk '0810'
+2025-07-01 13:13:31,865 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:13:57,763 [INFO] Processing chunk '0811'
+2025-07-01 13:13:57,764 [INFO] Parsing blob list...
+2025-07-01 13:14:01,975 [INFO]  4771 PDFs to consider in chunk '0811'
+2025-07-01 13:14:02,956 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:14:02,956 [INFO] PDF processing complete.
+2025-07-01 13:14:02,956 [INFO] Skipping aggregation.
+2025-07-01 13:14:02,962 [INFO] Starting PDF processing
+2025-07-01 13:14:02,995 [INFO] Loading metadata...
+2025-07-01 13:14:29,261 [INFO] Processing chunk '0812'
+2025-07-01 13:14:29,261 [INFO] Parsing blob list...
+2025-07-01 13:14:34,685 [INFO]  5112 PDFs to consider in chunk '0812'
+2025-07-01 13:14:35,741 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:15:01,519 [INFO] Processing chunk '0901'
+2025-07-01 13:15:01,520 [INFO] Parsing blob list...
+2025-07-01 13:15:06,640 [INFO]  4969 PDFs to consider in chunk '0901'
+2025-07-01 13:15:07,708 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:15:33,374 [INFO] Processing chunk '0902'
+2025-07-01 13:15:33,375 [INFO] Parsing blob list...
+2025-07-01 13:15:37,993 [INFO]  4901 PDFs to consider in chunk '0902'
+2025-07-01 13:15:39,051 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:16:04,953 [INFO] Processing chunk '0903'
+2025-07-01 13:16:04,954 [INFO] Parsing blob list...
+2025-07-01 13:16:10,508 [INFO]  5543 PDFs to consider in chunk '0903'
+2025-07-01 13:16:11,646 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:16:36,611 [INFO] Processing chunk '0904'
+2025-07-01 13:16:36,612 [INFO] Parsing blob list...
+2025-07-01 13:16:41,156 [INFO]  4926 PDFs to consider in chunk '0904'
+2025-07-01 13:16:42,147 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:17:08,181 [INFO] Processing chunk '0905'
+2025-07-01 13:17:08,182 [INFO] Parsing blob list...
+2025-07-01 13:17:13,360 [INFO]  4952 PDFs to consider in chunk '0905'
+2025-07-01 13:17:14,365 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:17:40,085 [INFO] Processing chunk '0906'
+2025-07-01 13:17:40,086 [INFO] Parsing blob list...
+2025-07-01 13:17:44,130 [INFO]  5611 PDFs to consider in chunk '0906'
+2025-07-01 13:17:45,301 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:18:11,302 [INFO] Processing chunk '0907'
+2025-07-01 13:18:11,303 [INFO] Parsing blob list...
+2025-07-01 13:18:16,671 [INFO]  5600 PDFs to consider in chunk '0907'
+2025-07-01 13:18:17,883 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:18:44,145 [INFO] Processing chunk '0908'
+2025-07-01 13:18:44,146 [INFO] Parsing blob list...
+2025-07-01 13:18:47,665 [INFO]  4593 PDFs to consider in chunk '0908'
+2025-07-01 13:18:48,689 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:19:15,068 [INFO] Processing chunk '0909'
+2025-07-01 13:19:15,068 [INFO] Parsing blob list...
+2025-07-01 13:19:19,480 [INFO]  5691 PDFs to consider in chunk '0909'
+2025-07-01 13:19:20,778 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:19:20,779 [INFO] PDF processing complete.
+2025-07-01 13:19:20,779 [INFO] Skipping aggregation.
+2025-07-01 13:19:20,786 [INFO] Starting PDF processing
+2025-07-01 13:19:20,821 [INFO] Loading metadata...
+2025-07-01 13:19:47,039 [INFO] Processing chunk '0910'
+2025-07-01 13:19:47,039 [INFO] Parsing blob list...
+2025-07-01 13:19:53,253 [INFO]  5951 PDFs to consider in chunk '0910'
+2025-07-01 13:19:54,654 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:20:22,336 [INFO] Processing chunk '0911'
+2025-07-01 13:20:22,337 [INFO] Parsing blob list...
+2025-07-01 13:20:26,107 [INFO]  5723 PDFs to consider in chunk '0911'
+2025-07-01 13:20:27,445 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:20:53,899 [INFO] Processing chunk '0912'
+2025-07-01 13:20:53,900 [INFO] Parsing blob list...
+2025-07-01 13:20:59,235 [INFO]  5526 PDFs to consider in chunk '0912'
+2025-07-01 13:21:00,498 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:21:27,191 [INFO] Processing chunk '1001'
+2025-07-01 13:21:27,192 [INFO] Parsing blob list...
+2025-07-01 13:21:31,570 [INFO]  5463 PDFs to consider in chunk '1001'
+2025-07-01 13:21:32,825 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:21:58,843 [INFO] Processing chunk '1002'
+2025-07-01 13:21:58,843 [INFO] Parsing blob list...
+2025-07-01 13:22:03,910 [INFO]  5035 PDFs to consider in chunk '1002'
+2025-07-01 13:22:05,072 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:22:31,169 [INFO] Processing chunk '1003'
+2025-07-01 13:22:31,170 [INFO] Parsing blob list...
+2025-07-01 13:22:37,540 [INFO]  6123 PDFs to consider in chunk '1003'
+2025-07-01 13:22:38,980 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:23:06,648 [INFO] Processing chunk '1004'
+2025-07-01 13:23:06,648 [INFO] Parsing blob list...
+2025-07-01 13:23:10,697 [INFO]  5588 PDFs to consider in chunk '1004'
+2025-07-01 13:23:11,990 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:23:38,187 [INFO] Processing chunk '1005'
+2025-07-01 13:23:38,188 [INFO] Parsing blob list...
+2025-07-01 13:23:43,181 [INFO]  5731 PDFs to consider in chunk '1005'
+2025-07-01 13:23:44,534 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:24:11,154 [INFO] Processing chunk '1006'
+2025-07-01 13:24:11,154 [INFO] Parsing blob list...
+2025-07-01 13:24:15,233 [INFO]  5945 PDFs to consider in chunk '1006'
+2025-07-01 13:24:16,612 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:24:42,558 [INFO] Processing chunk '1007'
+2025-07-01 13:24:42,559 [INFO] Parsing blob list...
+2025-07-01 13:24:47,059 [INFO]  5505 PDFs to consider in chunk '1007'
+2025-07-01 13:24:48,324 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:24:48,325 [INFO] PDF processing complete.
+2025-07-01 13:24:48,325 [INFO] Skipping aggregation.
+2025-07-01 13:24:48,332 [INFO] Starting PDF processing
+2025-07-01 13:24:48,367 [INFO] Loading metadata...
+2025-07-01 13:25:14,547 [INFO] Processing chunk '1008'
+2025-07-01 13:25:14,547 [INFO] Parsing blob list...
+2025-07-01 13:25:20,495 [INFO]  5385 PDFs to consider in chunk '1008'
+2025-07-01 13:25:21,723 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:25:47,722 [INFO] Processing chunk '1009'
+2025-07-01 13:25:47,723 [INFO] Parsing blob list...
+2025-07-01 13:25:54,455 [INFO]  6214 PDFs to consider in chunk '1009'
+2025-07-01 13:25:55,883 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:26:23,600 [INFO] Processing chunk '1010'
+2025-07-01 13:26:23,601 [INFO] Parsing blob list...
+2025-07-01 13:26:29,266 [INFO]  6285 PDFs to consider in chunk '1010'
+2025-07-01 13:26:30,672 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:26:56,607 [INFO] Processing chunk '1011'
+2025-07-01 13:26:56,608 [INFO] Parsing blob list...
+2025-07-01 13:27:03,685 [INFO]  6665 PDFs to consider in chunk '1011'
+2025-07-01 13:27:05,202 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:27:31,584 [INFO] Processing chunk '1012'
+2025-07-01 13:27:31,585 [INFO] Parsing blob list...
+2025-07-01 13:27:37,325 [INFO]  6030 PDFs to consider in chunk '1012'
+2025-07-01 13:27:38,741 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:28:05,014 [INFO] Processing chunk '1101'
+2025-07-01 13:28:05,015 [INFO] Parsing blob list...
+2025-07-01 13:28:10,581 [INFO]  6075 PDFs to consider in chunk '1101'
+2025-07-01 13:28:12,021 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:28:38,344 [INFO] Processing chunk '1102'
+2025-07-01 13:28:38,345 [INFO] Parsing blob list...
+2025-07-01 13:28:44,536 [INFO]  5759 PDFs to consider in chunk '1102'
+2025-07-01 13:28:45,831 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:29:13,642 [INFO] Processing chunk '1103'
+2025-07-01 13:29:13,643 [INFO] Parsing blob list...
+2025-07-01 13:29:18,191 [INFO]  6277 PDFs to consider in chunk '1103'
+2025-07-01 13:29:19,628 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:29:45,590 [INFO] Processing chunk '1104'
+2025-07-01 13:29:45,591 [INFO] Parsing blob list...
+2025-07-01 13:29:49,974 [INFO]  5700 PDFs to consider in chunk '1104'
+2025-07-01 13:29:51,316 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:30:17,295 [INFO] Processing chunk '1105'
+2025-07-01 13:30:17,296 [INFO] Parsing blob list...
+2025-07-01 13:30:24,076 [INFO]  6361 PDFs to consider in chunk '1105'
+2025-07-01 13:30:25,628 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:30:25,629 [INFO] PDF processing complete.
+2025-07-01 13:30:25,629 [INFO] Skipping aggregation.
+2025-07-01 13:30:25,637 [INFO] Starting PDF processing
+2025-07-01 13:30:25,673 [INFO] Loading metadata...
+2025-07-01 13:30:51,906 [INFO] Processing chunk '1106'
+2025-07-01 13:30:51,907 [INFO] Parsing blob list...
+2025-07-01 13:30:57,783 [INFO]  6345 PDFs to consider in chunk '1106'
+2025-07-01 13:30:59,285 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:31:24,789 [INFO] Processing chunk '1107'
+2025-07-01 13:31:24,789 [INFO] Parsing blob list...
+2025-07-01 13:31:30,095 [INFO]  6035 PDFs to consider in chunk '1107'
+2025-07-01 13:31:31,505 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:31:57,226 [INFO] Processing chunk '1108'
+2025-07-01 13:31:57,227 [INFO] Parsing blob list...
+2025-07-01 13:32:02,137 [INFO]  6311 PDFs to consider in chunk '1108'
+2025-07-01 13:32:03,589 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:32:30,586 [INFO] Processing chunk '1109'
+2025-07-01 13:32:30,587 [INFO] Parsing blob list...
+2025-07-01 13:32:36,226 [INFO]  6915 PDFs to consider in chunk '1109'
+2025-07-01 13:32:37,860 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:33:03,706 [INFO] Processing chunk '1110'
+2025-07-01 13:33:03,707 [INFO] Parsing blob list...
+2025-07-01 13:33:09,974 [INFO]  6911 PDFs to consider in chunk '1110'
+2025-07-01 13:33:11,553 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:33:37,853 [INFO] Processing chunk '1111'
+2025-07-01 13:33:37,854 [INFO] Parsing blob list...
+2025-07-01 13:33:42,820 [INFO]  7307 PDFs to consider in chunk '1111'
+2025-07-01 13:33:44,552 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:34:10,429 [INFO] Processing chunk '1112'
+2025-07-01 13:34:10,430 [INFO] Parsing blob list...
+2025-07-01 13:34:14,325 [INFO]  6418 PDFs to consider in chunk '1112'
+2025-07-01 13:34:15,776 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:34:41,294 [INFO] Processing chunk '1201'
+2025-07-01 13:34:41,295 [INFO] Parsing blob list...
+2025-07-01 13:34:45,379 [INFO]  6671 PDFs to consider in chunk '1201'
+2025-07-01 13:34:46,888 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:35:13,321 [INFO] Processing chunk '1202'
+2025-07-01 13:35:13,322 [INFO] Parsing blob list...
+2025-07-01 13:35:18,183 [INFO]  6672 PDFs to consider in chunk '1202'
+2025-07-01 13:35:19,762 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:35:46,196 [INFO] Processing chunk '1203'
+2025-07-01 13:35:46,197 [INFO] Parsing blob list...
+2025-07-01 13:35:50,988 [INFO]  6893 PDFs to consider in chunk '1203'
+2025-07-01 13:35:52,576 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:35:52,577 [INFO] PDF processing complete.
+2025-07-01 13:35:52,577 [INFO] Skipping aggregation.
+2025-07-01 13:35:52,585 [INFO] Starting PDF processing
+2025-07-01 13:35:52,621 [INFO] Loading metadata...
+2025-07-01 13:36:18,653 [INFO] Processing chunk '1204'
+2025-07-01 13:36:18,654 [INFO] Parsing blob list...
+2025-07-01 13:36:24,891 [INFO]  6719 PDFs to consider in chunk '1204'
+2025-07-01 13:36:26,430 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:36:52,394 [INFO] Processing chunk '1205'
+2025-07-01 13:36:52,395 [INFO] Parsing blob list...
+2025-07-01 13:36:59,292 [INFO]  7084 PDFs to consider in chunk '1205'
+2025-07-01 13:37:00,934 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 13:37:04,156 [ERROR] Failed to process 1205.3855: [WinError 2] The system cannot find the file specified
+2025-07-01 13:37:30,575 [INFO] Processing chunk '1206'
+2025-07-01 13:37:30,576 [INFO] Parsing blob list...
+2025-07-01 13:37:37,388 [INFO]  7106 PDFs to consider in chunk '1206'
+2025-07-01 13:37:38,990 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:38:05,169 [INFO] Processing chunk '1207'
+2025-07-01 13:38:05,170 [INFO] Parsing blob list...
+2025-07-01 13:38:12,165 [INFO]  7344 PDFs to consider in chunk '1207'
+2025-07-01 13:38:13,862 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:38:40,762 [INFO] Processing chunk '1208'
+2025-07-01 13:38:40,763 [INFO] Parsing blob list...
+2025-07-01 13:38:47,033 [INFO]  6564 PDFs to consider in chunk '1208'
+2025-07-01 13:38:48,569 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:39:15,422 [INFO] Processing chunk '1209'
+2025-07-01 13:39:15,423 [INFO] Parsing blob list...
+2025-07-01 13:39:21,739 [INFO]  6620 PDFs to consider in chunk '1209'
+2025-07-01 13:39:23,333 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:39:49,480 [INFO] Processing chunk '1210'
+2025-07-01 13:39:49,481 [INFO] Parsing blob list...
+2025-07-01 13:39:57,271 [INFO]  8436 PDFs to consider in chunk '1210'
+2025-07-01 13:39:59,200 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 13:40:02,848 [ERROR] Failed to process 1210.2520: [WinError 2] The system cannot find the file specified
+2025-07-01 13:40:29,813 [INFO] Processing chunk '1211'
+2025-07-01 13:40:29,814 [INFO] Parsing blob list...
+2025-07-01 13:40:34,537 [INFO]  7351 PDFs to consider in chunk '1211'
+2025-07-01 13:40:36,339 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:41:02,936 [INFO] Processing chunk '1212'
+2025-07-01 13:41:02,937 [INFO] Parsing blob list...
+2025-07-01 13:41:09,383 [INFO]  6961 PDFs to consider in chunk '1212'
+2025-07-01 13:41:11,007 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:41:38,342 [INFO] Processing chunk '1301'
+2025-07-01 13:41:38,343 [INFO] Parsing blob list...
+2025-07-01 13:41:43,365 [INFO]  7733 PDFs to consider in chunk '1301'
+2025-07-01 13:41:45,033 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:41:45,034 [INFO] PDF processing complete.
+2025-07-01 13:41:45,034 [INFO] Skipping aggregation.
+2025-07-01 13:41:45,050 [INFO] Starting PDF processing
+2025-07-01 13:41:45,087 [INFO] Loading metadata...
+2025-07-01 13:42:11,330 [INFO] Processing chunk '1302'
+2025-07-01 13:42:11,330 [INFO] Parsing blob list...
+2025-07-01 13:42:19,527 [INFO]  7306 PDFs to consider in chunk '1302'
+2025-07-01 13:42:21,113 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:42:47,306 [INFO] Processing chunk '1303'
+2025-07-01 13:42:47,307 [INFO] Parsing blob list...
+2025-07-01 13:42:54,894 [INFO]  7464 PDFs to consider in chunk '1303'
+2025-07-01 13:42:56,506 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:43:39,204 [INFO] Processing chunk '1304'
+2025-07-01 13:43:39,205 [INFO] Parsing blob list...
+2025-07-01 13:43:48,050 [INFO]  8106 PDFs to consider in chunk '1304'
+2025-07-01 13:43:50,554 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:44:36,425 [INFO] Processing chunk '1305'
+2025-07-01 13:44:36,426 [INFO] Parsing blob list...
+2025-07-01 13:44:44,646 [INFO]  7497 PDFs to consider in chunk '1305'
+2025-07-01 13:44:46,879 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 13:44:50,750 [ERROR] Failed to process 1305.6940: [WinError 2] The system cannot find the file specified
+2025-07-01 13:45:26,192 [INFO] Processing chunk '1306'
+2025-07-01 13:45:26,193 [INFO] Parsing blob list...
+2025-07-01 13:45:33,502 [INFO]  6934 PDFs to consider in chunk '1306'
+2025-07-01 13:45:34,969 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:46:01,137 [INFO] Processing chunk '1307'
+2025-07-01 13:46:01,138 [INFO] Parsing blob list...
+2025-07-01 13:46:07,136 [INFO]  8424 PDFs to consider in chunk '1307'
+2025-07-01 13:46:08,884 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:46:35,073 [INFO] Processing chunk '1308'
+2025-07-01 13:46:35,075 [INFO] Parsing blob list...
+2025-07-01 13:46:40,364 [INFO]  6814 PDFs to consider in chunk '1308'
+2025-07-01 13:46:41,834 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:47:08,326 [INFO] Processing chunk '1309'
+2025-07-01 13:47:08,327 [INFO] Parsing blob list...
+2025-07-01 13:47:14,609 [INFO]  7976 PDFs to consider in chunk '1309'
+2025-07-01 13:47:16,345 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:47:46,578 [INFO] Processing chunk '1310'
+2025-07-01 13:47:46,579 [INFO] Parsing blob list...
+2025-07-01 13:47:53,840 [INFO]  8633 PDFs to consider in chunk '1310'
+2025-07-01 13:47:56,171 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:48:29,767 [INFO] Processing chunk '1311'
+2025-07-01 13:48:29,768 [INFO] Parsing blob list...
+2025-07-01 13:48:34,953 [INFO]  7678 PDFs to consider in chunk '1311'
+2025-07-01 13:48:36,582 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 13:48:39,546 [ERROR] Failed to process 1311.7549: [WinError 2] The system cannot find the file specified
+2025-07-01 13:48:39,547 [INFO] PDF processing complete.
+2025-07-01 13:48:39,547 [INFO] Skipping aggregation.
+2025-07-01 13:48:39,560 [INFO] Starting PDF processing
+2025-07-01 13:48:39,596 [INFO] Loading metadata...
+2025-07-01 13:49:05,968 [INFO] Processing chunk '1312'
+2025-07-01 13:49:05,968 [INFO] Parsing blob list...
+2025-07-01 13:49:13,692 [INFO]  7868 PDFs to consider in chunk '1312'
+2025-07-01 13:49:15,361 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:49:41,873 [INFO] Processing chunk '1401'
+2025-07-01 13:49:41,874 [INFO] Parsing blob list...
+2025-07-01 13:49:49,755 [INFO]  8275 PDFs to consider in chunk '1401'
+2025-07-01 13:49:51,468 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:50:17,156 [INFO] Processing chunk '1402'
+2025-07-01 13:50:17,157 [INFO] Parsing blob list...
+2025-07-01 13:50:24,061 [INFO]  7360 PDFs to consider in chunk '1402'
+2025-07-01 13:50:25,621 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:50:52,787 [INFO] Processing chunk '1403'
+2025-07-01 13:50:52,788 [INFO] Parsing blob list...
+2025-07-01 13:51:00,699 [INFO]  8140 PDFs to consider in chunk '1403'
+2025-07-01 13:51:02,406 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:51:27,957 [INFO] Processing chunk '1404'
+2025-07-01 13:51:27,958 [INFO] Parsing blob list...
+2025-07-01 13:51:35,408 [INFO]  7843 PDFs to consider in chunk '1404'
+2025-07-01 13:51:37,010 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:52:02,687 [INFO] Processing chunk '1405'
+2025-07-01 13:52:02,688 [INFO] Parsing blob list...
+2025-07-01 13:52:10,417 [INFO]  7963 PDFs to consider in chunk '1405'
+2025-07-01 13:52:12,083 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 13:52:15,259 [ERROR] Failed to process 1405.4806: [WinError 2] The system cannot find the file specified
+2025-07-01 13:52:41,187 [INFO] Processing chunk '1406'
+2025-07-01 13:52:41,188 [INFO] Parsing blob list...
+2025-07-01 13:52:48,722 [INFO]  7859 PDFs to consider in chunk '1406'
+2025-07-01 13:52:50,384 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:53:15,767 [INFO] Processing chunk '1407'
+2025-07-01 13:53:15,768 [INFO] Parsing blob list...
+2025-07-01 13:53:22,085 [INFO]  8528 PDFs to consider in chunk '1407'
+2025-07-01 13:53:23,867 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:53:51,076 [INFO] Processing chunk '1408'
+2025-07-01 13:53:51,077 [INFO] Parsing blob list...
+2025-07-01 13:53:55,521 [INFO]  7110 PDFs to consider in chunk '1408'
+2025-07-01 13:53:57,007 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:54:22,596 [INFO] Processing chunk '1409'
+2025-07-01 13:54:22,597 [INFO] Parsing blob list...
+2025-07-01 13:54:28,015 [INFO]  8665 PDFs to consider in chunk '1409'
+2025-07-01 13:54:29,800 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:54:29,801 [INFO] PDF processing complete.
+2025-07-01 13:54:29,801 [INFO] Skipping aggregation.
+2025-07-01 13:54:29,814 [INFO] Starting PDF processing
+2025-07-01 13:54:29,849 [INFO] Loading metadata...
+2025-07-01 13:54:55,495 [INFO] Processing chunk '1410'
+2025-07-01 13:54:55,495 [INFO] Parsing blob list...
+2025-07-01 13:55:04,554 [INFO]  8859 PDFs to consider in chunk '1410'
+2025-07-01 13:55:06,397 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 13:55:09,394 [ERROR] Failed to process 1410.5455: [WinError 2] The system cannot find the file specified
+2025-07-01 13:55:35,495 [INFO] Processing chunk '1411'
+2025-07-01 13:55:35,496 [INFO] Parsing blob list...
+2025-07-01 13:55:43,839 [INFO]  7991 PDFs to consider in chunk '1411'
+2025-07-01 13:55:45,523 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 13:55:48,353 [ERROR] Failed to process 1411.3598: [WinError 2] The system cannot find the file specified
+2025-07-01 13:56:14,567 [INFO] Processing chunk '1412'
+2025-07-01 13:56:14,568 [INFO] Parsing blob list...
+2025-07-01 13:56:23,514 [INFO]  8752 PDFs to consider in chunk '1412'
+2025-07-01 13:56:25,307 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:56:52,053 [INFO] Processing chunk '1501'
+2025-07-01 13:56:52,054 [INFO] Parsing blob list...
+2025-07-01 13:57:00,686 [INFO]  7900 PDFs to consider in chunk '1501'
+2025-07-01 13:57:02,391 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:57:27,784 [INFO] Processing chunk '1502'
+2025-07-01 13:57:27,785 [INFO] Parsing blob list...
+2025-07-01 13:57:35,587 [INFO]  8038 PDFs to consider in chunk '1502'
+2025-07-01 13:57:37,262 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:58:02,858 [INFO] Processing chunk '1503'
+2025-07-01 13:58:02,860 [INFO] Parsing blob list...
+2025-07-01 13:58:12,117 [INFO]  9182 PDFs to consider in chunk '1503'
+2025-07-01 13:58:14,072 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 13:58:17,169 [ERROR] Failed to process 1503.01406: [WinError 2] The system cannot find the file specified
+2025-07-01 13:58:43,107 [INFO] Processing chunk '1504'
+2025-07-01 13:58:43,109 [INFO] Parsing blob list...
+2025-07-01 13:58:50,603 [INFO]  8356 PDFs to consider in chunk '1504'
+2025-07-01 13:58:52,321 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:59:18,141 [INFO] Processing chunk '1505'
+2025-07-01 13:59:18,142 [INFO] Parsing blob list...
+2025-07-01 13:59:24,469 [INFO]  8165 PDFs to consider in chunk '1505'
+2025-07-01 13:59:26,187 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 13:59:52,764 [INFO] Processing chunk '1506'
+2025-07-01 13:59:52,765 [INFO] Parsing blob list...
+2025-07-01 13:59:59,891 [INFO]  9205 PDFs to consider in chunk '1506'
+2025-07-01 14:00:01,855 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:00:27,746 [INFO] Processing chunk '1507'
+2025-07-01 14:00:27,748 [INFO] Parsing blob list...
+2025-07-01 14:00:34,210 [INFO]  8991 PDFs to consider in chunk '1507'
+2025-07-01 14:00:36,076 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:00:36,077 [INFO] PDF processing complete.
+2025-07-01 14:00:36,077 [INFO] Skipping aggregation.
+2025-07-01 14:00:36,092 [INFO] Starting PDF processing
+2025-07-01 14:00:36,128 [INFO] Loading metadata...
+2025-07-01 14:01:01,592 [INFO] Processing chunk '1508'
+2025-07-01 14:01:01,592 [INFO] Parsing blob list...
+2025-07-01 14:01:09,583 [INFO]  7972 PDFs to consider in chunk '1508'
+2025-07-01 14:01:11,311 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:01:36,884 [INFO] Processing chunk '1509'
+2025-07-01 14:01:36,885 [INFO] Parsing blob list...
+2025-07-01 14:01:46,473 [INFO]  9304 PDFs to consider in chunk '1509'
+2025-07-01 14:01:48,404 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:02:14,068 [INFO] Processing chunk '1510'
+2025-07-01 14:02:14,069 [INFO] Parsing blob list...
+2025-07-01 14:02:23,321 [INFO]  9213 PDFs to consider in chunk '1510'
+2025-07-01 14:02:25,211 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:02:51,990 [INFO] Processing chunk '1511'
+2025-07-01 14:02:51,991 [INFO] Parsing blob list...
+2025-07-01 14:03:00,054 [INFO]  9459 PDFs to consider in chunk '1511'
+2025-07-01 14:03:02,031 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:03:27,688 [INFO] Processing chunk '1512'
+2025-07-01 14:03:27,690 [INFO] Parsing blob list...
+2025-07-01 14:03:35,081 [INFO]  9364 PDFs to consider in chunk '1512'
+2025-07-01 14:03:37,001 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:04:02,474 [INFO] Processing chunk '1601'
+2025-07-01 14:04:02,476 [INFO] Parsing blob list...
+2025-07-01 14:04:08,568 [INFO]  8241 PDFs to consider in chunk '1601'
+2025-07-01 14:04:10,406 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:04:36,000 [INFO] Processing chunk '1602'
+2025-07-01 14:04:36,001 [INFO] Parsing blob list...
+2025-07-01 14:04:45,473 [INFO]  9125 PDFs to consider in chunk '1602'
+2025-07-01 14:04:47,195 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:05:12,900 [INFO] Processing chunk '1603'
+2025-07-01 14:05:12,902 [INFO] Parsing blob list...
+2025-07-01 14:05:20,658 [INFO]  9731 PDFs to consider in chunk '1603'
+2025-07-01 14:05:22,426 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:05:49,164 [INFO] Processing chunk '1604'
+2025-07-01 14:05:49,165 [INFO] Parsing blob list...
+2025-07-01 14:05:55,077 [INFO]  8943 PDFs to consider in chunk '1604'
+2025-07-01 14:05:56,768 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 14:06:00,158 [ERROR] Failed to process 1604.01713: [WinError 2] The system cannot find the file specified
+2025-07-01 14:06:26,158 [INFO] Processing chunk '1605'
+2025-07-01 14:06:26,159 [INFO] Parsing blob list...
+2025-07-01 14:06:32,111 [INFO]  9780 PDFs to consider in chunk '1605'
+2025-07-01 14:06:33,911 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:06:33,912 [INFO] PDF processing complete.
+2025-07-01 14:06:33,912 [INFO] Skipping aggregation.
+2025-07-01 14:06:33,929 [INFO] Starting PDF processing
+2025-07-01 14:06:33,965 [INFO] Loading metadata...
+2025-07-01 14:06:59,485 [INFO] Processing chunk '1606'
+2025-07-01 14:06:59,485 [INFO] Parsing blob list...
+2025-07-01 14:07:09,908 [INFO]  9628 PDFs to consider in chunk '1606'
+2025-07-01 14:07:11,695 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:07:37,273 [INFO] Processing chunk '1607'
+2025-07-01 14:07:37,275 [INFO] Parsing blob list...
+2025-07-01 14:07:47,001 [INFO]  8895 PDFs to consider in chunk '1607'
+2025-07-01 14:07:48,640 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:08:14,206 [INFO] Processing chunk '1608'
+2025-07-01 14:08:14,207 [INFO] Parsing blob list...
+2025-07-01 14:08:23,908 [INFO]  9002 PDFs to consider in chunk '1608'
+2025-07-01 14:08:25,618 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:08:52,275 [INFO] Processing chunk '1609'
+2025-07-01 14:08:52,276 [INFO] Parsing blob list...
+2025-07-01 14:09:02,447 [INFO]  9858 PDFs to consider in chunk '1609'
+2025-07-01 14:09:04,082 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:09:29,607 [INFO] Processing chunk '1610'
+2025-07-01 14:09:29,608 [INFO] Parsing blob list...
+2025-07-01 14:09:37,184 [INFO]  10089 PDFs to consider in chunk '1610'
+2025-07-01 14:09:38,717 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:10:04,617 [INFO] Processing chunk '1611'
+2025-07-01 14:10:04,619 [INFO] Parsing blob list...
+2025-07-01 14:10:11,641 [INFO]  10354 PDFs to consider in chunk '1611'
+2025-07-01 14:10:13,236 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:10:38,797 [INFO] Processing chunk '1612'
+2025-07-01 14:10:38,799 [INFO] Parsing blob list...
+2025-07-01 14:10:47,574 [INFO]  9584 PDFs to consider in chunk '1612'
+2025-07-01 14:10:49,086 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:11:14,524 [INFO] Processing chunk '1701'
+2025-07-01 14:11:14,526 [INFO] Parsing blob list...
+2025-07-01 14:11:22,700 [INFO]  9174 PDFs to consider in chunk '1701'
+2025-07-01 14:11:24,129 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:11:50,505 [INFO] Processing chunk '1702'
+2025-07-01 14:11:50,506 [INFO] Parsing blob list...
+2025-07-01 14:11:56,114 [INFO]  8904 PDFs to consider in chunk '1702'
+2025-07-01 14:11:57,508 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:12:23,118 [INFO] Processing chunk '1703'
+2025-07-01 14:12:23,120 [INFO] Parsing blob list...
+2025-07-01 14:12:31,476 [INFO]  10996 PDFs to consider in chunk '1703'
+2025-07-01 14:12:33,190 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 14:12:36,346 [ERROR] Failed to process 1703.02715: [WinError 2] The system cannot find the file specified
+2025-07-01 14:12:36,347 [INFO] PDF processing complete.
+2025-07-01 14:12:36,347 [INFO] Skipping aggregation.
+2025-07-01 14:12:36,366 [INFO] Starting PDF processing
+2025-07-01 14:12:36,399 [INFO] Loading metadata...
+2025-07-01 14:13:02,274 [INFO] Processing chunk '1704'
+2025-07-01 14:13:02,274 [INFO] Parsing blob list...
+2025-07-01 14:13:11,373 [INFO]  9018 PDFs to consider in chunk '1704'
+2025-07-01 14:13:12,771 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:13:38,389 [INFO] Processing chunk '1705'
+2025-07-01 14:13:38,390 [INFO] Parsing blob list...
+2025-07-01 14:13:50,043 [INFO]  11187 PDFs to consider in chunk '1705'
+2025-07-01 14:13:51,750 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:14:17,336 [INFO] Processing chunk '1706'
+2025-07-01 14:14:17,337 [INFO] Parsing blob list...
+2025-07-01 14:14:28,472 [INFO]  10288 PDFs to consider in chunk '1706'
+2025-07-01 14:14:30,073 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:14:56,933 [INFO] Processing chunk '1707'
+2025-07-01 14:14:56,934 [INFO] Parsing blob list...
+2025-07-01 14:15:05,044 [INFO]  9969 PDFs to consider in chunk '1707'
+2025-07-01 14:15:06,580 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 14:15:09,532 [ERROR] Failed to process 1707.03262: [WinError 2] The system cannot find the file specified
+2025-07-01 14:15:35,544 [INFO] Processing chunk '1708'
+2025-07-01 14:15:35,545 [INFO] Parsing blob list...
+2025-07-01 14:15:43,437 [INFO]  9835 PDFs to consider in chunk '1708'
+2025-07-01 14:15:44,937 [INFO]  4 PDFs to process after skipping completed.
+2025-07-01 14:15:53,439 [ERROR] Failed to process 1708.00874: [WinError 2] The system cannot find the file specified
+2025-07-01 14:15:53,481 [ERROR] Failed to process 1708.01511: [WinError 2] The system cannot find the file specified
+2025-07-01 14:15:53,520 [ERROR] Failed to process 1708.00851: [WinError 2] The system cannot find the file specified
+2025-07-01 14:15:53,599 [ERROR] Failed to process 1708.02060: [WinError 2] The system cannot find the file specified
+2025-07-01 14:16:19,606 [INFO] Processing chunk '1709'
+2025-07-01 14:16:19,608 [INFO] Parsing blob list...
+2025-07-01 14:16:27,149 [INFO]  10499 PDFs to consider in chunk '1709'
+2025-07-01 14:16:28,777 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:16:54,450 [INFO] Processing chunk '1710'
+2025-07-01 14:16:54,451 [INFO] Parsing blob list...
+2025-07-01 14:17:03,313 [INFO]  11618 PDFs to consider in chunk '1710'
+2025-07-01 14:17:05,068 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:17:30,556 [INFO] Processing chunk '1711'
+2025-07-01 14:17:30,557 [INFO] Parsing blob list...
+2025-07-01 14:17:38,189 [INFO]  11578 PDFs to consider in chunk '1711'
+2025-07-01 14:17:39,961 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:18:06,826 [INFO] Processing chunk '1712'
+2025-07-01 14:18:06,828 [INFO] Parsing blob list...
+2025-07-01 14:18:15,740 [INFO]  10323 PDFs to consider in chunk '1712'
+2025-07-01 14:18:17,351 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:18:43,142 [INFO] Processing chunk '1801'
+2025-07-01 14:18:43,143 [INFO] Parsing blob list...
+2025-07-01 14:18:50,474 [INFO]  10600 PDFs to consider in chunk '1801'
+2025-07-01 14:18:52,092 [INFO]  2 PDFs to process after skipping completed.
+2025-07-01 14:18:57,331 [ERROR] Failed to process 1801.09659: [WinError 2] The system cannot find the file specified
+2025-07-01 14:18:57,336 [ERROR] Failed to process 1801.07029: [WinError 2] The system cannot find the file specified
+2025-07-01 14:18:57,337 [INFO] PDF processing complete.
+2025-07-01 14:18:57,337 [INFO] Skipping aggregation.
+2025-07-01 14:18:57,368 [INFO] Starting PDF processing
+2025-07-01 14:18:57,403 [INFO] Loading metadata...
+2025-07-01 14:19:23,274 [INFO] Processing chunk '1802'
+2025-07-01 14:19:23,275 [INFO] Parsing blob list...
+2025-07-01 14:19:34,605 [INFO]  10585 PDFs to consider in chunk '1802'
+2025-07-01 14:19:36,268 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 14:19:39,542 [ERROR] Failed to process 1802.00643: [WinError 2] The system cannot find the file specified
+2025-07-01 14:20:05,809 [INFO] Processing chunk '1803'
+2025-07-01 14:20:05,810 [INFO] Parsing blob list...
+2025-07-01 14:20:18,894 [INFO]  11553 PDFs to consider in chunk '1803'
+2025-07-01 14:20:20,655 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 14:20:23,666 [ERROR] Failed to process 1803.04997: [WinError 2] The system cannot find the file specified
+2025-07-01 14:20:49,813 [INFO] Processing chunk '1804'
+2025-07-01 14:20:49,814 [INFO] Parsing blob list...
+2025-07-01 14:21:01,926 [INFO]  11342 PDFs to consider in chunk '1804'
+2025-07-01 14:21:04,081 [INFO]  2 PDFs to process after skipping completed.
+2025-07-01 14:21:09,227 [ERROR] Failed to process 1804.03496: [WinError 2] The system cannot find the file specified
+2025-07-01 14:21:09,712 [ERROR] Failed to process 1804.02973: [WinError 2] The system cannot find the file specified
+2025-07-01 14:21:35,682 [INFO] Processing chunk '1805'
+2025-07-01 14:21:35,684 [INFO] Parsing blob list...
+2025-07-01 14:21:48,240 [INFO]  12579 PDFs to consider in chunk '1805'
+2025-07-01 14:21:51,100 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 14:21:54,233 [ERROR] Failed to process 1805.10330: [WinError 2] The system cannot find the file specified
+2025-07-01 14:22:20,229 [INFO] Processing chunk '1806'
+2025-07-01 14:22:20,231 [INFO] Parsing blob list...
+2025-07-01 14:22:29,040 [INFO]  11557 PDFs to consider in chunk '1806'
+2025-07-01 14:22:31,644 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:22:57,419 [INFO] Processing chunk '1807'
+2025-07-01 14:22:57,421 [INFO] Parsing blob list...
+2025-07-01 14:23:05,558 [INFO]  11929 PDFs to consider in chunk '1807'
+2025-07-01 14:23:08,215 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:23:33,678 [INFO] Processing chunk '1808'
+2025-07-01 14:23:33,679 [INFO] Parsing blob list...
+2025-07-01 14:23:41,392 [INFO]  10861 PDFs to consider in chunk '1808'
+2025-07-01 14:23:43,825 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 14:23:46,962 [ERROR] Failed to process 1808.06258: [WinError 2] The system cannot find the file specified
+2025-07-01 14:24:14,129 [INFO] Processing chunk '1809'
+2025-07-01 14:24:14,131 [INFO] Parsing blob list...
+2025-07-01 14:24:21,576 [INFO]  11162 PDFs to consider in chunk '1809'
+2025-07-01 14:24:24,117 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 14:24:27,136 [ERROR] Failed to process 1809.01903: [WinError 2] The system cannot find the file specified
+2025-07-01 14:24:53,462 [INFO] Processing chunk '1810'
+2025-07-01 14:24:53,465 [INFO] Parsing blob list...
+2025-07-01 14:25:03,138 [INFO]  13434 PDFs to consider in chunk '1810'
+2025-07-01 14:25:06,159 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 14:25:09,179 [ERROR] Failed to process 1810.11077: [WinError 2] The system cannot find the file specified
+2025-07-01 14:25:35,432 [INFO] Processing chunk '1811'
+2025-07-01 14:25:35,434 [INFO] Parsing blob list...
+2025-07-01 14:25:43,877 [INFO]  12924 PDFs to consider in chunk '1811'
+2025-07-01 14:25:46,777 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 14:25:49,828 [ERROR] Failed to process 1811.07481: [WinError 2] The system cannot find the file specified
+2025-07-01 14:25:49,830 [INFO] PDF processing complete.
+2025-07-01 14:25:49,830 [INFO] Skipping aggregation.
+2025-07-01 14:25:49,858 [INFO] Starting PDF processing
+2025-07-01 14:25:49,895 [INFO] Loading metadata...
+2025-07-01 14:26:15,978 [INFO] Processing chunk '1812'
+2025-07-01 14:26:15,979 [INFO] Parsing blob list...
+2025-07-01 14:26:28,829 [INFO]  11959 PDFs to consider in chunk '1812'
+2025-07-01 14:26:31,504 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:26:57,009 [INFO] Processing chunk '1901'
+2025-07-01 14:26:57,010 [INFO] Parsing blob list...
+2025-07-01 14:27:08,589 [INFO]  11527 PDFs to consider in chunk '1901'
+2025-07-01 14:27:11,124 [INFO]  3 PDFs to process after skipping completed.
+2025-07-01 14:27:17,650 [ERROR] Failed to process 1901.04318: [WinError 2] The system cannot find the file specified
+2025-07-01 14:27:18,085 [ERROR] Failed to process 1901.07139: [WinError 2] The system cannot find the file specified
+2025-07-01 14:27:18,163 [ERROR] Failed to process 1901.05475: [WinError 2] The system cannot find the file specified
+2025-07-01 14:27:44,107 [INFO] Processing chunk '1902'
+2025-07-01 14:27:44,108 [INFO] Parsing blob list...
+2025-07-01 14:27:55,174 [INFO]  11291 PDFs to consider in chunk '1902'
+2025-07-01 14:27:57,771 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:28:23,531 [INFO] Processing chunk '1903'
+2025-07-01 14:28:23,533 [INFO] Parsing blob list...
+2025-07-01 14:28:33,194 [INFO]  12644 PDFs to consider in chunk '1903'
+2025-07-01 14:28:36,034 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 14:28:39,265 [ERROR] Failed to process 1903.08686: [WinError 2] The system cannot find the file specified
+2025-07-01 14:29:05,353 [INFO] Processing chunk '1904'
+2025-07-01 14:29:05,354 [INFO] Parsing blob list...
+2025-07-01 14:29:16,193 [INFO]  13386 PDFs to consider in chunk '1904'
+2025-07-01 14:29:19,169 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 14:29:22,241 [ERROR] Failed to process 1904.01917: [WinError 2] The system cannot find the file specified
+2025-07-01 14:29:48,526 [INFO] Processing chunk '1905'
+2025-07-01 14:29:48,528 [INFO] Parsing blob list...
+2025-07-01 14:30:00,697 [INFO]  13743 PDFs to consider in chunk '1905'
+2025-07-01 14:30:03,829 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 14:30:07,681 [ERROR] Failed to process 1905.11575: [WinError 2] The system cannot find the file specified
+2025-07-01 14:30:34,085 [INFO] Processing chunk '1906'
+2025-07-01 14:30:34,087 [INFO] Parsing blob list...
+2025-07-01 14:30:42,193 [INFO]  12342 PDFs to consider in chunk '1906'
+2025-07-01 14:30:45,017 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 14:30:48,405 [ERROR] Failed to process 1906.08243: [WinError 2] The system cannot find the file specified
+2025-07-01 14:31:14,429 [INFO] Processing chunk '1907'
+2025-07-01 14:31:14,430 [INFO] Parsing blob list...
+2025-07-01 14:31:23,979 [INFO]  13625 PDFs to consider in chunk '1907'
+2025-07-01 14:31:27,036 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:31:52,596 [INFO] Processing chunk '1908'
+2025-07-01 14:31:52,598 [INFO] Parsing blob list...
+2025-07-01 14:32:00,475 [INFO]  11853 PDFs to consider in chunk '1908'
+2025-07-01 14:32:03,123 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:32:28,540 [INFO] Processing chunk '1909'
+2025-07-01 14:32:28,541 [INFO] Parsing blob list...
+2025-07-01 14:32:36,759 [INFO]  13863 PDFs to consider in chunk '1909'
+2025-07-01 14:32:39,894 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:32:39,895 [INFO] PDF processing complete.
+2025-07-01 14:32:39,895 [INFO] Skipping aggregation.
+2025-07-01 14:32:39,922 [INFO] Starting PDF processing
+2025-07-01 14:32:39,956 [INFO] Loading metadata...
+2025-07-01 14:33:05,634 [INFO] Processing chunk '1910'
+2025-07-01 14:33:05,634 [INFO] Parsing blob list...
+2025-07-01 14:33:22,478 [INFO]  14663 PDFs to consider in chunk '1910'
+2025-07-01 14:33:25,752 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 14:33:28,808 [ERROR] Failed to process 1910.06437: [WinError 2] The system cannot find the file specified
+2025-07-01 14:33:55,079 [INFO] Processing chunk '1911'
+2025-07-01 14:33:55,080 [INFO] Parsing blob list...
+2025-07-01 14:34:10,239 [INFO]  13291 PDFs to consider in chunk '1911'
+2025-07-01 14:34:13,205 [INFO]  2 PDFs to process after skipping completed.
+2025-07-01 14:34:18,315 [ERROR] Failed to process 1911.03367: [WinError 2] The system cannot find the file specified
+2025-07-01 14:34:18,642 [ERROR] Failed to process 1911.00098: [WinError 2] The system cannot find the file specified
+2025-07-01 14:34:44,671 [INFO] Processing chunk '1912'
+2025-07-01 14:34:44,672 [INFO] Parsing blob list...
+2025-07-01 14:34:58,555 [INFO]  13503 PDFs to consider in chunk '1912'
+2025-07-01 14:35:01,557 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:35:27,397 [INFO] Processing chunk '2001'
+2025-07-01 14:35:27,399 [INFO] Parsing blob list...
+2025-07-01 14:35:37,373 [INFO]  11999 PDFs to consider in chunk '2001'
+2025-07-01 14:35:40,064 [INFO]  2 PDFs to process after skipping completed.
+2025-07-01 14:35:45,107 [ERROR] Failed to process 2001.01104: [WinError 2] The system cannot find the file specified
+2025-07-01 14:35:45,197 [ERROR] Failed to process 2001.07118: [WinError 2] The system cannot find the file specified
+2025-07-01 14:36:11,291 [INFO] Processing chunk '2002'
+2025-07-01 14:36:11,292 [INFO] Parsing blob list...
+2025-07-01 14:36:20,349 [INFO]  12926 PDFs to consider in chunk '2002'
+2025-07-01 14:36:23,213 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:36:49,099 [INFO] Processing chunk '2003'
+2025-07-01 14:36:49,102 [INFO] Parsing blob list...
+2025-07-01 14:36:59,276 [INFO]  14412 PDFs to consider in chunk '2003'
+2025-07-01 14:37:02,449 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 14:37:05,239 [ERROR] Failed to process 2003.09604: [WinError 2] The system cannot find the file specified
+2025-07-01 14:37:31,220 [INFO] Processing chunk '2004'
+2025-07-01 14:37:31,222 [INFO] Parsing blob list...
+2025-07-01 14:37:42,770 [INFO]  15014 PDFs to consider in chunk '2004'
+2025-07-01 14:37:46,147 [INFO]  2 PDFs to process after skipping completed.
+2025-07-01 14:37:51,244 [ERROR] Failed to process 2004.13228: [WinError 2] The system cannot find the file specified
+2025-07-01 14:37:51,342 [ERROR] Failed to process 2004.08018: [WinError 2] The system cannot find the file specified
+2025-07-01 14:38:17,481 [INFO] Processing chunk '2005'
+2025-07-01 14:38:17,483 [INFO] Parsing blob list...
+2025-07-01 14:38:27,781 [INFO]  14715 PDFs to consider in chunk '2005'
+2025-07-01 14:38:31,081 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 14:38:34,520 [ERROR] Failed to process 2005.09048: [WinError 2] The system cannot find the file specified
+2025-07-01 14:39:00,735 [INFO] Processing chunk '2006'
+2025-07-01 14:39:00,737 [INFO] Parsing blob list...
+2025-07-01 14:39:11,343 [INFO]  16892 PDFs to consider in chunk '2006'
+2025-07-01 14:39:15,796 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:39:41,686 [INFO] Processing chunk '2007'
+2025-07-01 14:39:41,688 [INFO] Parsing blob list...
+2025-07-01 14:39:52,064 [INFO]  15559 PDFs to consider in chunk '2007'
+2025-07-01 14:39:55,520 [INFO]  4 PDFs to process after skipping completed.
+2025-07-01 14:40:04,125 [ERROR] Failed to process 2007.05943: [WinError 2] The system cannot find the file specified
+2025-07-01 14:40:04,149 [ERROR] Failed to process 2007.14584: [WinError 2] The system cannot find the file specified
+2025-07-01 14:40:04,159 [ERROR] Failed to process 2007.05796: [WinError 2] The system cannot find the file specified
+2025-07-01 14:40:04,186 [ERROR] Failed to process 2007.03004: [WinError 2] The system cannot find the file specified
+2025-07-01 14:40:04,187 [INFO] PDF processing complete.
+2025-07-01 14:40:04,188 [INFO] Skipping aggregation.
+2025-07-01 14:40:04,227 [INFO] Starting PDF processing
+2025-07-01 14:40:04,261 [INFO] Loading metadata...
+2025-07-01 14:40:30,457 [INFO] Processing chunk '2008'
+2025-07-01 14:40:30,458 [INFO] Parsing blob list...
+2025-07-01 14:40:45,693 [INFO]  13778 PDFs to consider in chunk '2008'
+2025-07-01 14:40:48,777 [INFO]  4 PDFs to process after skipping completed.
+2025-07-01 14:40:57,271 [ERROR] Failed to process 2008.09253: [WinError 2] The system cannot find the file specified
+2025-07-01 14:40:57,419 [ERROR] Failed to process 2008.08206: [WinError 2] The system cannot find the file specified
+2025-07-01 14:40:57,440 [ERROR] Failed to process 2008.07292: [WinError 2] The system cannot find the file specified
+2025-07-01 14:40:57,693 [ERROR] Failed to process 2008.10296: [WinError 2] The system cannot find the file specified
+2025-07-01 14:41:23,929 [INFO] Processing chunk '2009'
+2025-07-01 14:41:23,931 [INFO] Parsing blob list...
+2025-07-01 14:41:39,706 [INFO]  14821 PDFs to consider in chunk '2009'
+2025-07-01 14:41:43,022 [INFO]  2 PDFs to process after skipping completed.
+2025-07-01 14:41:48,133 [ERROR] Failed to process 2009.05279: [WinError 2] The system cannot find the file specified
+2025-07-01 14:41:48,640 [ERROR] Failed to process 2009.06364: [WinError 2] The system cannot find the file specified
+2025-07-01 14:42:14,641 [INFO] Processing chunk '2010'
+2025-07-01 14:42:14,643 [INFO] Parsing blob list...
+2025-07-01 14:42:29,587 [INFO]  16414 PDFs to consider in chunk '2010'
+2025-07-01 14:42:33,198 [INFO]  2 PDFs to process after skipping completed.
+2025-07-01 14:42:37,999 [ERROR] Failed to process 2010.12929: [WinError 2] The system cannot find the file specified
+2025-07-01 14:42:38,034 [ERROR] Failed to process 2010.01802: [WinError 2] The system cannot find the file specified
+2025-07-01 14:43:04,065 [INFO] Processing chunk '2011'
+2025-07-01 14:43:04,068 [INFO] Parsing blob list...
+2025-07-01 14:43:15,881 [INFO]  14972 PDFs to consider in chunk '2011'
+2025-07-01 14:43:19,219 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 14:43:22,319 [ERROR] Failed to process 2011.10659: [WinError 2] The system cannot find the file specified
+2025-07-01 14:43:48,458 [INFO] Processing chunk '2012'
+2025-07-01 14:43:48,460 [INFO] Parsing blob list...
+2025-07-01 14:44:00,651 [INFO]  15859 PDFs to consider in chunk '2012'
+2025-07-01 14:44:04,175 [INFO]  2 PDFs to process after skipping completed.
+2025-07-01 14:44:09,393 [ERROR] Failed to process 2012.11614: [WinError 2] The system cannot find the file specified
+2025-07-01 14:44:09,475 [ERROR] Failed to process 2012.01855: [WinError 2] The system cannot find the file specified
+2025-07-01 14:44:35,330 [INFO] Processing chunk '2101'
+2025-07-01 14:44:35,332 [INFO] Parsing blob list...
+2025-07-01 14:44:44,012 [INFO]  12742 PDFs to consider in chunk '2101'
+2025-07-01 14:44:46,849 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:45:12,450 [INFO] Processing chunk '2102'
+2025-07-01 14:45:12,451 [INFO] Parsing blob list...
+2025-07-01 14:45:21,648 [INFO]  13653 PDFs to consider in chunk '2102'
+2025-07-01 14:45:24,707 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 14:45:27,514 [ERROR] Failed to process 2102.03477: [WinError 2] The system cannot find the file specified
+2025-07-01 14:45:53,734 [INFO] Processing chunk '2103'
+2025-07-01 14:45:53,736 [INFO] Parsing blob list...
+2025-07-01 14:46:06,674 [INFO]  17271 PDFs to consider in chunk '2103'
+2025-07-01 14:46:10,574 [INFO]  3 PDFs to process after skipping completed.
+2025-07-01 14:46:15,505 [ERROR] Failed to process 2103.15589: [WinError 2] The system cannot find the file specified
+2025-07-01 14:46:17,017 [ERROR] Failed to process 2103.15719: [WinError 2] The system cannot find the file specified
+2025-07-01 14:46:17,088 [ERROR] Failed to process 2103.15848: [WinError 2] The system cannot find the file specified
+2025-07-01 14:46:43,129 [INFO] Processing chunk '2104'
+2025-07-01 14:46:43,131 [INFO] Parsing blob list...
+2025-07-01 14:46:52,780 [INFO]  15139 PDFs to consider in chunk '2104'
+2025-07-01 14:46:56,107 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 14:46:59,259 [ERROR] Failed to process 2104.00506: [WinError 2] The system cannot find the file specified
+2025-07-01 14:47:25,452 [INFO] Processing chunk '2105'
+2025-07-01 14:47:25,454 [INFO] Parsing blob list...
+2025-07-01 14:47:36,287 [INFO]  15204 PDFs to consider in chunk '2105'
+2025-07-01 14:47:39,667 [INFO]  3 PDFs to process after skipping completed.
+2025-07-01 14:47:46,123 [ERROR] Failed to process 2105.05187: [WinError 2] The system cannot find the file specified
+2025-07-01 14:47:46,165 [ERROR] Failed to process 2105.00599: [WinError 2] The system cannot find the file specified
+2025-07-01 14:47:46,763 [ERROR] Failed to process 2105.10184: [WinError 2] The system cannot find the file specified
+2025-07-01 14:47:46,765 [INFO] PDF processing complete.
+2025-07-01 14:47:46,766 [INFO] Skipping aggregation.
+2025-07-01 14:47:46,791 [INFO] Starting PDF processing
+2025-07-01 14:47:46,826 [INFO] Loading metadata...
+2025-07-01 14:48:12,617 [INFO] Processing chunk '2106'
+2025-07-01 14:48:12,618 [INFO] Parsing blob list...
+2025-07-01 14:48:27,616 [INFO]  16246 PDFs to consider in chunk '2106'
+2025-07-01 14:48:31,174 [INFO]  3 PDFs to process after skipping completed.
+2025-07-01 14:48:37,602 [ERROR] Failed to process 2106.00068: [WinError 2] The system cannot find the file specified
+2025-07-01 14:48:37,671 [ERROR] Failed to process 2106.01320: [WinError 2] The system cannot find the file specified
+2025-07-01 14:48:38,363 [ERROR] Failed to process 2106.12048: [WinError 2] The system cannot find the file specified
+2025-07-01 14:49:04,476 [INFO] Processing chunk '2107'
+2025-07-01 14:49:04,478 [INFO] Parsing blob list...
+2025-07-01 14:49:17,077 [INFO]  14797 PDFs to consider in chunk '2107'
+2025-07-01 14:49:20,307 [INFO]  2 PDFs to process after skipping completed.
+2025-07-01 14:49:25,183 [ERROR] Failed to process 2107.14030: [WinError 2] The system cannot find the file specified
+2025-07-01 14:49:25,801 [ERROR] Failed to process 2107.01038: [WinError 2] The system cannot find the file specified
+2025-07-01 14:49:51,726 [INFO] Processing chunk '2108'
+2025-07-01 14:49:51,728 [INFO] Parsing blob list...
+2025-07-01 14:50:03,023 [INFO]  14000 PDFs to consider in chunk '2108'
+2025-07-01 14:50:06,124 [INFO]  2 PDFs to process after skipping completed.
+2025-07-01 14:50:11,181 [ERROR] Failed to process 2108.00327: [WinError 2] The system cannot find the file specified
+2025-07-01 14:50:11,240 [ERROR] Failed to process 2108.06062: [WinError 2] The system cannot find the file specified
+2025-07-01 14:50:37,243 [INFO] Processing chunk '2109'
+2025-07-01 14:50:37,245 [INFO] Parsing blob list...
+2025-07-01 14:50:49,752 [INFO]  15306 PDFs to consider in chunk '2109'
+2025-07-01 14:50:53,128 [INFO]  2 PDFs to process after skipping completed.
+2025-07-01 14:50:58,169 [ERROR] Failed to process 2109.00972: [WinError 2] The system cannot find the file specified
+2025-07-01 14:50:58,258 [ERROR] Failed to process 2109.02144: [WinError 2] The system cannot find the file specified
+2025-07-01 14:51:24,437 [INFO] Processing chunk '2110'
+2025-07-01 14:51:24,439 [INFO] Parsing blob list...
+2025-07-01 14:51:36,105 [INFO]  15957 PDFs to consider in chunk '2110'
+2025-07-01 14:51:39,634 [INFO]  8 PDFs to process after skipping completed.
+2025-07-01 14:51:55,653 [ERROR] Failed to process 2110.09451: [WinError 2] The system cannot find the file specified
+2025-07-01 14:51:56,030 [ERROR] Failed to process 2110.08999: [WinError 2] The system cannot find the file specified
+2025-07-01 14:51:56,439 [ERROR] Failed to process 2110.08483: [WinError 2] The system cannot find the file specified
+2025-07-01 14:51:58,344 [ERROR] Failed to process 2110.05460: [WinError 2] The system cannot find the file specified
+2025-07-01 14:51:59,180 [ERROR] Failed to process 2110.11856: [WinError 2] The system cannot find the file specified
+2025-07-01 14:52:00,199 [ERROR] Failed to process 2110.03294: [WinError 2] The system cannot find the file specified
+2025-07-01 14:52:01,971 [ERROR] Failed to process 2110.09576: [WinError 2] The system cannot find the file specified
+2025-07-01 14:52:02,115 [ERROR] Failed to process 2110.07559: [WinError 2] The system cannot find the file specified
+2025-07-01 14:52:28,538 [INFO] Processing chunk '2111'
+2025-07-01 14:52:28,540 [INFO] Parsing blob list...
+2025-07-01 14:52:38,904 [INFO]  15672 PDFs to consider in chunk '2111'
+2025-07-01 14:52:42,350 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 14:52:45,381 [ERROR] Failed to process 2111.14384: [WinError 2] The system cannot find the file specified
+2025-07-01 14:53:11,798 [INFO] Processing chunk '2112'
+2025-07-01 14:53:11,800 [INFO] Parsing blob list...
+2025-07-01 14:53:22,513 [INFO]  15590 PDFs to consider in chunk '2112'
+2025-07-01 14:53:25,910 [INFO]  7 PDFs to process after skipping completed.
+2025-07-01 14:53:39,411 [ERROR] Failed to process 2112.03738: [WinError 2] The system cannot find the file specified
+2025-07-01 14:53:39,753 [ERROR] Failed to process 2112.04061: [WinError 2] The system cannot find the file specified
+2025-07-01 14:53:39,897 [ERROR] Failed to process 2112.05521: [WinError 2] The system cannot find the file specified
+2025-07-01 14:53:40,139 [ERROR] Failed to process 2112.12098: [WinError 2] The system cannot find the file specified
+2025-07-01 14:53:40,153 [ERROR] Failed to process 2112.12363: [WinError 2] The system cannot find the file specified
+2025-07-01 14:53:40,169 [ERROR] Failed to process 2112.12962: [WinError 2] The system cannot find the file specified
+2025-07-01 14:53:40,208 [ERROR] Failed to process 2112.07572: [WinError 2] The system cannot find the file specified
+2025-07-01 14:54:06,866 [INFO] Processing chunk '2201'
+2025-07-01 14:54:06,868 [INFO] Parsing blob list...
+2025-07-01 14:54:15,620 [INFO]  13449 PDFs to consider in chunk '2201'
+2025-07-01 14:54:18,588 [INFO]  4 PDFs to process after skipping completed.
+2025-07-01 14:54:27,148 [ERROR] Failed to process 2201.02466: [WinError 2] The system cannot find the file specified
+2025-07-01 14:54:27,248 [ERROR] Failed to process 2201.12732: [WinError 2] The system cannot find the file specified
+2025-07-01 14:54:27,254 [ERROR] Failed to process 2201.11618: [WinError 2] The system cannot find the file specified
+2025-07-01 14:54:27,293 [ERROR] Failed to process 2201.03193: [WinError 2] The system cannot find the file specified
+2025-07-01 14:54:54,036 [INFO] Processing chunk '2202'
+2025-07-01 14:54:54,037 [INFO] Parsing blob list...
+2025-07-01 14:55:02,520 [INFO]  14035 PDFs to consider in chunk '2202'
+2025-07-01 14:55:05,373 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 14:55:08,640 [ERROR] Failed to process 2202.11189: [WinError 2] The system cannot find the file specified
+2025-07-01 14:55:13,230 [INFO] Starting PDF processing
+2025-07-01 14:55:13,266 [INFO] Loading metadata...
+2025-07-01 14:55:39,713 [INFO] Processing chunk '0704'
+2025-07-01 14:55:39,713 [INFO] Parsing blob list...
+2025-07-01 14:55:43,312 [INFO]  4001 PDFs to consider in chunk '0704'
+2025-07-01 14:55:44,043 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:56:10,601 [INFO] Processing chunk '0705'
+2025-07-01 14:56:10,601 [INFO] Parsing blob list...
+2025-07-01 14:56:15,542 [INFO]  4681 PDFs to consider in chunk '0705'
+2025-07-01 14:56:16,419 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:56:43,263 [INFO] Processing chunk '0706'
+2025-07-01 14:56:43,264 [INFO] Parsing blob list...
+2025-07-01 14:56:48,155 [INFO]  4480 PDFs to consider in chunk '0706'
+2025-07-01 14:56:49,003 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:57:15,632 [INFO] Processing chunk '0707'
+2025-07-01 14:57:15,633 [INFO] Parsing blob list...
+2025-07-01 14:57:20,846 [INFO]  4679 PDFs to consider in chunk '0707'
+2025-07-01 14:57:21,734 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:57:48,192 [INFO] Processing chunk '0708'
+2025-07-01 14:57:48,192 [INFO] Parsing blob list...
+2025-07-01 14:57:52,255 [INFO]  4413 PDFs to consider in chunk '0708'
+2025-07-01 14:57:53,094 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:58:19,507 [INFO] Processing chunk '0709'
+2025-07-01 14:58:19,509 [INFO] Parsing blob list...
+2025-07-01 14:58:24,206 [INFO]  4676 PDFs to consider in chunk '0709'
+2025-07-01 14:58:25,085 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:58:52,065 [INFO] Processing chunk '0710'
+2025-07-01 14:58:52,066 [INFO] Parsing blob list...
+2025-07-01 14:58:57,133 [INFO]  5941 PDFs to consider in chunk '0710'
+2025-07-01 14:58:58,335 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:59:24,940 [INFO] Processing chunk '0711'
+2025-07-01 14:59:24,941 [INFO] Parsing blob list...
+2025-07-01 14:59:29,337 [INFO]  5027 PDFs to consider in chunk '0711'
+2025-07-01 14:59:30,308 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 14:59:57,783 [INFO] Processing chunk '0712'
+2025-07-01 14:59:57,784 [INFO] Parsing blob list...
+2025-07-01 15:00:01,838 [INFO]  4405 PDFs to consider in chunk '0712'
+2025-07-01 15:00:02,700 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:00:30,736 [INFO] Processing chunk '0801'
+2025-07-01 15:00:30,737 [INFO] Parsing blob list...
+2025-07-01 15:00:34,243 [INFO]  4969 PDFs to consider in chunk '0801'
+2025-07-01 15:00:35,259 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:00:35,260 [INFO] PDF processing complete.
+2025-07-01 15:00:35,260 [INFO] Skipping aggregation.
+2025-07-01 15:00:35,267 [INFO] Starting PDF processing
+2025-07-01 15:00:35,304 [INFO] Loading metadata...
+2025-07-01 15:01:02,641 [INFO] Processing chunk '0802'
+2025-07-01 15:01:02,642 [INFO] Parsing blob list...
+2025-07-01 15:01:07,356 [INFO]  4461 PDFs to consider in chunk '0802'
+2025-07-01 15:01:08,296 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:01:35,428 [INFO] Processing chunk '0803'
+2025-07-01 15:01:35,428 [INFO] Parsing blob list...
+2025-07-01 15:01:40,327 [INFO]  4515 PDFs to consider in chunk '0803'
+2025-07-01 15:01:41,249 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:02:08,320 [INFO] Processing chunk '0804'
+2025-07-01 15:02:08,321 [INFO] Parsing blob list...
+2025-07-01 15:02:13,781 [INFO]  4896 PDFs to consider in chunk '0804'
+2025-07-01 15:02:14,763 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:02:42,412 [INFO] Processing chunk '0805'
+2025-07-01 15:02:42,413 [INFO] Parsing blob list...
+2025-07-01 15:02:47,663 [INFO]  4836 PDFs to consider in chunk '0805'
+2025-07-01 15:02:48,578 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:03:15,560 [INFO] Processing chunk '0806'
+2025-07-01 15:03:15,561 [INFO] Parsing blob list...
+2025-07-01 15:03:20,948 [INFO]  4974 PDFs to consider in chunk '0806'
+2025-07-01 15:03:21,919 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:03:48,803 [INFO] Processing chunk '0807'
+2025-07-01 15:03:48,803 [INFO] Parsing blob list...
+2025-07-01 15:03:54,563 [INFO]  5135 PDFs to consider in chunk '0807'
+2025-07-01 15:03:55,586 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:04:23,005 [INFO] Processing chunk '0808'
+2025-07-01 15:04:23,006 [INFO] Parsing blob list...
+2025-07-01 15:04:26,697 [INFO]  4159 PDFs to consider in chunk '0808'
+2025-07-01 15:04:27,545 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:04:54,760 [INFO] Processing chunk '0809'
+2025-07-01 15:04:54,761 [INFO] Parsing blob list...
+2025-07-01 15:04:59,723 [INFO]  5286 PDFs to consider in chunk '0809'
+2025-07-01 15:05:00,701 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:05:27,806 [INFO] Processing chunk '0810'
+2025-07-01 15:05:27,807 [INFO] Parsing blob list...
+2025-07-01 15:05:32,363 [INFO]  5771 PDFs to consider in chunk '0810'
+2025-07-01 15:05:33,475 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:06:00,462 [INFO] Processing chunk '0811'
+2025-07-01 15:06:00,463 [INFO] Parsing blob list...
+2025-07-01 15:06:04,443 [INFO]  4771 PDFs to consider in chunk '0811'
+2025-07-01 15:06:05,344 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:06:05,344 [INFO] PDF processing complete.
+2025-07-01 15:06:05,345 [INFO] Skipping aggregation.
+2025-07-01 15:06:05,350 [INFO] Starting PDF processing
+2025-07-01 15:06:05,387 [INFO] Loading metadata...
+2025-07-01 15:06:31,859 [INFO] Processing chunk '0812'
+2025-07-01 15:06:31,859 [INFO] Parsing blob list...
+2025-07-01 15:06:37,490 [INFO]  5112 PDFs to consider in chunk '0812'
+2025-07-01 15:06:38,462 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:07:04,980 [INFO] Processing chunk '0901'
+2025-07-01 15:07:04,980 [INFO] Parsing blob list...
+2025-07-01 15:07:10,196 [INFO]  4969 PDFs to consider in chunk '0901'
+2025-07-01 15:07:11,171 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:07:38,932 [INFO] Processing chunk '0902'
+2025-07-01 15:07:38,933 [INFO] Parsing blob list...
+2025-07-01 15:07:44,811 [INFO]  4901 PDFs to consider in chunk '0902'
+2025-07-01 15:07:45,781 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:08:13,049 [INFO] Processing chunk '0903'
+2025-07-01 15:08:13,049 [INFO] Parsing blob list...
+2025-07-01 15:08:17,424 [INFO]  5543 PDFs to consider in chunk '0903'
+2025-07-01 15:08:18,475 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:08:45,028 [INFO] Processing chunk '0904'
+2025-07-01 15:08:45,029 [INFO] Parsing blob list...
+2025-07-01 15:08:50,006 [INFO]  4926 PDFs to consider in chunk '0904'
+2025-07-01 15:08:50,935 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:09:17,424 [INFO] Processing chunk '0905'
+2025-07-01 15:09:17,425 [INFO] Parsing blob list...
+2025-07-01 15:09:21,367 [INFO]  4952 PDFs to consider in chunk '0905'
+2025-07-01 15:09:22,299 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:09:49,639 [INFO] Processing chunk '0906'
+2025-07-01 15:09:49,640 [INFO] Parsing blob list...
+2025-07-01 15:09:53,942 [INFO]  5611 PDFs to consider in chunk '0906'
+2025-07-01 15:09:55,017 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:10:21,890 [INFO] Processing chunk '0907'
+2025-07-01 15:10:21,891 [INFO] Parsing blob list...
+2025-07-01 15:10:28,867 [INFO]  5600 PDFs to consider in chunk '0907'
+2025-07-01 15:10:29,947 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:10:57,064 [INFO] Processing chunk '0908'
+2025-07-01 15:10:57,065 [INFO] Parsing blob list...
+2025-07-01 15:11:01,453 [INFO]  4593 PDFs to consider in chunk '0908'
+2025-07-01 15:11:02,326 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:11:29,535 [INFO] Processing chunk '0909'
+2025-07-01 15:11:29,536 [INFO] Parsing blob list...
+2025-07-01 15:11:34,943 [INFO]  5691 PDFs to consider in chunk '0909'
+2025-07-01 15:11:36,063 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:11:36,064 [INFO] PDF processing complete.
+2025-07-01 15:11:36,064 [INFO] Skipping aggregation.
+2025-07-01 15:11:36,072 [INFO] Starting PDF processing
+2025-07-01 15:11:36,109 [INFO] Loading metadata...
+2025-07-01 15:12:05,259 [INFO] Processing chunk '0910'
+2025-07-01 15:12:05,259 [INFO] Parsing blob list...
+2025-07-01 15:12:10,704 [INFO]  5951 PDFs to consider in chunk '0910'
+2025-07-01 15:12:11,960 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:12:41,311 [INFO] Processing chunk '0911'
+2025-07-01 15:12:41,312 [INFO] Parsing blob list...
+2025-07-01 15:12:47,224 [INFO]  5723 PDFs to consider in chunk '0911'
+2025-07-01 15:12:48,377 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:13:18,248 [INFO] Processing chunk '0912'
+2025-07-01 15:13:18,249 [INFO] Parsing blob list...
+2025-07-01 15:13:23,394 [INFO]  5526 PDFs to consider in chunk '0912'
+2025-07-01 15:13:24,517 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:13:53,685 [INFO] Processing chunk '1001'
+2025-07-01 15:13:53,686 [INFO] Parsing blob list...
+2025-07-01 15:13:58,948 [INFO]  5463 PDFs to consider in chunk '1001'
+2025-07-01 15:14:00,087 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:14:29,370 [INFO] Processing chunk '1002'
+2025-07-01 15:14:29,371 [INFO] Parsing blob list...
+2025-07-01 15:14:34,768 [INFO]  5035 PDFs to consider in chunk '1002'
+2025-07-01 15:14:35,798 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:15:05,464 [INFO] Processing chunk '1003'
+2025-07-01 15:15:05,465 [INFO] Parsing blob list...
+2025-07-01 15:15:11,079 [INFO]  6123 PDFs to consider in chunk '1003'
+2025-07-01 15:15:12,326 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:15:41,786 [INFO] Processing chunk '1004'
+2025-07-01 15:15:41,787 [INFO] Parsing blob list...
+2025-07-01 15:15:46,849 [INFO]  5588 PDFs to consider in chunk '1004'
+2025-07-01 15:15:48,037 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:16:16,664 [INFO] Processing chunk '1005'
+2025-07-01 15:16:16,665 [INFO] Parsing blob list...
+2025-07-01 15:16:21,929 [INFO]  5731 PDFs to consider in chunk '1005'
+2025-07-01 15:16:23,133 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:16:53,416 [INFO] Processing chunk '1006'
+2025-07-01 15:16:53,416 [INFO] Parsing blob list...
+2025-07-01 15:16:58,129 [INFO]  5945 PDFs to consider in chunk '1006'
+2025-07-01 15:16:59,359 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:17:28,492 [INFO] Processing chunk '1007'
+2025-07-01 15:17:28,493 [INFO] Parsing blob list...
+2025-07-01 15:17:33,317 [INFO]  5505 PDFs to consider in chunk '1007'
+2025-07-01 15:17:34,477 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:17:34,477 [INFO] PDF processing complete.
+2025-07-01 15:17:34,478 [INFO] Skipping aggregation.
+2025-07-01 15:17:34,485 [INFO] Starting PDF processing
+2025-07-01 15:17:34,524 [INFO] Loading metadata...
+2025-07-01 15:18:02,189 [INFO] Processing chunk '1008'
+2025-07-01 15:18:02,189 [INFO] Parsing blob list...
+2025-07-01 15:18:07,850 [INFO]  5385 PDFs to consider in chunk '1008'
+2025-07-01 15:18:08,878 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:18:35,641 [INFO] Processing chunk '1009'
+2025-07-01 15:18:35,642 [INFO] Parsing blob list...
+2025-07-01 15:18:41,981 [INFO]  6214 PDFs to consider in chunk '1009'
+2025-07-01 15:18:43,161 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:19:10,371 [INFO] Processing chunk '1010'
+2025-07-01 15:19:10,372 [INFO] Parsing blob list...
+2025-07-01 15:19:16,335 [INFO]  6285 PDFs to consider in chunk '1010'
+2025-07-01 15:19:17,525 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:19:44,575 [INFO] Processing chunk '1011'
+2025-07-01 15:19:44,576 [INFO] Parsing blob list...
+2025-07-01 15:19:50,227 [INFO]  6665 PDFs to consider in chunk '1011'
+2025-07-01 15:19:51,505 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:20:19,150 [INFO] Processing chunk '1012'
+2025-07-01 15:20:19,151 [INFO] Parsing blob list...
+2025-07-01 15:20:25,089 [INFO]  6030 PDFs to consider in chunk '1012'
+2025-07-01 15:20:26,238 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:20:53,472 [INFO] Processing chunk '1101'
+2025-07-01 15:20:53,473 [INFO] Parsing blob list...
+2025-07-01 15:20:59,486 [INFO]  6075 PDFs to consider in chunk '1101'
+2025-07-01 15:21:00,665 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:21:27,400 [INFO] Processing chunk '1102'
+2025-07-01 15:21:27,401 [INFO] Parsing blob list...
+2025-07-01 15:21:32,309 [INFO]  5759 PDFs to consider in chunk '1102'
+2025-07-01 15:21:33,417 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:22:02,826 [INFO] Processing chunk '1103'
+2025-07-01 15:22:02,827 [INFO] Parsing blob list...
+2025-07-01 15:22:08,785 [INFO]  6277 PDFs to consider in chunk '1103'
+2025-07-01 15:22:09,966 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:22:38,148 [INFO] Processing chunk '1104'
+2025-07-01 15:22:38,149 [INFO] Parsing blob list...
+2025-07-01 15:22:43,409 [INFO]  5700 PDFs to consider in chunk '1104'
+2025-07-01 15:22:44,506 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:23:11,377 [INFO] Processing chunk '1105'
+2025-07-01 15:23:11,378 [INFO] Parsing blob list...
+2025-07-01 15:23:16,163 [INFO]  6361 PDFs to consider in chunk '1105'
+2025-07-01 15:23:17,408 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:23:17,410 [INFO] PDF processing complete.
+2025-07-01 15:23:17,410 [INFO] Skipping aggregation.
+2025-07-01 15:23:17,418 [INFO] Starting PDF processing
+2025-07-01 15:23:17,455 [INFO] Loading metadata...
+2025-07-01 15:23:45,784 [INFO] Processing chunk '1106'
+2025-07-01 15:23:45,784 [INFO] Parsing blob list...
+2025-07-01 15:23:52,143 [INFO]  6345 PDFs to consider in chunk '1106'
+2025-07-01 15:23:53,338 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:24:19,547 [INFO] Processing chunk '1107'
+2025-07-01 15:24:19,548 [INFO] Parsing blob list...
+2025-07-01 15:24:25,359 [INFO]  6035 PDFs to consider in chunk '1107'
+2025-07-01 15:24:26,560 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:24:53,618 [INFO] Processing chunk '1108'
+2025-07-01 15:24:53,619 [INFO] Parsing blob list...
+2025-07-01 15:24:59,601 [INFO]  6311 PDFs to consider in chunk '1108'
+2025-07-01 15:25:00,777 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:25:27,030 [INFO] Processing chunk '1109'
+2025-07-01 15:25:27,030 [INFO] Parsing blob list...
+2025-07-01 15:25:33,811 [INFO]  6915 PDFs to consider in chunk '1109'
+2025-07-01 15:25:35,146 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:26:01,691 [INFO] Processing chunk '1110'
+2025-07-01 15:26:01,692 [INFO] Parsing blob list...
+2025-07-01 15:26:08,021 [INFO]  6911 PDFs to consider in chunk '1110'
+2025-07-01 15:26:09,319 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:26:36,053 [INFO] Processing chunk '1111'
+2025-07-01 15:26:36,055 [INFO] Parsing blob list...
+2025-07-01 15:26:42,593 [INFO]  7307 PDFs to consider in chunk '1111'
+2025-07-01 15:26:43,955 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:27:10,166 [INFO] Processing chunk '1112'
+2025-07-01 15:27:10,167 [INFO] Parsing blob list...
+2025-07-01 15:27:16,019 [INFO]  6418 PDFs to consider in chunk '1112'
+2025-07-01 15:27:17,208 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:27:43,373 [INFO] Processing chunk '1201'
+2025-07-01 15:27:43,374 [INFO] Parsing blob list...
+2025-07-01 15:27:47,750 [INFO]  6671 PDFs to consider in chunk '1201'
+2025-07-01 15:27:49,007 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:28:15,454 [INFO] Processing chunk '1202'
+2025-07-01 15:28:15,455 [INFO] Parsing blob list...
+2025-07-01 15:28:20,274 [INFO]  6672 PDFs to consider in chunk '1202'
+2025-07-01 15:28:21,495 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:28:47,976 [INFO] Processing chunk '1203'
+2025-07-01 15:28:47,977 [INFO] Parsing blob list...
+2025-07-01 15:28:54,484 [INFO]  6893 PDFs to consider in chunk '1203'
+2025-07-01 15:28:55,748 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:28:55,748 [INFO] PDF processing complete.
+2025-07-01 15:28:55,749 [INFO] Skipping aggregation.
+2025-07-01 15:28:55,758 [INFO] Starting PDF processing
+2025-07-01 15:28:55,795 [INFO] Loading metadata...
+2025-07-01 15:29:23,550 [INFO] Processing chunk '1204'
+2025-07-01 15:29:23,550 [INFO] Parsing blob list...
+2025-07-01 15:29:30,059 [INFO]  6719 PDFs to consider in chunk '1204'
+2025-07-01 15:29:31,292 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:29:58,642 [INFO] Processing chunk '1205'
+2025-07-01 15:29:58,643 [INFO] Parsing blob list...
+2025-07-01 15:30:05,487 [INFO]  7084 PDFs to consider in chunk '1205'
+2025-07-01 15:30:06,896 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 15:30:39,936 [INFO] Processing chunk '1206'
+2025-07-01 15:30:39,937 [INFO] Parsing blob list...
+2025-07-01 15:30:46,685 [INFO]  7106 PDFs to consider in chunk '1206'
+2025-07-01 15:30:48,033 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:31:14,249 [INFO] Processing chunk '1207'
+2025-07-01 15:31:14,250 [INFO] Parsing blob list...
+2025-07-01 15:31:21,175 [INFO]  7344 PDFs to consider in chunk '1207'
+2025-07-01 15:31:22,583 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:31:49,234 [INFO] Processing chunk '1208'
+2025-07-01 15:31:49,235 [INFO] Parsing blob list...
+2025-07-01 15:31:55,536 [INFO]  6564 PDFs to consider in chunk '1208'
+2025-07-01 15:31:56,755 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:32:23,142 [INFO] Processing chunk '1209'
+2025-07-01 15:32:23,143 [INFO] Parsing blob list...
+2025-07-01 15:32:29,513 [INFO]  6620 PDFs to consider in chunk '1209'
+2025-07-01 15:32:30,736 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:32:57,234 [INFO] Processing chunk '1210'
+2025-07-01 15:32:57,235 [INFO] Parsing blob list...
+2025-07-01 15:33:05,455 [INFO]  8436 PDFs to consider in chunk '1210'
+2025-07-01 15:33:07,011 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 15:33:38,823 [INFO] Processing chunk '1211'
+2025-07-01 15:33:38,823 [INFO] Parsing blob list...
+2025-07-01 15:33:44,902 [INFO]  7351 PDFs to consider in chunk '1211'
+2025-07-01 15:33:46,299 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:34:12,650 [INFO] Processing chunk '1212'
+2025-07-01 15:34:12,651 [INFO] Parsing blob list...
+2025-07-01 15:34:17,291 [INFO]  6961 PDFs to consider in chunk '1212'
+2025-07-01 15:34:18,594 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:34:45,299 [INFO] Processing chunk '1301'
+2025-07-01 15:34:45,300 [INFO] Parsing blob list...
+2025-07-01 15:34:50,192 [INFO]  7733 PDFs to consider in chunk '1301'
+2025-07-01 15:34:51,633 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:34:51,633 [INFO] PDF processing complete.
+2025-07-01 15:34:51,634 [INFO] Skipping aggregation.
+2025-07-01 15:34:51,650 [INFO] Starting PDF processing
+2025-07-01 15:34:51,686 [INFO] Loading metadata...
+2025-07-01 15:35:18,179 [INFO] Processing chunk '1302'
+2025-07-01 15:35:18,179 [INFO] Parsing blob list...
+2025-07-01 15:35:25,863 [INFO]  7306 PDFs to consider in chunk '1302'
+2025-07-01 15:35:27,235 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:35:53,734 [INFO] Processing chunk '1303'
+2025-07-01 15:35:53,735 [INFO] Parsing blob list...
+2025-07-01 15:36:01,588 [INFO]  7464 PDFs to consider in chunk '1303'
+2025-07-01 15:36:02,988 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:36:29,506 [INFO] Processing chunk '1304'
+2025-07-01 15:36:29,508 [INFO] Parsing blob list...
+2025-07-01 15:36:37,556 [INFO]  8106 PDFs to consider in chunk '1304'
+2025-07-01 15:36:39,109 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:37:05,538 [INFO] Processing chunk '1305'
+2025-07-01 15:37:05,539 [INFO] Parsing blob list...
+2025-07-01 15:37:12,485 [INFO]  7497 PDFs to consider in chunk '1305'
+2025-07-01 15:37:13,906 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 15:37:47,685 [INFO] Processing chunk '1306'
+2025-07-01 15:37:47,686 [INFO] Parsing blob list...
+2025-07-01 15:37:54,989 [INFO]  6934 PDFs to consider in chunk '1306'
+2025-07-01 15:37:56,399 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:38:25,561 [INFO] Processing chunk '1307'
+2025-07-01 15:38:25,561 [INFO] Parsing blob list...
+2025-07-01 15:38:33,784 [INFO]  8424 PDFs to consider in chunk '1307'
+2025-07-01 15:38:35,544 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:39:03,788 [INFO] Processing chunk '1308'
+2025-07-01 15:39:03,789 [INFO] Parsing blob list...
+2025-07-01 15:39:10,796 [INFO]  6814 PDFs to consider in chunk '1308'
+2025-07-01 15:39:12,100 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:39:39,580 [INFO] Processing chunk '1309'
+2025-07-01 15:39:39,581 [INFO] Parsing blob list...
+2025-07-01 15:39:45,466 [INFO]  7976 PDFs to consider in chunk '1309'
+2025-07-01 15:39:46,976 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:40:14,019 [INFO] Processing chunk '1310'
+2025-07-01 15:40:14,020 [INFO] Parsing blob list...
+2025-07-01 15:40:20,432 [INFO]  8633 PDFs to consider in chunk '1310'
+2025-07-01 15:40:22,042 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:40:48,919 [INFO] Processing chunk '1311'
+2025-07-01 15:40:48,921 [INFO] Parsing blob list...
+2025-07-01 15:40:55,290 [INFO]  7678 PDFs to consider in chunk '1311'
+2025-07-01 15:40:56,693 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 15:41:02,277 [INFO] PDF processing complete.
+2025-07-01 15:41:02,277 [INFO] Skipping aggregation.
+2025-07-01 15:41:02,286 [INFO] Starting PDF processing
+2025-07-01 15:41:02,322 [INFO] Loading metadata...
+2025-07-01 15:41:29,306 [INFO] Processing chunk '1312'
+2025-07-01 15:41:29,306 [INFO] Parsing blob list...
+2025-07-01 15:41:38,319 [INFO]  7868 PDFs to consider in chunk '1312'
+2025-07-01 15:41:39,873 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:42:06,405 [INFO] Processing chunk '1401'
+2025-07-01 15:42:06,406 [INFO] Parsing blob list...
+2025-07-01 15:42:14,712 [INFO]  8275 PDFs to consider in chunk '1401'
+2025-07-01 15:42:16,232 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:42:42,605 [INFO] Processing chunk '1402'
+2025-07-01 15:42:42,605 [INFO] Parsing blob list...
+2025-07-01 15:42:50,601 [INFO]  7360 PDFs to consider in chunk '1402'
+2025-07-01 15:42:51,942 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:43:18,097 [INFO] Processing chunk '1403'
+2025-07-01 15:43:18,098 [INFO] Parsing blob list...
+2025-07-01 15:43:27,056 [INFO]  8140 PDFs to consider in chunk '1403'
+2025-07-01 15:43:28,584 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:43:54,900 [INFO] Processing chunk '1404'
+2025-07-01 15:43:54,902 [INFO] Parsing blob list...
+2025-07-01 15:44:00,374 [INFO]  7843 PDFs to consider in chunk '1404'
+2025-07-01 15:44:01,868 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:44:27,655 [INFO] Processing chunk '1405'
+2025-07-01 15:44:27,656 [INFO] Parsing blob list...
+2025-07-01 15:44:35,914 [INFO]  7963 PDFs to consider in chunk '1405'
+2025-07-01 15:44:37,577 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 15:45:08,751 [INFO] Processing chunk '1406'
+2025-07-01 15:45:08,753 [INFO] Parsing blob list...
+2025-07-01 15:45:14,868 [INFO]  7859 PDFs to consider in chunk '1406'
+2025-07-01 15:45:16,356 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:45:42,744 [INFO] Processing chunk '1407'
+2025-07-01 15:45:42,745 [INFO] Parsing blob list...
+2025-07-01 15:45:49,232 [INFO]  8528 PDFs to consider in chunk '1407'
+2025-07-01 15:45:50,876 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:46:17,247 [INFO] Processing chunk '1408'
+2025-07-01 15:46:17,247 [INFO] Parsing blob list...
+2025-07-01 15:46:22,607 [INFO]  7110 PDFs to consider in chunk '1408'
+2025-07-01 15:46:23,954 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:46:50,249 [INFO] Processing chunk '1409'
+2025-07-01 15:46:50,250 [INFO] Parsing blob list...
+2025-07-01 15:46:56,056 [INFO]  8665 PDFs to consider in chunk '1409'
+2025-07-01 15:46:57,683 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:46:57,684 [INFO] PDF processing complete.
+2025-07-01 15:46:57,685 [INFO] Skipping aggregation.
+2025-07-01 15:46:57,697 [INFO] Starting PDF processing
+2025-07-01 15:46:57,732 [INFO] Loading metadata...
+2025-07-01 15:47:24,076 [INFO] Processing chunk '1410'
+2025-07-01 15:47:24,076 [INFO] Parsing blob list...
+2025-07-01 15:47:34,145 [INFO]  8859 PDFs to consider in chunk '1410'
+2025-07-01 15:47:35,840 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 15:48:06,711 [INFO] Processing chunk '1411'
+2025-07-01 15:48:06,713 [INFO] Parsing blob list...
+2025-07-01 15:48:15,552 [INFO]  7991 PDFs to consider in chunk '1411'
+2025-07-01 15:48:17,057 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 15:48:49,091 [INFO] Processing chunk '1412'
+2025-07-01 15:48:49,093 [INFO] Parsing blob list...
+2025-07-01 15:48:58,691 [INFO]  8752 PDFs to consider in chunk '1412'
+2025-07-01 15:49:00,318 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:49:26,676 [INFO] Processing chunk '1501'
+2025-07-01 15:49:26,678 [INFO] Parsing blob list...
+2025-07-01 15:49:34,944 [INFO]  7900 PDFs to consider in chunk '1501'
+2025-07-01 15:49:36,395 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:50:02,427 [INFO] Processing chunk '1502'
+2025-07-01 15:50:02,429 [INFO] Parsing blob list...
+2025-07-01 15:50:08,656 [INFO]  8038 PDFs to consider in chunk '1502'
+2025-07-01 15:50:10,093 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:50:35,972 [INFO] Processing chunk '1503'
+2025-07-01 15:50:35,973 [INFO] Parsing blob list...
+2025-07-01 15:50:43,203 [INFO]  9182 PDFs to consider in chunk '1503'
+2025-07-01 15:50:44,901 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 15:51:15,319 [INFO] Processing chunk '1504'
+2025-07-01 15:51:15,321 [INFO] Parsing blob list...
+2025-07-01 15:51:21,707 [INFO]  8356 PDFs to consider in chunk '1504'
+2025-07-01 15:51:23,282 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:51:49,665 [INFO] Processing chunk '1505'
+2025-07-01 15:51:49,666 [INFO] Parsing blob list...
+2025-07-01 15:51:55,607 [INFO]  8165 PDFs to consider in chunk '1505'
+2025-07-01 15:51:57,145 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:52:23,525 [INFO] Processing chunk '1506'
+2025-07-01 15:52:23,526 [INFO] Parsing blob list...
+2025-07-01 15:52:31,513 [INFO]  9205 PDFs to consider in chunk '1506'
+2025-07-01 15:52:33,236 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:52:59,470 [INFO] Processing chunk '1507'
+2025-07-01 15:52:59,471 [INFO] Parsing blob list...
+2025-07-01 15:53:05,528 [INFO]  8991 PDFs to consider in chunk '1507'
+2025-07-01 15:53:07,167 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:53:07,168 [INFO] PDF processing complete.
+2025-07-01 15:53:07,168 [INFO] Skipping aggregation.
+2025-07-01 15:53:07,184 [INFO] Starting PDF processing
+2025-07-01 15:53:07,220 [INFO] Loading metadata...
+2025-07-01 15:53:33,329 [INFO] Processing chunk '1508'
+2025-07-01 15:53:33,329 [INFO] Parsing blob list...
+2025-07-01 15:53:41,661 [INFO]  7972 PDFs to consider in chunk '1508'
+2025-07-01 15:53:43,123 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:54:09,825 [INFO] Processing chunk '1509'
+2025-07-01 15:54:09,826 [INFO] Parsing blob list...
+2025-07-01 15:54:20,050 [INFO]  9304 PDFs to consider in chunk '1509'
+2025-07-01 15:54:21,844 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:54:48,314 [INFO] Processing chunk '1510'
+2025-07-01 15:54:48,315 [INFO] Parsing blob list...
+2025-07-01 15:54:58,377 [INFO]  9213 PDFs to consider in chunk '1510'
+2025-07-01 15:55:00,107 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:55:26,536 [INFO] Processing chunk '1511'
+2025-07-01 15:55:26,537 [INFO] Parsing blob list...
+2025-07-01 15:55:34,696 [INFO]  9459 PDFs to consider in chunk '1511'
+2025-07-01 15:55:36,476 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:56:03,232 [INFO] Processing chunk '1512'
+2025-07-01 15:56:03,233 [INFO] Parsing blob list...
+2025-07-01 15:56:11,041 [INFO]  9364 PDFs to consider in chunk '1512'
+2025-07-01 15:56:12,756 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:56:38,852 [INFO] Processing chunk '1601'
+2025-07-01 15:56:38,853 [INFO] Parsing blob list...
+2025-07-01 15:56:44,433 [INFO]  8241 PDFs to consider in chunk '1601'
+2025-07-01 15:56:45,960 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:57:12,164 [INFO] Processing chunk '1602'
+2025-07-01 15:57:12,165 [INFO] Parsing blob list...
+2025-07-01 15:57:18,579 [INFO]  9125 PDFs to consider in chunk '1602'
+2025-07-01 15:57:20,295 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:57:46,709 [INFO] Processing chunk '1603'
+2025-07-01 15:57:46,710 [INFO] Parsing blob list...
+2025-07-01 15:57:54,407 [INFO]  9731 PDFs to consider in chunk '1603'
+2025-07-01 15:57:56,233 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:58:22,486 [INFO] Processing chunk '1604'
+2025-07-01 15:58:22,488 [INFO] Parsing blob list...
+2025-07-01 15:58:28,525 [INFO]  8943 PDFs to consider in chunk '1604'
+2025-07-01 15:58:30,184 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 15:59:02,653 [INFO] Processing chunk '1605'
+2025-07-01 15:59:02,654 [INFO] Parsing blob list...
+2025-07-01 15:59:11,063 [INFO]  9780 PDFs to consider in chunk '1605'
+2025-07-01 15:59:12,855 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 15:59:12,856 [INFO] PDF processing complete.
+2025-07-01 15:59:12,857 [INFO] Skipping aggregation.
+2025-07-01 15:59:12,873 [INFO] Starting PDF processing
+2025-07-01 15:59:12,909 [INFO] Loading metadata...
+2025-07-01 15:59:40,725 [INFO] Processing chunk '1606'
+2025-07-01 15:59:40,725 [INFO] Parsing blob list...
+2025-07-01 15:59:51,459 [INFO]  9628 PDFs to consider in chunk '1606'
+2025-07-01 15:59:53,310 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 16:00:20,626 [INFO] Processing chunk '1607'
+2025-07-01 16:00:20,628 [INFO] Parsing blob list...
+2025-07-01 16:00:30,217 [INFO]  8895 PDFs to consider in chunk '1607'
+2025-07-01 16:00:31,943 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 16:00:58,409 [INFO] Processing chunk '1608'
+2025-07-01 16:00:58,410 [INFO] Parsing blob list...
+2025-07-01 16:01:08,272 [INFO]  9002 PDFs to consider in chunk '1608'
+2025-07-01 16:01:09,931 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 16:01:36,249 [INFO] Processing chunk '1609'
+2025-07-01 16:01:36,250 [INFO] Parsing blob list...
+2025-07-01 16:01:46,800 [INFO]  9858 PDFs to consider in chunk '1609'
+2025-07-01 16:01:48,627 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 16:02:14,945 [INFO] Processing chunk '1610'
+2025-07-01 16:02:14,946 [INFO] Parsing blob list...
+2025-07-01 16:02:26,025 [INFO]  10089 PDFs to consider in chunk '1610'
+2025-07-01 16:02:27,893 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 16:02:54,238 [INFO] Processing chunk '1611'
+2025-07-01 16:02:54,239 [INFO] Parsing blob list...
+2025-07-01 16:03:01,831 [INFO]  10354 PDFs to consider in chunk '1611'
+2025-07-01 16:03:03,790 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 16:03:30,376 [INFO] Processing chunk '1612'
+2025-07-01 16:03:30,377 [INFO] Parsing blob list...
+2025-07-01 16:03:38,037 [INFO]  9584 PDFs to consider in chunk '1612'
+2025-07-01 16:03:39,804 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 16:04:06,055 [INFO] Processing chunk '1701'
+2025-07-01 16:04:06,056 [INFO] Parsing blob list...
+2025-07-01 16:04:12,005 [INFO]  9174 PDFs to consider in chunk '1701'
+2025-07-01 16:04:13,747 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 16:04:41,871 [INFO] Processing chunk '1702'
+2025-07-01 16:04:41,872 [INFO] Parsing blob list...
+2025-07-01 16:04:47,371 [INFO]  8904 PDFs to consider in chunk '1702'
+2025-07-01 16:04:49,080 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 16:05:16,843 [INFO] Processing chunk '1703'
+2025-07-01 16:05:16,845 [INFO] Parsing blob list...
+2025-07-01 16:05:24,639 [INFO]  10996 PDFs to consider in chunk '1703'
+2025-07-01 16:05:26,726 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 16:05:32,104 [INFO] PDF processing complete.
+2025-07-01 16:05:32,104 [INFO] Skipping aggregation.
+2025-07-01 16:05:32,119 [INFO] Starting PDF processing
+2025-07-01 16:05:32,154 [INFO] Loading metadata...
+2025-07-01 16:05:58,289 [INFO] Processing chunk '1704'
+2025-07-01 16:05:58,289 [INFO] Parsing blob list...
+2025-07-01 16:06:07,319 [INFO]  9018 PDFs to consider in chunk '1704'
+2025-07-01 16:06:08,996 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 16:06:35,404 [INFO] Processing chunk '1705'
+2025-07-01 16:06:35,406 [INFO] Parsing blob list...
+2025-07-01 16:06:46,803 [INFO]  11187 PDFs to consider in chunk '1705'
+2025-07-01 16:06:48,889 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 16:07:15,302 [INFO] Processing chunk '1706'
+2025-07-01 16:07:15,303 [INFO] Parsing blob list...
+2025-07-01 16:07:25,601 [INFO]  10288 PDFs to consider in chunk '1706'
+2025-07-01 16:07:27,549 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 16:07:54,288 [INFO] Processing chunk '1707'
+2025-07-01 16:07:54,289 [INFO] Parsing blob list...
+2025-07-01 16:08:03,085 [INFO]  9969 PDFs to consider in chunk '1707'
+2025-07-01 16:08:04,938 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 16:08:36,039 [INFO] Processing chunk '1708'
+2025-07-01 16:08:36,040 [INFO] Parsing blob list...
+2025-07-01 16:08:43,604 [INFO]  9835 PDFs to consider in chunk '1708'
+2025-07-01 16:08:45,398 [INFO]  4 PDFs to process after skipping completed.
+2025-07-01 16:09:23,569 [INFO] Processing chunk '1709'
+2025-07-01 16:09:23,570 [INFO] Parsing blob list...
+2025-07-01 16:09:30,522 [INFO]  10499 PDFs to consider in chunk '1709'
+2025-07-01 16:09:32,220 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 16:09:59,371 [INFO] Processing chunk '1710'
+2025-07-01 16:09:59,373 [INFO] Parsing blob list...
+2025-07-01 16:10:07,505 [INFO]  11618 PDFs to consider in chunk '1710'
+2025-07-01 16:10:09,311 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 16:10:35,877 [INFO] Processing chunk '1711'
+2025-07-01 16:10:35,879 [INFO] Parsing blob list...
+2025-07-01 16:10:43,908 [INFO]  11578 PDFs to consider in chunk '1711'
+2025-07-01 16:10:45,681 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 16:11:11,653 [INFO] Processing chunk '1712'
+2025-07-01 16:11:11,655 [INFO] Parsing blob list...
+2025-07-01 16:11:18,306 [INFO]  10323 PDFs to consider in chunk '1712'
+2025-07-01 16:11:19,907 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 16:11:46,675 [INFO] Processing chunk '1801'
+2025-07-01 16:11:46,676 [INFO] Parsing blob list...
+2025-07-01 16:11:53,759 [INFO]  10600 PDFs to consider in chunk '1801'
+2025-07-01 16:11:55,392 [INFO]  2 PDFs to process after skipping completed.
+2025-07-01 16:12:03,573 [INFO] PDF processing complete.
+2025-07-01 16:12:03,574 [INFO] Skipping aggregation.
+2025-07-01 16:12:03,591 [INFO] Starting PDF processing
+2025-07-01 16:12:03,625 [INFO] Loading metadata...
+2025-07-01 16:12:29,524 [INFO] Processing chunk '1802'
+2025-07-01 16:12:29,524 [INFO] Parsing blob list...
+2025-07-01 16:12:39,748 [INFO]  10585 PDFs to consider in chunk '1802'
+2025-07-01 16:12:41,389 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 16:13:14,352 [INFO] Processing chunk '1803'
+2025-07-01 16:13:14,353 [INFO] Parsing blob list...
+2025-07-01 16:13:25,393 [INFO]  11553 PDFs to consider in chunk '1803'
+2025-07-01 16:13:27,186 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 16:13:58,263 [INFO] Processing chunk '1804'
+2025-07-01 16:13:58,265 [INFO] Parsing blob list...
+2025-07-01 16:14:10,108 [INFO]  11342 PDFs to consider in chunk '1804'
+2025-07-01 16:14:12,030 [INFO]  2 PDFs to process after skipping completed.
+2025-07-01 16:16:00,511 [INFO] Processing chunk '1805'
+2025-07-01 16:16:00,513 [INFO] Parsing blob list...
+2025-07-01 16:16:09,917 [INFO]  12579 PDFs to consider in chunk '1805'
+2025-07-01 16:16:12,236 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 16:16:43,800 [INFO] Processing chunk '1806'
+2025-07-01 16:16:43,801 [INFO] Parsing blob list...
+2025-07-01 16:16:53,183 [INFO]  11557 PDFs to consider in chunk '1806'
+2025-07-01 16:16:55,307 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 16:17:21,859 [INFO] Processing chunk '1807'
+2025-07-01 16:17:21,860 [INFO] Parsing blob list...
+2025-07-01 16:17:30,313 [INFO]  11929 PDFs to consider in chunk '1807'
+2025-07-01 16:17:32,632 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 16:17:58,724 [INFO] Processing chunk '1808'
+2025-07-01 16:17:58,725 [INFO] Parsing blob list...
+2025-07-01 16:18:06,291 [INFO]  10861 PDFs to consider in chunk '1808'
+2025-07-01 16:18:08,320 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 16:18:38,760 [INFO] Processing chunk '1809'
+2025-07-01 16:18:38,762 [INFO] Parsing blob list...
+2025-07-01 16:18:46,668 [INFO]  11162 PDFs to consider in chunk '1809'
+2025-07-01 16:18:48,661 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 16:19:19,285 [INFO] Processing chunk '1810'
+2025-07-01 16:19:19,287 [INFO] Parsing blob list...
+2025-07-01 16:19:28,781 [INFO]  13434 PDFs to consider in chunk '1810'
+2025-07-01 16:19:31,214 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 16:20:02,354 [INFO] Processing chunk '1811'
+2025-07-01 16:20:02,355 [INFO] Parsing blob list...
+2025-07-01 16:20:11,717 [INFO]  12924 PDFs to consider in chunk '1811'
+2025-07-01 16:20:14,040 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 16:20:18,313 [INFO] PDF processing complete.
+2025-07-01 16:20:18,313 [INFO] Skipping aggregation.
+2025-07-01 16:20:18,345 [INFO] Starting PDF processing
+2025-07-01 16:20:18,379 [INFO] Loading metadata...
+2025-07-01 16:20:44,205 [INFO] Processing chunk '1812'
+2025-07-01 16:20:44,206 [INFO] Parsing blob list...
+2025-07-01 16:20:57,668 [INFO]  11959 PDFs to consider in chunk '1812'
+2025-07-01 16:20:59,880 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 16:21:26,171 [INFO] Processing chunk '1901'
+2025-07-01 16:21:26,172 [INFO] Parsing blob list...
+2025-07-01 16:21:37,407 [INFO]  11527 PDFs to consider in chunk '1901'
+2025-07-01 16:21:39,449 [INFO]  3 PDFs to process after skipping completed.
+2025-07-01 16:22:13,972 [INFO] Processing chunk '1902'
+2025-07-01 16:22:13,973 [INFO] Parsing blob list...
+2025-07-01 16:22:25,520 [INFO]  11291 PDFs to consider in chunk '1902'
+2025-07-01 16:22:27,650 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 16:22:54,128 [INFO] Processing chunk '1903'
+2025-07-01 16:22:54,130 [INFO] Parsing blob list...
+2025-07-01 16:23:05,227 [INFO]  12644 PDFs to consider in chunk '1903'
+2025-07-01 16:23:07,489 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 16:23:39,198 [INFO] Processing chunk '1904'
+2025-07-01 16:23:39,200 [INFO] Parsing blob list...
+2025-07-01 16:23:49,466 [INFO]  13386 PDFs to consider in chunk '1904'
+2025-07-01 16:23:51,888 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 16:24:23,281 [INFO] Processing chunk '1905'
+2025-07-01 16:24:23,283 [INFO] Parsing blob list...
+2025-07-01 16:24:35,969 [INFO]  13743 PDFs to consider in chunk '1905'
+2025-07-01 16:24:38,464 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 16:25:10,424 [INFO] Processing chunk '1906'
+2025-07-01 16:25:10,426 [INFO] Parsing blob list...
+2025-07-01 16:25:18,606 [INFO]  12342 PDFs to consider in chunk '1906'
+2025-07-01 16:25:20,887 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 16:25:53,398 [INFO] Processing chunk '1907'
+2025-07-01 16:25:53,400 [INFO] Parsing blob list...
+2025-07-01 16:26:02,821 [INFO]  13625 PDFs to consider in chunk '1907'
+2025-07-01 16:26:05,353 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 16:26:31,539 [INFO] Processing chunk '1908'
+2025-07-01 16:26:31,541 [INFO] Parsing blob list...
+2025-07-01 16:26:40,489 [INFO]  11853 PDFs to consider in chunk '1908'
+2025-07-01 16:26:42,662 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 16:27:08,868 [INFO] Processing chunk '1909'
+2025-07-01 16:27:08,869 [INFO] Parsing blob list...
+2025-07-01 16:27:19,490 [INFO]  13863 PDFs to consider in chunk '1909'
+2025-07-01 16:27:22,073 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 16:27:22,074 [INFO] PDF processing complete.
+2025-07-01 16:27:22,075 [INFO] Skipping aggregation.
+2025-07-01 16:27:22,100 [INFO] Starting PDF processing
+2025-07-01 16:27:22,135 [INFO] Loading metadata...
+2025-07-01 16:27:48,590 [INFO] Processing chunk '1910'
+2025-07-01 16:27:48,591 [INFO] Parsing blob list...
+2025-07-01 16:28:03,409 [INFO]  14663 PDFs to consider in chunk '1910'
+2025-07-01 16:28:06,198 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 16:28:38,353 [INFO] Processing chunk '1911'
+2025-07-01 16:28:38,355 [INFO] Parsing blob list...
+2025-07-01 16:28:50,949 [INFO]  13291 PDFs to consider in chunk '1911'
+2025-07-01 16:28:53,462 [INFO]  2 PDFs to process after skipping completed.
+2025-07-01 16:29:30,586 [INFO] Processing chunk '1912'
+2025-07-01 16:29:30,588 [INFO] Parsing blob list...
+2025-07-01 16:29:43,880 [INFO]  13503 PDFs to consider in chunk '1912'
+2025-07-01 16:29:46,479 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 16:30:13,410 [INFO] Processing chunk '2001'
+2025-07-01 16:30:13,411 [INFO] Parsing blob list...
+2025-07-01 16:30:25,021 [INFO]  11999 PDFs to consider in chunk '2001'
+2025-07-01 16:30:27,258 [INFO]  2 PDFs to process after skipping completed.
+2025-07-01 16:31:00,944 [INFO] Processing chunk '2002'
+2025-07-01 16:31:00,945 [INFO] Parsing blob list...
+2025-07-01 16:31:09,796 [INFO]  12926 PDFs to consider in chunk '2002'
+2025-07-01 16:31:12,200 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 16:31:39,200 [INFO] Processing chunk '2003'
+2025-07-01 16:31:39,202 [INFO] Parsing blob list...
+2025-07-01 16:31:49,433 [INFO]  14412 PDFs to consider in chunk '2003'
+2025-07-01 16:31:52,103 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 16:32:23,318 [INFO] Processing chunk '2004'
+2025-07-01 16:32:23,320 [INFO] Parsing blob list...
+2025-07-01 16:32:32,740 [INFO]  15014 PDFs to consider in chunk '2004'
+2025-07-01 16:32:35,596 [INFO]  2 PDFs to process after skipping completed.
+2025-07-01 16:33:10,554 [INFO] Processing chunk '2005'
+2025-07-01 16:33:10,556 [INFO] Parsing blob list...
+2025-07-01 16:33:19,720 [INFO]  14715 PDFs to consider in chunk '2005'
+2025-07-01 16:33:22,417 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 16:33:55,912 [INFO] Processing chunk '2006'
+2025-07-01 16:33:55,914 [INFO] Parsing blob list...
+2025-07-01 16:34:06,482 [INFO]  16892 PDFs to consider in chunk '2006'
+2025-07-01 16:34:09,595 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 16:34:35,579 [INFO] Processing chunk '2007'
+2025-07-01 16:34:35,581 [INFO] Parsing blob list...
+2025-07-01 16:34:45,195 [INFO]  15559 PDFs to consider in chunk '2007'
+2025-07-01 16:34:48,141 [INFO]  4 PDFs to process after skipping completed.
+2025-07-01 16:34:59,543 [INFO] PDF processing complete.
+2025-07-01 16:34:59,543 [INFO] Skipping aggregation.
+2025-07-01 16:34:59,585 [INFO] Starting PDF processing
+2025-07-01 16:34:59,624 [INFO] Loading metadata...
+2025-07-01 16:35:25,624 [INFO] Processing chunk '2008'
+2025-07-01 16:35:25,624 [INFO] Parsing blob list...
+2025-07-01 16:35:40,848 [INFO]  13778 PDFs to consider in chunk '2008'
+2025-07-01 16:35:43,353 [INFO]  4 PDFs to process after skipping completed.
+2025-07-01 16:36:21,557 [INFO] Processing chunk '2009'
+2025-07-01 16:36:21,558 [INFO] Parsing blob list...
+2025-07-01 16:36:36,875 [INFO]  14821 PDFs to consider in chunk '2009'
+2025-07-01 16:36:39,649 [INFO]  2 PDFs to process after skipping completed.
+2025-07-01 16:37:13,738 [INFO] Processing chunk '2010'
+2025-07-01 16:37:13,740 [INFO] Parsing blob list...
+2025-07-01 16:37:27,895 [INFO]  16414 PDFs to consider in chunk '2010'
+2025-07-01 16:37:30,919 [INFO]  2 PDFs to process after skipping completed.
+2025-07-01 16:38:05,265 [INFO] Processing chunk '2011'
+2025-07-01 16:38:05,269 [INFO] Parsing blob list...
+2025-07-01 16:38:17,604 [INFO]  14972 PDFs to consider in chunk '2011'
+2025-07-01 16:38:20,313 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 16:38:51,644 [INFO] Processing chunk '2012'
+2025-07-01 16:38:51,646 [INFO] Parsing blob list...
+2025-07-01 16:39:04,224 [INFO]  15859 PDFs to consider in chunk '2012'
+2025-07-01 16:39:07,182 [INFO]  2 PDFs to process after skipping completed.
+2025-07-01 16:39:41,478 [INFO] Processing chunk '2101'
+2025-07-01 16:39:41,480 [INFO] Parsing blob list...
+2025-07-01 16:39:50,735 [INFO]  12742 PDFs to consider in chunk '2101'
+2025-07-01 16:39:53,033 [INFO]  0 PDFs to process after skipping completed.
+2025-07-01 16:40:19,341 [INFO] Processing chunk '2102'
+2025-07-01 16:40:19,343 [INFO] Parsing blob list...
+2025-07-01 16:40:27,863 [INFO]  13653 PDFs to consider in chunk '2102'
+2025-07-01 16:40:30,376 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 16:41:01,092 [INFO] Processing chunk '2103'
+2025-07-01 16:41:01,094 [INFO] Parsing blob list...
+2025-07-01 16:41:13,942 [INFO]  17271 PDFs to consider in chunk '2103'
+2025-07-01 16:41:17,053 [INFO]  3 PDFs to process after skipping completed.
+2025-07-01 16:41:52,553 [INFO] Processing chunk '2104'
+2025-07-01 16:41:52,556 [INFO] Parsing blob list...
+2025-07-01 16:42:02,364 [INFO]  15139 PDFs to consider in chunk '2104'
+2025-07-01 16:42:05,149 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 16:42:37,238 [INFO] Processing chunk '2105'
+2025-07-01 16:42:37,240 [INFO] Parsing blob list...
+2025-07-01 16:42:47,902 [INFO]  15204 PDFs to consider in chunk '2105'
+2025-07-01 16:42:50,762 [INFO]  3 PDFs to process after skipping completed.
+2025-07-01 16:42:59,735 [INFO] PDF processing complete.
+2025-07-01 16:42:59,735 [INFO] Skipping aggregation.
+2025-07-01 16:42:59,761 [INFO] Starting PDF processing
+2025-07-01 16:42:59,797 [INFO] Loading metadata...
+2025-07-01 16:43:25,830 [INFO] Processing chunk '2106'
+2025-07-01 16:43:25,830 [INFO] Parsing blob list...
+2025-07-01 16:43:43,051 [INFO]  16246 PDFs to consider in chunk '2106'
+2025-07-01 16:43:46,021 [INFO]  3 PDFs to process after skipping completed.
+2025-07-01 16:44:21,348 [INFO] Processing chunk '2107'
+2025-07-01 16:44:21,350 [INFO] Parsing blob list...
+2025-07-01 16:44:36,396 [INFO]  14797 PDFs to consider in chunk '2107'
+2025-07-01 16:44:39,122 [INFO]  2 PDFs to process after skipping completed.
+2025-07-01 16:45:12,833 [INFO] Processing chunk '2108'
+2025-07-01 16:45:12,835 [INFO] Parsing blob list...
+2025-07-01 16:45:27,553 [INFO]  14000 PDFs to consider in chunk '2108'
+2025-07-01 16:45:30,137 [INFO]  2 PDFs to process after skipping completed.
+2025-07-01 16:46:03,473 [INFO] Processing chunk '2109'
+2025-07-01 16:46:03,475 [INFO] Parsing blob list...
+2025-07-01 16:46:14,819 [INFO]  15306 PDFs to consider in chunk '2109'
+2025-07-01 16:46:17,646 [INFO]  2 PDFs to process after skipping completed.
+2025-07-01 16:46:51,873 [INFO] Processing chunk '2110'
+2025-07-01 16:46:51,875 [INFO] Parsing blob list...
+2025-07-01 16:47:03,464 [INFO]  15957 PDFs to consider in chunk '2110'
+2025-07-01 16:47:06,568 [INFO]  8 PDFs to process after skipping completed.
+2025-07-01 16:48:11,939 [INFO] Processing chunk '2111'
+2025-07-01 16:48:11,942 [INFO] Parsing blob list...
+2025-07-01 16:48:21,529 [INFO]  15672 PDFs to consider in chunk '2111'
+2025-07-01 16:48:24,456 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 16:48:55,978 [INFO] Processing chunk '2112'
+2025-07-01 16:48:55,980 [INFO] Parsing blob list...
+2025-07-01 16:49:06,930 [INFO]  15590 PDFs to consider in chunk '2112'
+2025-07-01 16:49:09,816 [INFO]  7 PDFs to process after skipping completed.
+2025-07-01 16:49:54,980 [INFO] Processing chunk '2201'
+2025-07-01 16:49:54,982 [INFO] Parsing blob list...
+2025-07-01 16:50:04,023 [INFO]  13449 PDFs to consider in chunk '2201'
+2025-07-01 16:50:06,516 [INFO]  4 PDFs to process after skipping completed.
+2025-07-01 16:50:44,342 [INFO] Processing chunk '2202'
+2025-07-01 16:50:44,344 [INFO] Parsing blob list...
+2025-07-01 16:50:53,551 [INFO]  14035 PDFs to consider in chunk '2202'
+2025-07-01 16:50:56,104 [INFO]  1 PDFs to process after skipping completed.
+2025-07-01 16:51:27,465 [INFO] Processing chunk '2203'
+2025-07-01 16:51:27,467 [INFO] Parsing blob list...
+2025-07-01 16:51:39,949 [INFO]  17274 PDFs to consider in chunk '2203'
+2025-07-01 16:51:43,568 [INFO]  4 PDFs to process after skipping completed.
+2025-07-01 16:51:55,253 [INFO] PDF processing complete.
+2025-07-01 16:51:55,253 [INFO] Skipping aggregation.
+2025-07-01 16:51:55,305 [INFO] Starting PDF processing
+2025-07-01 16:51:55,341 [INFO] Loading metadata...
+2025-07-01 16:52:21,536 [INFO] Processing chunk '2204'
+2025-07-01 16:52:21,538 [INFO] Parsing blob list...
+2025-07-01 16:52:35,767 [INFO]  14269 PDFs to consider in chunk '2204'
+2025-07-01 16:52:39,099 [INFO]  5 PDFs to process after skipping completed.
+2025-07-01 16:53:20,234 [INFO] Processing chunk '2205'
+2025-07-01 16:53:20,236 [INFO] Parsing blob list...
+2025-07-01 16:53:37,533 [INFO]  16006 PDFs to consider in chunk '2205'
+2025-07-01 16:53:40,993 [INFO]  2 PDFs to process after skipping completed.
+2025-07-01 16:54:20,656 [INFO] Processing chunk '2206'
+2025-07-01 16:54:20,658 [INFO] Parsing blob list...
+2025-07-01 16:54:32,685 [INFO]  15475 PDFs to consider in chunk '2206'
+2025-07-01 16:54:35,679 [INFO]  8 PDFs to process after skipping completed.
+2025-07-01 16:55:21,744 [INFO] Processing chunk '2207'
+2025-07-01 16:55:21,745 [INFO] Parsing blob list...
+2025-07-01 16:55:32,058 [INFO]  14808 PDFs to consider in chunk '2207'
+2025-07-01 16:55:34,917 [INFO]  6 PDFs to process after skipping completed.
+2025-07-01 16:56:14,715 [INFO] Processing chunk '2208'
+2025-07-01 16:56:14,717 [INFO] Parsing blob list...
+2025-07-01 16:56:25,713 [INFO]  14995 PDFs to consider in chunk '2208'
+2025-07-01 16:56:28,615 [INFO]  9 PDFs to process after skipping completed.
+2025-07-01 16:57:16,687 [INFO] Processing chunk '2209'
+2025-07-01 16:57:16,689 [INFO] Parsing blob list...
+2025-07-01 16:57:26,718 [INFO]  15635 PDFs to consider in chunk '2209'
+2025-07-01 16:57:29,724 [INFO]  6 PDFs to process after skipping completed.
+2025-07-01 16:58:16,905 [INFO] Processing chunk '2210'
+2025-07-01 16:58:16,907 [INFO] Parsing blob list...
+2025-07-01 16:58:28,988 [INFO]  17548 PDFs to consider in chunk '2210'
+2025-07-01 16:58:32,446 [INFO]  7 PDFs to process after skipping completed.
+2025-07-01 16:59:22,915 [INFO] Processing chunk '2211'
+2025-07-01 16:59:22,917 [INFO] Parsing blob list...
+2025-07-01 16:59:34,343 [INFO]  17267 PDFs to consider in chunk '2211'
+2025-07-01 16:59:37,751 [INFO]  11 PDFs to process after skipping completed.
+2025-07-01 17:00:37,401 [INFO] Processing chunk '2212'
+2025-07-01 17:00:37,403 [INFO] Parsing blob list...
+2025-07-01 17:00:46,297 [INFO]  14884 PDFs to consider in chunk '2212'
+2025-07-01 17:00:49,256 [INFO]  10 PDFs to process after skipping completed.
+2025-07-01 17:01:41,741 [INFO] Processing chunk '2301'
+2025-07-01 17:01:41,743 [INFO] Parsing blob list...
+2025-07-01 17:01:51,018 [INFO]  13868 PDFs to consider in chunk '2301'
+2025-07-01 17:01:53,803 [INFO]  8 PDFs to process after skipping completed.
+2025-07-01 17:02:15,174 [INFO] PDF processing complete.
+2025-07-01 17:02:15,174 [INFO] Skipping aggregation.
+2025-07-01 17:02:15,227 [INFO] Starting PDF processing
+2025-07-01 17:02:15,262 [INFO] Loading metadata...
+2025-07-01 17:02:41,356 [INFO] Processing chunk '2302'
+2025-07-01 17:02:41,357 [INFO] Parsing blob list...
+2025-07-01 17:02:57,465 [INFO]  14863 PDFs to consider in chunk '2302'
+2025-07-01 17:03:00,664 [INFO]  7 PDFs to process after skipping completed.
+2025-07-01 17:03:47,219 [INFO] Processing chunk '2303'
+2025-07-01 17:03:47,221 [INFO] Parsing blob list...
+2025-07-01 17:04:05,631 [INFO]  18245 PDFs to consider in chunk '2303'
+2025-07-01 17:04:09,220 [INFO]  18 PDFs to process after skipping completed.
+2025-07-01 17:05:23,185 [INFO] Processing chunk '2304'
+2025-07-01 17:05:23,187 [INFO] Parsing blob list...
+2025-07-01 17:05:38,386 [INFO]  15009 PDFs to consider in chunk '2304'
+2025-07-01 17:05:41,274 [INFO]  6 PDFs to process after skipping completed.
+2025-07-01 17:06:32,683 [INFO] Processing chunk '2305'
+2025-07-01 17:06:32,685 [INFO] Parsing blob list...
+2025-07-01 17:06:45,459 [INFO]  20092 PDFs to consider in chunk '2305'
+2025-07-01 17:06:49,373 [INFO]  22 PDFs to process after skipping completed.
+2025-07-01 17:07:56,986 [INFO] Processing chunk '2306'
+2025-07-01 17:07:56,988 [INFO] Parsing blob list...
+2025-07-01 17:08:13,515 [INFO]  17847 PDFs to consider in chunk '2306'
+2025-07-01 17:08:17,039 [INFO]  13 PDFs to process after skipping completed.
+2025-07-01 17:09:16,528 [INFO] Processing chunk '2307'
+2025-07-01 17:09:16,531 [INFO] Parsing blob list...
+2025-07-01 17:09:28,306 [INFO]  16890 PDFs to consider in chunk '2307'
+2025-07-01 17:09:31,636 [INFO]  16 PDFs to process after skipping completed.
+2025-07-01 17:10:38,085 [INFO] Processing chunk '2308'
+2025-07-01 17:10:38,088 [INFO] Parsing blob list...
+2025-07-01 17:10:48,020 [INFO]  16904 PDFs to consider in chunk '2308'
+2025-07-01 17:10:51,401 [INFO]  29 PDFs to process after skipping completed.
+2025-07-01 17:12:13,136 [INFO] Processing chunk '2309'
+2025-07-01 17:12:13,138 [INFO] Parsing blob list...
+2025-07-01 17:12:24,372 [INFO]  17446 PDFs to consider in chunk '2309'
+2025-07-01 17:12:27,831 [INFO]  24 PDFs to process after skipping completed.
+2025-07-01 17:13:39,474 [INFO] Processing chunk '2310'
+2025-07-01 17:13:39,477 [INFO] Parsing blob list...
+2025-07-01 17:13:52,565 [INFO]  20705 PDFs to consider in chunk '2310'
+2025-07-01 17:13:56,666 [INFO]  36 PDFs to process after skipping completed.
+2025-07-01 17:15:10,846 [INFO] Processing chunk '2311'
+2025-07-01 17:15:10,849 [INFO] Parsing blob list...
+2025-07-01 17:15:24,034 [INFO]  18834 PDFs to consider in chunk '2311'
+2025-07-01 17:15:27,794 [INFO]  28 PDFs to process after skipping completed.
+2025-07-01 17:16:35,903 [INFO] PDF processing complete.
+2025-07-01 17:16:35,903 [INFO] Skipping aggregation.
+2025-07-01 17:16:35,997 [INFO] Starting PDF processing
+2025-07-01 17:16:36,036 [INFO] Loading metadata...
+2025-07-01 17:17:02,913 [INFO] Processing chunk '2312'
+2025-07-01 17:17:02,914 [INFO] Parsing blob list...
+2025-07-01 17:17:22,299 [INFO]  17742 PDFs to consider in chunk '2312'
+2025-07-01 17:17:25,795 [INFO]  24 PDFs to process after skipping completed.
+2025-07-01 17:18:39,802 [INFO] Processing chunk '2401'
+2025-07-01 17:18:39,804 [INFO] Parsing blob list...
+2025-07-01 17:18:57,325 [INFO]  18082 PDFs to consider in chunk '2401'
+2025-07-01 17:19:01,196 [INFO]  41 PDFs to process after skipping completed.
+2025-07-01 17:20:23,657 [INFO] Processing chunk '2402'
+2025-07-01 17:20:23,660 [INFO] Parsing blob list...
+2025-07-01 17:20:39,804 [INFO]  19480 PDFs to consider in chunk '2402'
+2025-07-01 17:20:44,017 [INFO]  46 PDFs to process after skipping completed.
+2025-07-01 17:22:03,271 [INFO] Processing chunk '2403'
+2025-07-01 17:22:03,274 [INFO] Parsing blob list...
+2025-07-01 17:22:16,271 [INFO]  20329 PDFs to consider in chunk '2403'
+2025-07-01 17:22:20,660 [INFO]  72 PDFs to process after skipping completed.
+2025-07-01 17:24:12,856 [INFO] Processing chunk '2404'
+2025-07-01 17:24:12,859 [INFO] Parsing blob list...
+2025-07-01 17:24:26,545 [INFO]  19755 PDFs to consider in chunk '2404'
+2025-07-01 17:24:30,795 [INFO]  63 PDFs to process after skipping completed.
+2025-07-01 17:26:03,614 [INFO] Processing chunk '2405'
+2025-07-01 17:26:03,618 [INFO] Parsing blob list...
+2025-07-01 17:26:17,670 [INFO]  21076 PDFs to consider in chunk '2405'
+2025-07-01 17:26:22,202 [INFO]  79 PDFs to process after skipping completed.
+2025-07-01 17:28:13,317 [INFO] Processing chunk '2406'
+2025-07-01 17:28:13,320 [INFO] Parsing blob list...
+2025-07-01 17:28:25,317 [INFO]  20096 PDFs to consider in chunk '2406'
+2025-07-01 17:28:29,668 [INFO]  66 PDFs to process after skipping completed.
+2025-07-01 17:30:09,538 [INFO] Processing chunk '2407'
+2025-07-01 17:30:09,540 [INFO] Parsing blob list...
+2025-07-01 17:30:23,204 [INFO]  21791 PDFs to consider in chunk '2407'
+2025-07-01 17:30:28,569 [INFO]  97 PDFs to process after skipping completed.
+2025-07-01 17:32:23,638 [INFO] Processing chunk '2408'
+2025-07-01 17:32:23,642 [INFO] Parsing blob list...
+2025-07-01 17:32:33,233 [INFO]  17450 PDFs to consider in chunk '2408'
+2025-07-01 17:32:37,073 [INFO]  76 PDFs to process after skipping completed.
+2025-07-01 17:34:18,014 [INFO] Processing chunk '2409'
+2025-07-01 17:34:18,017 [INFO] Parsing blob list...
+2025-07-01 17:34:29,396 [INFO]  20564 PDFs to consider in chunk '2409'
+2025-07-01 17:34:33,823 [INFO]  102 PDFs to process after skipping completed.
+2025-07-01 17:36:05,328 [INFO] PDF processing complete.
+2025-07-01 17:36:05,328 [INFO] Skipping aggregation.
+2025-07-01 17:36:05,457 [INFO] Starting PDF processing
+2025-07-01 17:36:05,495 [INFO] Loading metadata...
+2025-07-01 17:36:32,684 [INFO] Processing chunk '2410'
+2025-07-01 17:36:32,684 [INFO] Parsing blob list...
+2025-07-01 17:36:56,181 [INFO]  24221 PDFs to consider in chunk '2410'
+2025-07-01 17:37:01,366 [INFO]  191 PDFs to process after skipping completed.
+2025-07-01 17:39:47,372 [INFO] Processing chunk '2411'
+2025-07-01 17:39:47,376 [INFO] Parsing blob list...
+2025-07-01 17:40:06,644 [INFO]  19948 PDFs to consider in chunk '2411'
+2025-07-01 17:40:11,004 [INFO]  270 PDFs to process after skipping completed.
+2025-07-01 17:43:16,843 [INFO] Processing chunk '2412'
+2025-07-01 17:43:16,846 [INFO] Parsing blob list...
+2025-07-01 17:43:30,155 [INFO]  21167 PDFs to consider in chunk '2412'
+2025-07-01 17:43:34,731 [INFO]  184 PDFs to process after skipping completed.
+2025-07-01 17:47:10,230 [INFO] Processing chunk '2501'
+2025-07-01 17:47:10,234 [INFO] Parsing blob list...
+2025-07-01 17:47:21,178 [INFO]  19359 PDFs to consider in chunk '2501'
+2025-07-01 17:47:25,371 [INFO]  191 PDFs to process after skipping completed.
+2025-07-01 17:50:05,530 [INFO] Processing chunk '2502'
+2025-07-01 17:50:05,533 [INFO] Parsing blob list...
+2025-07-01 17:50:18,385 [INFO]  21270 PDFs to consider in chunk '2502'
+2025-07-01 17:50:22,992 [INFO]  236 PDFs to process after skipping completed.
+2025-07-01 17:53:21,454 [INFO] Processing chunk '2503'
+2025-07-01 17:53:21,459 [INFO] Parsing blob list...
+2025-07-01 17:53:35,740 [INFO]  24343 PDFs to consider in chunk '2503'
+2025-07-01 17:53:41,036 [INFO]  317 PDFs to process after skipping completed.
+2025-07-01 17:57:49,297 [INFO] Processing chunk '2504'
+2025-07-01 17:57:49,300 [INFO] Parsing blob list...
+2025-07-01 17:58:05,916 [INFO]  21835 PDFs to consider in chunk '2504'
+2025-07-01 17:58:10,722 [INFO]  282 PDFs to process after skipping completed.
+2025-07-01 18:01:28,288 [INFO] Processing chunk '2505'
+2025-07-01 18:01:28,290 [INFO] Parsing blob list...
+2025-07-01 18:01:47,331 [INFO]  24862 PDFs to consider in chunk '2505'
+2025-07-01 18:01:52,641 [INFO]  342 PDFs to process after skipping completed.
+2025-07-01 18:06:07,176 [INFO] Processing chunk '2506'
+2025-07-01 18:06:07,180 [INFO] Parsing blob list...
+2025-07-01 18:06:22,773 [INFO]  21536 PDFs to consider in chunk '2506'
+2025-07-01 18:06:26,958 [INFO]  6365 PDFs to process after skipping completed.
+2025-07-01 18:53:38,692 [INFO] PDF processing complete.
+2025-07-01 18:53:38,692 [INFO] Skipping aggregation.

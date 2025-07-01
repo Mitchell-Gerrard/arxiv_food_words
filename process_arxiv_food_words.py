@@ -93,8 +93,8 @@ def sanitize_pdf(input_path):
 
     output_path = get_cleaned_pdf_path(input_path)
 
-    #gs_path = r"C:\Program Files\gs\gs10.05.1\bin\gswin64c.exe"  # Adjust version/path
-    gs_path=r'gs'
+    gs_path = r"C:\Program Files\gs\gs10.05.1\bin\gswin64c.exe"  # Adjust version/path
+    #gs_path=r'gs'
     command = [
         gs_path, "-dNOPAUSE", "-dBATCH", "-sDEVICE=pdfwrite",
         "-dCompatibilityLevel=1.4",
@@ -163,8 +163,8 @@ def download_and_process(paper_id, version, blob_name):
 
     filepath = None
     try:
-        #credentials_path = r'D:\download store\future-env-326822-6ae492a4c60a.json'
-        credentials_path = r'/home/mitchyman/Downloads/future-env-326822-e336368b1020.json'
+        credentials_path = r'D:\download store\future-env-326822-6ae492a4c60a.json'
+        #credentials_path = r'/home/mitchyman/Downloads/future-env-326822-e336368b1020.json'
         #credentials_path = r'C:\Users\mg6u19\Downloads\future-env-326822-d1f4c594ed5b.json'
         credentials = service_account.Credentials.from_service_account_file(credentials_path)
         client = storage.Client(credentials=credentials)
@@ -222,13 +222,13 @@ def load_metadata_chunk(metadata_path, chunk_prefix):
     return filtered
 
 # === Main Workflow ===
-def main(chunk_prefixes=None, agro=True):
+def main(chunk_prefixes=None, agro=False):
     if chunk_prefixes is None:
         chunk_prefixes = [None]
 
     logger.info("Starting PDF processing")
-    #credentials_path = r'D:\download store\future-env-326822-6ae492a4c60a.json'
-    credentials_path = r'/home/mitchyman/Downloads/future-env-326822-e336368b1020.json'
+    credentials_path = r'D:\download store\future-env-326822-6ae492a4c60a.json'
+    #credentials_path = r'/home/mitchyman/Downloads/future-env-326822-e336368b1020.json'
     #credentials_path = r'C:\Users\mg6u19\Downloads\future-env-326822-d1f4c594ed5b.json'
     csv_path = "FoodData_Central_csv_2025-04-24/food.csv"
     metadata_path = 'arxiv-metadata-oai-snapshot.json'
